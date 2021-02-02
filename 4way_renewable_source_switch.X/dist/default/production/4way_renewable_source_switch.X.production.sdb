@@ -1,0 +1,94 @@
+[p GLOBOPT AUTOSTATIC IEEE_DBL IEEE_FLT PIC14 PICREGULAR PICMID ]
+[d version 1.1 ]
+[d edition pro ]
+[d chip 16F877A ]
+[d frameptr 0 ]
+"34 C:\Users\peTron_Quantinity\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X\main.c
+[e E854 state `uc
+initialState 0
+morning 1
+afternoon 2
+night 3
+defunct 4
+]
+"10 C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\sprcadd.c
+[v ___fladd __fladd `(d  1 e 4 0 ]
+"4 C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\Umul8_16.c
+[v __Umul8_16 _Umul8_16 `(ui  1 e 2 0 ]
+"6 C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\pic\__eeprom.c
+[v ___eecpymem __eecpymem `(v  1 e 1 0 ]
+"39
+[v ___memcpyee __memcpyee `(v  1 e 1 0 ]
+"38 C:\Users\peTron_Quantinity\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X\main.c
+[v _main main `(v  1 e 1 0 ]
+"278 C:\Program Files (x86)\Microchip\xc8\v2.10\pic\include\pic16f877a.h
+[v _PORTC PORTC `VEuc  1 e 1 @7 ]
+"1152
+[v _ADRESH ADRESH `VEuc  1 e 1 @30 ]
+"1159
+[v _ADCON0 ADCON0 `VEuc  1 e 1 @31 ]
+[s S46 . 1 `uc 1 ADON 1 0 :1:0 
+`uc 1 . 1 0 :1:1 
+`uc 1 GO_nDONE 1 0 :1:2 
+`uc 1 CHS 1 0 :3:3 
+`uc 1 ADCS 1 0 :2:6 
+]
+"1190
+[s S52 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 GO 1 0 :1:2 
+`uc 1 CHS0 1 0 :1:3 
+`uc 1 CHS1 1 0 :1:4 
+`uc 1 CHS2 1 0 :1:5 
+`uc 1 ADCS0 1 0 :1:6 
+`uc 1 ADCS1 1 0 :1:7 
+]
+[s S60 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 nDONE 1 0 :1:2 
+]
+[s S63 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 GO_DONE 1 0 :1:2 
+]
+[u S66 . 1 `S46 1 . 1 0 `S52 1 . 1 0 `S60 1 . 1 0 `S63 1 . 1 0 ]
+[v _ADCON0bits ADCON0bits `VES66  1 e 1 @31 ]
+"1437
+[v _TRISC TRISC `VEuc  1 e 1 @135 ]
+"2222
+[v _ADRESL ADRESL `VEuc  1 e 1 @158 ]
+"2229
+[v _ADCON1 ADCON1 `VEuc  1 e 1 @159 ]
+"2704
+[v _RC0 RC0 `VEb  1 e 0 @56 ]
+"2707
+[v _RC1 RC1 `VEb  1 e 0 @57 ]
+"2710
+[v _RC2 RC2 `VEb  1 e 0 @58 ]
+"2713
+[v _RC3 RC3 `VEb  1 e 0 @59 ]
+"2716
+[v _RC4 RC4 `VEb  1 e 0 @60 ]
+"2719
+[v _RC5 RC5 `VEb  1 e 0 @61 ]
+"2722
+[v _RC6 RC6 `VEb  1 e 0 @62 ]
+"2725
+[v _RC7 RC7 `VEb  1 e 0 @63 ]
+"2917
+[v _TRISA0 TRISA0 `VEb  1 e 0 @1064 ]
+"2920
+[v _TRISA1 TRISA1 `VEb  1 e 0 @1065 ]
+"2923
+[v _TRISA2 TRISA2 `VEb  1 e 0 @1066 ]
+"2926
+[v _TRISA3 TRISA3 `VEb  1 e 0 @1067 ]
+"23 C:\Users\peTron_Quantinity\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X\main.c
+[v _wind_val wind_val `i  1 e 2 0 ]
+[v _solar_val solar_val `i  1 e 2 0 ]
+[v _biogas_val biogas_val `i  1 e 2 0 ]
+[v _phcn_val phcn_val `i  1 e 2 0 ]
+"35
+[v _nextState nextState `E854  1 e 1 0 ]
+"38
+[v _main main `(v  1 e 1 0 ]
+{
+"115
+} 0
