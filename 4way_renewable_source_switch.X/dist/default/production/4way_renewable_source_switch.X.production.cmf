@@ -11,7 +11,7 @@
 # All addresses and the length are given in unqualified hexadecimal
 # in delta units.  Any other numeric values are decimal.
 %PSECTS
-$C:\Users\PETRON~1\AppData\Local\Temp\s5eg.o
+$C:\Users\PETRON~1\AppData\Local\Temp\s5p0.o
 end_init CODE 0 0 0 3 2
 config CONFIG 0 2007 2007 1 2
 $dist/default/production\4way_renewable_source_switch.X.production.o
@@ -66,24 +66,24 @@ STRING 800-1FFF 2
 # All other numeric values are in decimal.
 %LINETAB
 $dist/default/production\4way_renewable_source_switch.X.production.o
-7E7 cinit CODE >403:C:\Users\PETRON~1\AppData\Local\Temp\s5eg.s
-7E7 cinit CODE >406:C:\Users\PETRON~1\AppData\Local\Temp\s5eg.s
-7E7 cinit CODE >438:C:\Users\PETRON~1\AppData\Local\Temp\s5eg.s
-7EC cinit CODE >439:C:\Users\PETRON~1\AppData\Local\Temp\s5eg.s
-7ED cinit CODE >440:C:\Users\PETRON~1\AppData\Local\Temp\s5eg.s
-7F2 cinit CODE >441:C:\Users\PETRON~1\AppData\Local\Temp\s5eg.s
-7F3 cinit CODE >445:C:\Users\PETRON~1\AppData\Local\Temp\s5eg.s
-7F4 cinit CODE >446:C:\Users\PETRON~1\AppData\Local\Temp\s5eg.s
-7F5 cinit CODE >447:C:\Users\PETRON~1\AppData\Local\Temp\s5eg.s
-7F6 cinit CODE >448:C:\Users\PETRON~1\AppData\Local\Temp\s5eg.s
-7F7 cinit CODE >449:C:\Users\PETRON~1\AppData\Local\Temp\s5eg.s
-7F8 cinit CODE >450:C:\Users\PETRON~1\AppData\Local\Temp\s5eg.s
-7F9 cinit CODE >451:C:\Users\PETRON~1\AppData\Local\Temp\s5eg.s
-7FA cinit CODE >452:C:\Users\PETRON~1\AppData\Local\Temp\s5eg.s
-7FB cinit CODE >453:C:\Users\PETRON~1\AppData\Local\Temp\s5eg.s
-7FC cinit CODE >459:C:\Users\PETRON~1\AppData\Local\Temp\s5eg.s
-7FC cinit CODE >461:C:\Users\PETRON~1\AppData\Local\Temp\s5eg.s
-7FD cinit CODE >462:C:\Users\PETRON~1\AppData\Local\Temp\s5eg.s
+7E7 cinit CODE >403:C:\Users\PETRON~1\AppData\Local\Temp\s5p0.s
+7E7 cinit CODE >406:C:\Users\PETRON~1\AppData\Local\Temp\s5p0.s
+7E7 cinit CODE >438:C:\Users\PETRON~1\AppData\Local\Temp\s5p0.s
+7EC cinit CODE >439:C:\Users\PETRON~1\AppData\Local\Temp\s5p0.s
+7ED cinit CODE >440:C:\Users\PETRON~1\AppData\Local\Temp\s5p0.s
+7F2 cinit CODE >441:C:\Users\PETRON~1\AppData\Local\Temp\s5p0.s
+7F3 cinit CODE >445:C:\Users\PETRON~1\AppData\Local\Temp\s5p0.s
+7F4 cinit CODE >446:C:\Users\PETRON~1\AppData\Local\Temp\s5p0.s
+7F5 cinit CODE >447:C:\Users\PETRON~1\AppData\Local\Temp\s5p0.s
+7F6 cinit CODE >448:C:\Users\PETRON~1\AppData\Local\Temp\s5p0.s
+7F7 cinit CODE >449:C:\Users\PETRON~1\AppData\Local\Temp\s5p0.s
+7F8 cinit CODE >450:C:\Users\PETRON~1\AppData\Local\Temp\s5p0.s
+7F9 cinit CODE >451:C:\Users\PETRON~1\AppData\Local\Temp\s5p0.s
+7FA cinit CODE >452:C:\Users\PETRON~1\AppData\Local\Temp\s5p0.s
+7FB cinit CODE >453:C:\Users\PETRON~1\AppData\Local\Temp\s5p0.s
+7FC cinit CODE >459:C:\Users\PETRON~1\AppData\Local\Temp\s5p0.s
+7FC cinit CODE >461:C:\Users\PETRON~1\AppData\Local\Temp\s5p0.s
+7FD cinit CODE >462:C:\Users\PETRON~1\AppData\Local\Temp\s5p0.s
 654 maintext CODE >38:C:\Users\peTron_Quantinity\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X\main.c
 654 maintext CODE >39:C:\Users\peTron_Quantinity\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X\main.c
 658 maintext CODE >40:C:\Users\peTron_Quantinity\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X\main.c
@@ -168,22 +168,22 @@ __Hspace_2 0 0 ABS 0 - -
 __Hspace_3 0 0 ABS 0 - -
 __Heeprom_data 0 0 EEDATA 3 eeprom_data -
 __Hstrings 0 0 ABS 0 strings -
-___sp 0 0 STACK 2 stack C:\Users\PETRON~1\AppData\Local\Temp\s5eg.o
+___sp 0 0 STACK 2 stack C:\Users\PETRON~1\AppData\Local\Temp\s5p0.o
 _main CA8 0 CODE 0 maintext dist/default/production\4way_renewable_source_switch.X.production.o
 btemp 7E 0 ABS 0 - dist/default/production\4way_renewable_source_switch.X.production.o
 _biogas_val 72 0 COMMON 1 bssCOMMON dist/default/production\4way_renewable_source_switch.X.production.o
-start 0 0 CODE 0 init C:\Users\PETRON~1\AppData\Local\Temp\s5eg.o
+start 0 0 CODE 0 init C:\Users\PETRON~1\AppData\Local\Temp\s5p0.o
 __CFG_BOREN$OFF 0 0 ABS 0 - dist/default/production\4way_renewable_source_switch.X.production.o
 __size_of_main 0 0 ABS 0 - dist/default/production\4way_renewable_source_switch.X.production.o
 __HbssCOMMON 0 0 ABS 0 bssCOMMON -
 __Hpowerup 0 0 CODE 0 powerup -
 __HdataCOMMON 0 0 ABS 0 dataCOMMON -
-intlevel0 0 0 ENTRY 0 functab C:\Users\PETRON~1\AppData\Local\Temp\s5eg.o
-intlevel1 0 0 ENTRY 0 functab C:\Users\PETRON~1\AppData\Local\Temp\s5eg.o
-intlevel2 0 0 ENTRY 0 functab C:\Users\PETRON~1\AppData\Local\Temp\s5eg.o
-intlevel3 0 0 ENTRY 0 functab C:\Users\PETRON~1\AppData\Local\Temp\s5eg.o
-intlevel4 0 0 ENTRY 0 functab C:\Users\PETRON~1\AppData\Local\Temp\s5eg.o
-intlevel5 0 0 ENTRY 0 functab C:\Users\PETRON~1\AppData\Local\Temp\s5eg.o
+intlevel0 0 0 ENTRY 0 functab C:\Users\PETRON~1\AppData\Local\Temp\s5p0.o
+intlevel1 0 0 ENTRY 0 functab C:\Users\PETRON~1\AppData\Local\Temp\s5p0.o
+intlevel2 0 0 ENTRY 0 functab C:\Users\PETRON~1\AppData\Local\Temp\s5p0.o
+intlevel3 0 0 ENTRY 0 functab C:\Users\PETRON~1\AppData\Local\Temp\s5p0.o
+intlevel4 0 0 ENTRY 0 functab C:\Users\PETRON~1\AppData\Local\Temp\s5p0.o
+intlevel5 0 0 ENTRY 0 functab C:\Users\PETRON~1\AppData\Local\Temp\s5p0.o
 _nextState 78 0 COMMON 1 bssCOMMON dist/default/production\4way_renewable_source_switch.X.production.o
 __LbssCOMMON 0 0 ABS 0 bssCOMMON -
 wtemp0 7E 0 ABS 0 - dist/default/production\4way_renewable_source_switch.X.production.o
@@ -197,15 +197,15 @@ _ADRESL 9E 0 ABS 0 - dist/default/production\4way_renewable_source_switch.X.prod
 __LdataCOMMON 0 0 ABS 0 dataCOMMON -
 __CFG_CP$ON 0 0 ABS 0 - dist/default/production\4way_renewable_source_switch.X.production.o
 __Lmaintext 0 0 ABS 0 maintext -
-___stackhi 0 0 ABS 0 - C:\Users\PETRON~1\AppData\Local\Temp\s5eg.o
-___stacklo 0 0 ABS 0 - C:\Users\PETRON~1\AppData\Local\Temp\s5eg.o
+___stackhi 0 0 ABS 0 - C:\Users\PETRON~1\AppData\Local\Temp\s5p0.o
+___stacklo 0 0 ABS 0 - C:\Users\PETRON~1\AppData\Local\Temp\s5p0.o
 __LidataCOMMON 0 0 ABS 0 idataCOMMON -
 start_initialization FCE 0 CODE 0 cinit dist/default/production\4way_renewable_source_switch.X.production.o
 _TRISA0 428 0 ABS 0 - dist/default/production\4way_renewable_source_switch.X.production.o
 _TRISA1 429 0 ABS 0 - dist/default/production\4way_renewable_source_switch.X.production.o
 _TRISA2 42A 0 ABS 0 - dist/default/production\4way_renewable_source_switch.X.production.o
 _TRISA3 42B 0 ABS 0 - dist/default/production\4way_renewable_source_switch.X.production.o
-___int_sp 0 0 STACK 2 stack C:\Users\PETRON~1\AppData\Local\Temp\s5eg.o
+___int_sp 0 0 STACK 2 stack C:\Users\PETRON~1\AppData\Local\Temp\s5p0.o
 __Hbank0 0 0 ABS 0 bank0 -
 __Hbank1 0 0 ABS 0 bank1 -
 __Hbank2 0 0 ABS 0 bank2 -
@@ -254,7 +254,7 @@ __S2 0 0 ABS 0 - -
 __S3 0 0 ABS 0 - -
 __HidataCOMMON 0 0 ABS 0 idataCOMMON -
 __Lintentry 0 0 CODE 0 intentry -
-reset_vec 0 0 CODE 0 reset_vec C:\Users\PETRON~1\AppData\Local\Temp\s5eg.o
+reset_vec 0 0 CODE 0 reset_vec C:\Users\PETRON~1\AppData\Local\Temp\s5p0.o
 _wind_val 76 0 COMMON 1 bssCOMMON dist/default/production\4way_renewable_source_switch.X.production.o
 __pmaintext CA8 0 CODE 0 maintext dist/default/production\4way_renewable_source_switch.X.production.o
 __Lcommon 0 0 ABS 0 common -
