@@ -1742,22 +1742,456 @@ extern __bank0 __bit __timeout;
 
 
 
+# 1 "./PIC16F877a_I2C.h" 1
+# 10 "./PIC16F877a_I2C.h"
+void I2C_Initialize(const unsigned long feq_K)
+{
+  TRISC3 = 1; TRISC4 = 1;
+
+  SSPCON = 0b00101000;
+  SSPCON2 = 0b00000000;
+
+  SSPADD = (20000000/(4*feq_K*100))-1;
+  SSPSTAT = 0b00000000;
+}
+
+void I2C_Hold()
+{
+    while ( (SSPCON2 & 0b00011111) || (SSPSTAT & 0b00000100) ) ;
+}
+
+void I2C_Begin()
+{
+  I2C_Hold();
+  SEN = 1;
+}
+
+
+
+void I2C_End()
+{
+  I2C_Hold();
+  PEN = 1;
+}
+
+void I2C_Write(unsigned data)
+{
+  I2C_Hold();
+  SSPBUF = data;
+}
+
+unsigned short I2C_Read(unsigned short ack)
+{
+  unsigned short incoming;
+  I2C_Hold();
+  RCEN = 1;
+
+  I2C_Hold();
+  incoming = SSPBUF;
+
+  I2C_Hold();
+  ACKDT = (ack)?0:1;
+  ACKEN = 1;
+
+  return incoming;
+}
+# 21 "main.c" 2
+
+int sec=0;
+int min=0;
+int hour=0;
+
+# 1 "./PIC16F877a_DS3231.h" 1
+# 16 "./PIC16F877a_DS3231.h"
+int BCD_2_DEC(int to_convert)
+{
+   return (to_convert >> 4) * 10 + (to_convert & 0x0F);
+}
+
+int DEC_2_BCD (int to_convert)
+{
+   return ((to_convert / 10) << 4) + (to_convert % 10);
+}
+
+void Set_Time_Date()
+{
+   I2C_Begin();
+   I2C_Write(0xD0);
+   I2C_Write(0);
+   I2C_Write(DEC_2_BCD(sec));
+   I2C_Write(DEC_2_BCD(min));
+   I2C_Write(DEC_2_BCD(hour));
+   I2C_Write(1);
+   I2C_Write(1);
+   I2C_Write(1);
+   I2C_Write(1);
+   I2C_End();
+}
+
+void Update_Current_Date_Time()
+{
+
+   I2C_Begin();
+   I2C_Write(0xD0);
+   I2C_Write(0);
+   I2C_End();
+
+
+   I2C_Begin();
+   I2C_Write(0xD1);
+   sec = BCD_2_DEC(I2C_Read(1));
+   min = BCD_2_DEC(I2C_Read(1));
+   hour = BCD_2_DEC(I2C_Read(1));
+   I2C_Read(1);
+   I2C_Read(1);
+   I2C_Read(1);
+   I2C_Read(1);
+   I2C_End();
+
+
+    I2C_Begin();
+    I2C_Write(0xD1);
+    I2C_Read(1);
+    I2C_End();
+
+}
+# 25 "main.c" 2
+# 34 "main.c"
+# 1 "./LCDLIBRARY1.h" 1
+
+
+
+
+# 1 "C:\\Program Files (x86)\\Microchip\\xc8\\v2.10\\pic\\include\\c90\\math.h" 1 3
+
+
+
+# 1 "C:\\Program Files (x86)\\Microchip\\xc8\\v2.10\\pic\\include\\__unsupported.h" 1 3
+# 4 "C:\\Program Files (x86)\\Microchip\\xc8\\v2.10\\pic\\include\\c90\\math.h" 2 3
+# 30 "C:\\Program Files (x86)\\Microchip\\xc8\\v2.10\\pic\\include\\c90\\math.h" 3
+extern double fabs(double);
+extern double floor(double);
+extern double ceil(double);
+extern double modf(double, double *);
+extern double sqrt(double);
+extern double atof(const char *);
+extern double sin(double) ;
+extern double cos(double) ;
+extern double tan(double) ;
+extern double asin(double) ;
+extern double acos(double) ;
+extern double atan(double);
+extern double atan2(double, double) ;
+extern double log(double);
+extern double log10(double);
+extern double pow(double, double) ;
+extern double exp(double) ;
+extern double sinh(double) ;
+extern double cosh(double) ;
+extern double tanh(double);
+extern double eval_poly(double, const double *, int);
+extern double frexp(double, int *);
+extern double ldexp(double, int);
+extern double fmod(double, double);
+extern double trunc(double);
+extern double round(double);
+# 5 "./LCDLIBRARY1.h" 2
+# 14 "./LCDLIBRARY1.h"
+char logo[] = "ELECTRONICS";
+
+long NUM;
+# 29 "./LCDLIBRARY1.h"
+void delay1()
+{
+    _delay((unsigned long)((5)*(20000000/4000.0)));
+
+    return ;
+}
+
+void delay2()
+{
+    _delay((unsigned long)((5)*(20000000/4000.0)));
+
+    return ;
+}
+
+void CLOCK()
+{
+    PORTBbits.RB5 =1;
+    delay2();
+    PORTBbits.RB5 =0;
+    delay2();
+
+    return ;
+}
+
+void LCDWRITE( const char* P)
+{
+    unsigned char i ,j,k;
+    for(i=0; P[i]!='\0'; i++)
+    {
+        k = (0x0f & (P[i] >> 4)) ;
+        j = ( 0x0f & P[i] );
+        PORTBbits.RB4 =1;
+
+        PORTB = k | PORTB & 0xf0 ;
+        CLOCK();
+        PORTB = j | PORTB & 0xf0 ;
+        CLOCK();
+    }
+    return ;
+}
+
+void addition(long i)
+{
+    long k , m , n ,o ;
+    int j= 1 ;
+    o = i ;
+
+
+
+    while(o >= 1 )
+    {
+        j++;
+        o = o/10;
+    }
+    j--;
+
+    for (j-- ; j>=0 ; j-- )
+    {
+        m = pow (10 , j);
+        k = i / m;
+        n = k % 10;
+
+        PORTBbits.RB4 =1;
+        PORTB= 3|PORTB & 0xf0;
+        CLOCK();
+        PORTB = n|PORTB & 0xf0 ;
+        CLOCK();
+    }
+    return;
+}
+
+
+void NUMDISP (long i)
+{
+    long k , m , n ,o ;
+    int j= 1 ;
+    o = i ;
+
+     if(o == 0)
+       {
+        PORTBbits.RB4 =1;
+        PORTB= 3|PORTB & 0xf0;
+        CLOCK();
+        PORTB = 0|PORTB & 0xf0 ;
+        CLOCK();
+        return;
+       }
+
+    while(o >= 1)
+    {
+        j++;
+        o = o/10;
+    }
+    j--;
+
+    for (j-- ; j>=0 ; j-- )
+    {
+        m = pow (10 , j);
+        k = i / m;
+        n = k % 10;
+
+        PORTBbits.RB4 =1;
+        PORTB= 3|PORTB & 0xf0;
+        CLOCK();
+        PORTB = n|PORTB & 0xf0 ;
+        CLOCK();
+    }
+    return;
+}
+
+void NUMDISP2 (char i)
+{
+    char k , m , n ,o ;
+    int j= 1 ;
+    o = i ;
+   if(i> 50)
+   {
+       n = i - 64;
+        PORTBbits.RB4 =1;
+        PORTB= 4|PORTB & 0xf0;
+        CLOCK();
+        PORTB = n|PORTB & 0xf0 ;
+        CLOCK();
+    }
+
+   else
+   {
+       if(o == 0)
+       {
+        PORTBbits.RB4 =1;
+        PORTB= 3|PORTB & 0xf0;
+        CLOCK();
+        PORTB = 0|PORTB & 0xf0 ;
+        CLOCK();
+        return;
+       }
+
+    while(o >= 1 )
+    {
+        j++;
+        o = o/10;
+    }
+    j--;
+
+    for (j-- ; j>=0 ; j-- )
+    {
+        m = pow (10 , j);
+        k = i / m;
+        n = k % 10;
+
+        PORTBbits.RB4 =1;
+        PORTB= 3|PORTB & 0xf0;
+        CLOCK();
+        PORTB = n|PORTB & 0xf0 ;
+        CLOCK();
+    }
+   }
+    return;
+}
+# 199 "./LCDLIBRARY1.h"
+void CURSOR(char a, char b )
+{
+            RB4 = RB5 = 0;
+            if((a==0x80)||(0xC0)){
+                PORTB=(a+b)>>4;
+                CLOCK();
+                PORTB=(a+b)&0x0F;
+                CLOCK();
+            }else{
+                PORTB=(a+4+b)>>4;
+                CLOCK();
+                PORTB=(a+4+b)&0x0F;
+                CLOCK();
+            }
+
+            return ;
+}
+
+void CLRDISP()
+{
+    RB4 = RB5 = 0 ;
+    PORTB= 0 | PORTB & 0xf0;
+    CLOCK();
+    PORTB= 0x1 | PORTB & 0xf0 ;
+    CLOCK();
+    delay1();
+
+    return;
+}
+
+void SETCURSORTYPE()
+{
+    RB4 = RB5 = 0 ;
+    PORTB= 0 | PORTB & 0xf0;
+    CLOCK();
+    PORTB= 0xE | PORTB & 0xf0 ;
+    CLOCK();
+    delay1();
+
+    return;
+}
+void config()
+{
+    PORTB= 3;
+    CLOCK();
+    delay1();
+
+    PORTB= 2;
+    CLOCK();
+    delay1();
+
+    PORTB= 2;
+    CLOCK();
+    delay1();
+
+    PORTB= 0x8;
+    CLOCK();
+    delay1();
+
+    PORTB= 0;
+    CLOCK();
+    PORTB= 0X0F;
+    CLOCK();
+    delay1();
+
+    PORTB= 0;
+    CLOCK();
+    PORTB= 6;
+    CLOCK();
+    delay1();
+
+    return ;
+}
+# 34 "main.c" 2
+
+
 
 int wind_val,solar_val,biogas_val,phcn_val;
-# 34 "main.c"
-enum state {initialState,morning,afternoon,night,defunct}nextState;
+# 48 "main.c"
+enum state {initialState,morning,afternoon,night,set_rtc,defunct}nextState;
 enum state nextState=initialState;
 
 int thresh=878;
+
+void __attribute__((picinterrupt(("")))) ISR(void){
+    RD5=1;RD4=0;
+    if(TMR0IF==1){
+        if(hour<=22)hour++;
+        else hour=0;
+    }
+    if(TMR1IF==1){
+        if(min<=22)min++;
+        else min=0;
+    }
+    TMR0IF=0;
+    TMR1IF=0;
+    TMR0=255;
+    TMR1=65535;
+    __asm("clrwdt");
+    Set_Time_Date();
+    __asm("clrwdt");
+    RD5=0;
+}
 void main(void){
+    TRISB=0x00;
+    PORTB=0x00;
+    TRISA=0xFF;
     ADCON1=0x80;
     ADCON0=0x41;
+    TRISD=0xC0;
+    PORTD=0x00;
+    I2C_Initialize(100000);
+    TMR0=255;
+    TMR0IE=1;
+    OPTION_REG=0xA8;
+    TRISC0=1;
+    T1CON=0x06;
+    TMR1=65535;
+    TMR1IE=1;
+    PEIE=1;
+    GIE=1;
+    TMR1ON=1;
     TRISA0=1;
     TRISA1=1;
     TRISA2=1;
     TRISA3=1;
-    TRISC=0x00;
-    PORTC=0xF0;
+    config();
+    CLRDISP();
+    CURSOR(0x80,4);
+    LCDWRITE("POWER SELECTOR");
+
     while(1){
         if(nextState==initialState){
             RC7=RC6=RC5=RC4=1;
@@ -1782,48 +2216,64 @@ void main(void){
             while(ADCON0bits.GO_nDONE);
             _delay((unsigned long)((20)*(20000000/4000000.0)));
             phcn_val=(ADRESH<<8)+ADRESL;
+            Update_Current_Date_Time();
+            CURSOR(0xC0,0);
+                              LCDWRITE(":");
 
 
-            nextState=morning;
-            RC7=RC6=RC5=RC4=0;
-            _delay((unsigned long)((100)*(20000000/4000.0)));
+
+            if((hour>0)&&(hour<=7))nextState=night;
+            else if((hour>7)&&(hour<12))nextState=morning;
+            else if(hour<18)nextState=afternoon;
+            else if(hour<23)nextState=night;
         }
+        __asm("clrwdt");
+        RD4=1;
+        _delay((unsigned long)((10)*(20000000/4000.0)));
         if(nextState==morning){
             if(solar_val<thresh){
-                RC0=0;RC1=1;RC2=0;RC3=0;
+                RD0=0;RD1=1;RD2=0;RD3=0;
             }else if(wind_val<thresh){
-                RC0=1;RC1=0;RC2=0;RC3=0;
+                RD0=1;RD1=0;RD2=0;RD3=0;
             }else if(phcn_val<thresh){
-                RC0=0;RC1=0;RC2=0;RC3=1;
+                RD0=0;RD1=0;RD2=0;RD3=1;
             }else{
-                RC0=0;RC1=0;RC2=0;RC3=0;
+                RD0=0;RD1=0;RD2=0;RD3=0;
             }
             nextState=initialState;
         }
         if(nextState==afternoon){
             if(solar_val<thresh){
-                RC0=0;RC1=1;RC2=0;RC3=0;
+                RD0=0;RD1=1;RD2=0;RD3=0;
             }else if(wind_val<thresh){
-                RC0=1;RC1=0;RC2=0;RC3=0;
+                RD0=1;RD1=0;RD2=0;RD3=0;
             }else if(phcn_val<thresh){
-                RC0=0;RC1=0;RC2=0;RC3=1;
+                RD0=0;RD1=0;RD2=0;RD3=1;
             }else{
-                RC0=0;RC1=0;RC2=1;RC3=0;
+                RD0=0;RD1=0;RD2=1;RD3=0;
             }
             nextState=initialState;
         }
         if(nextState==night){
             if(biogas_val<thresh){
-                RC0=0;RC1=0;RC2=1;RC3=0;
+                RD0=0;RD1=0;RD2=1;RD3=0;
             }else if(wind_val<thresh){
-                RC0=1;RC1=0;RC2=0;RC3=0;
+                RD0=1;RD1=0;RD2=0;RD3=0;
             }else if(phcn_val<thresh){
-                RC0=0;RC1=0;RC2=0;RC3=1;
+                RD0=0;RD1=0;RD2=0;RD3=1;
             }else{
-                RC0=0;RC1=1;RC2=0;RC3=0;
+                RD0=0;RD1=1;RD2=0;RD3=0;
             }
             nextState=initialState;
         }
+        RD4=0;
+
+
+
+
+
+        _delay((unsigned long)((10)*(20000000/4000.0)));
+        __asm("clrwdt");
     }
     return;
 }

@@ -3,38 +3,149 @@
 [d edition pro ]
 [d chip 16F877A ]
 [d frameptr 0 ]
-"34 C:\Users\peTron_Quantinity\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X\main.c
-[e E854 state `uc
+"48 C:\Users\peTron_Quantinity\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X\main.c
+[e E970 state `uc
 initialState 0
 morning 1
 afternoon 2
 night 3
-defunct 4
+set_rtc 4
+defunct 5
 ]
+"29 C:\Users\peTron_Quantinity\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X/LCDLIBRARY1.h
+[v _delay1 delay1 `(v  1 e 1 0 ]
+"36
+[v _delay2 delay2 `(v  1 e 1 0 ]
+"43
+[v _CLOCK CLOCK `(v  1 e 1 0 ]
+"53
+[v _LCDWRITE LCDWRITE `(v  1 e 1 0 ]
+"199
+[v _CURSOR CURSOR `(v  1 e 1 0 ]
+"217
+[v _CLRDISP CLRDISP `(v  1 e 1 0 ]
+"240
+[v _config config `(v  1 e 1 0 ]
+"16 C:\Users\peTron_Quantinity\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X/PIC16F877a_DS3231.h
+[v _BCD_2_DEC BCD_2_DEC `(i  1 e 2 0 ]
+"21
+[v _DEC_2_BCD DEC_2_BCD `(i  1 e 2 0 ]
+"26
+[v _Set_Time_Date Set_Time_Date `(v  1 e 1 0 ]
+"41
+[v _Update_Current_Date_Time Update_Current_Date_Time `(v  1 e 1 0 ]
+"10 C:\Users\peTron_Quantinity\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X/PIC16F877a_I2C.h
+[v _I2C_Initialize I2C_Initialize `(v  1 e 1 0 ]
+"21
+[v _I2C_Hold I2C_Hold `(v  1 e 1 0 ]
+[v i1_I2C_Hold I2C_Hold `(v  1 e 1 0 ]
+"26
+[v _I2C_Begin I2C_Begin `(v  1 e 1 0 ]
+[v i1_I2C_Begin I2C_Begin `(v  1 e 1 0 ]
+"34
+[v _I2C_End I2C_End `(v  1 e 1 0 ]
+[v i1_I2C_End I2C_End `(v  1 e 1 0 ]
+"40
+[v _I2C_Write I2C_Write `(v  1 e 1 0 ]
+[v i1_I2C_Write I2C_Write `(v  1 e 1 0 ]
+"46
+[v _I2C_Read I2C_Read `(us  1 e 2 0 ]
+"5 C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\__lldiv.c
+[v ___lldiv __lldiv `(ul  1 e 4 0 ]
+"5 C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\aldiv.c
+[v ___aldiv __aldiv `(l  1 e 4 0 ]
+"5 C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\almod.c
+[v ___almod __almod `(l  1 e 4 0 ]
+"5 C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\awdiv.c
+[v ___awdiv __awdiv `(i  1 e 2 0 ]
+"5 C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\awmod.c
+[v ___awmod __awmod `(i  1 e 2 0 ]
+"4 C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\evalpoly.c
+[v _eval_poly eval_poly `(d  1 e 4 0 ]
+"12 C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\exp.c
+[v _exp exp `(d  1 e 4 0 ]
+"4 C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\fleq.c
+[v ___fleq __fleq `(b  1 e 0 0 ]
+"4 C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\flge.c
+[v ___flge __flge `(b  1 e 0 0 ]
+"15 C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\flneg.c
+[v ___flneg __flneg `(d  1 e 4 0 ]
+"13 C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\floor.c
+[v _floor floor `(d  1 e 4 0 ]
+"43 C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\fltol.c
+[v ___fltol __fltol `(l  1 e 4 0 ]
+"254 C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\frexp.c
+[v _frexp frexp `(d  1 e 4 0 ]
+"277
+[v _ldexp ldexp `(d  1 e 4 0 ]
+"4 C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\lbdiv.c
+[v ___lbdiv __lbdiv `(uc  1 e 1 0 ]
+"5 C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\log.c
+[v _log log `(d  1 e 4 0 ]
+"5 C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\pow.c
+[v _pow pow `(d  1 e 4 0 ]
 "10 C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\sprcadd.c
 [v ___fladd __fladd `(d  1 e 4 0 ]
+"242
+[v ___flsub __flsub `(d  1 e 4 0 ]
+"8 C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\sprcdiv.c
+[v ___fldiv __fldiv `(d  1 e 4 0 ]
+"8 C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\sprcmul.c
+[v ___flmul __flmul `(d  1 e 4 0 ]
+"15 C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\Umul16.c
+[v ___wmul __wmul `(ui  1 e 2 0 ]
+"15 C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\Umul32.c
+[v ___lmul __lmul `(ul  1 e 4 0 ]
 "4 C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\Umul8_16.c
 [v __Umul8_16 _Umul8_16 `(ui  1 e 2 0 ]
+"10 C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\xxtofl.c
+[v ___xxtofl __xxtofl `(d  1 e 4 0 ]
 "6 C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\pic\__eeprom.c
 [v ___eecpymem __eecpymem `(v  1 e 1 0 ]
 "39
 [v ___memcpyee __memcpyee `(v  1 e 1 0 ]
-"38 C:\Users\peTron_Quantinity\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X\main.c
+"53 C:\Users\peTron_Quantinity\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X\main.c
+[v _ISR ISR `II(v  1 e 1 0 ]
+"72
 [v _main main `(v  1 e 1 0 ]
-"278 C:\Program Files (x86)\Microchip\xc8\v2.10\pic\include\pic16f877a.h
-[v _PORTC PORTC `VEuc  1 e 1 @7 ]
+"59 C:\Program Files (x86)\Microchip\xc8\v2.10\pic\include\pic16f877a.h
+[v _TMR0 TMR0 `VEuc  1 e 1 @1 ]
+"216
+[v _PORTB PORTB `VEuc  1 e 1 @6 ]
+[s S40 . 1 `uc 1 RB0 1 0 :1:0 
+`uc 1 RB1 1 0 :1:1 
+`uc 1 RB2 1 0 :1:2 
+`uc 1 RB3 1 0 :1:3 
+`uc 1 RB4 1 0 :1:4 
+`uc 1 RB5 1 0 :1:5 
+`uc 1 RB6 1 0 :1:6 
+`uc 1 RB7 1 0 :1:7 
+]
+"233
+[u S49 . 1 `S40 1 . 1 0 ]
+[v _PORTBbits PORTBbits `VES49  1 e 1 @6 ]
+"340
+[v _PORTD PORTD `VEuc  1 e 1 @8 ]
+"634
+[v _TMR1 TMR1 `VEus  1 e 2 @14 ]
+"655
+[v _T1CON T1CON `VEuc  1 e 1 @16 ]
+"808
+[v _SSPBUF SSPBUF `VEuc  1 e 1 @19 ]
+"815
+[v _SSPCON SSPCON `VEuc  1 e 1 @20 ]
 "1152
 [v _ADRESH ADRESH `VEuc  1 e 1 @30 ]
 "1159
 [v _ADCON0 ADCON0 `VEuc  1 e 1 @31 ]
-[s S46 . 1 `uc 1 ADON 1 0 :1:0 
+[s S105 . 1 `uc 1 ADON 1 0 :1:0 
 `uc 1 . 1 0 :1:1 
 `uc 1 GO_nDONE 1 0 :1:2 
 `uc 1 CHS 1 0 :3:3 
 `uc 1 ADCS 1 0 :2:6 
 ]
 "1190
-[s S52 . 1 `uc 1 . 1 0 :2:0 
+[s S111 . 1 `uc 1 . 1 0 :2:0 
 `uc 1 GO 1 0 :1:2 
 `uc 1 CHS0 1 0 :1:3 
 `uc 1 CHS1 1 0 :1:4 
@@ -42,28 +153,46 @@ defunct 4
 `uc 1 ADCS0 1 0 :1:6 
 `uc 1 ADCS1 1 0 :1:7 
 ]
-[s S60 . 1 `uc 1 . 1 0 :2:0 
+[s S119 . 1 `uc 1 . 1 0 :2:0 
 `uc 1 nDONE 1 0 :1:2 
 ]
-[s S63 . 1 `uc 1 . 1 0 :2:0 
+[s S122 . 1 `uc 1 . 1 0 :2:0 
 `uc 1 GO_DONE 1 0 :1:2 
 ]
-[u S66 . 1 `S46 1 . 1 0 `S52 1 . 1 0 `S60 1 . 1 0 `S63 1 . 1 0 ]
-[v _ADCON0bits ADCON0bits `VES66  1 e 1 @31 ]
-"1437
-[v _TRISC TRISC `VEuc  1 e 1 @135 ]
+[u S125 . 1 `S105 1 . 1 0 `S111 1 . 1 0 `S119 1 . 1 0 `S122 1 . 1 0 ]
+[v _ADCON0bits ADCON0bits `VES125  1 e 1 @31 ]
+"1255
+[v _OPTION_REG OPTION_REG `VEuc  1 e 1 @129 ]
+"1325
+[v _TRISA TRISA `VEuc  1 e 1 @133 ]
+"1375
+[v _TRISB TRISB `VEuc  1 e 1 @134 ]
+"1499
+[v _TRISD TRISD `VEuc  1 e 1 @136 ]
+"1754
+[v _SSPCON2 SSPCON2 `VEuc  1 e 1 @145 ]
+"1823
+[v _SSPADD SSPADD `VEuc  1 e 1 @147 ]
+"1830
+[v _SSPSTAT SSPSTAT `VEuc  1 e 1 @148 ]
 "2222
 [v _ADRESL ADRESL `VEuc  1 e 1 @158 ]
 "2229
 [v _ADCON1 ADCON1 `VEuc  1 e 1 @159 ]
-"2704
-[v _RC0 RC0 `VEb  1 e 0 @56 ]
-"2707
-[v _RC1 RC1 `VEb  1 e 0 @57 ]
-"2710
-[v _RC2 RC2 `VEb  1 e 0 @58 ]
-"2713
-[v _RC3 RC3 `VEb  1 e 0 @59 ]
+"2374
+[v _ACKDT ACKDT `VEb  1 e 0 @1165 ]
+"2377
+[v _ACKEN ACKEN `VEb  1 e 0 @1164 ]
+"2569
+[v _GIE GIE `VEb  1 e 0 @95 ]
+"2629
+[v _PEIE PEIE `VEb  1 e 0 @94 ]
+"2632
+[v _PEN PEN `VEb  1 e 0 @1162 ]
+"2686
+[v _RB4 RB4 `VEb  1 e 0 @52 ]
+"2689
+[v _RB5 RB5 `VEb  1 e 0 @53 ]
 "2716
 [v _RC4 RC4 `VEb  1 e 0 @60 ]
 "2719
@@ -72,6 +201,32 @@ defunct 4
 [v _RC6 RC6 `VEb  1 e 0 @62 ]
 "2725
 [v _RC7 RC7 `VEb  1 e 0 @63 ]
+"2737
+[v _RCEN RCEN `VEb  1 e 0 @1163 ]
+"2749
+[v _RD0 RD0 `VEb  1 e 0 @64 ]
+"2752
+[v _RD1 RD1 `VEb  1 e 0 @65 ]
+"2755
+[v _RD2 RD2 `VEb  1 e 0 @66 ]
+"2758
+[v _RD3 RD3 `VEb  1 e 0 @67 ]
+"2761
+[v _RD4 RD4 `VEb  1 e 0 @68 ]
+"2764
+[v _RD5 RD5 `VEb  1 e 0 @69 ]
+"2806
+[v _SEN SEN `VEb  1 e 0 @1160 ]
+"2878
+[v _TMR0IE TMR0IE `VEb  1 e 0 @93 ]
+"2881
+[v _TMR0IF TMR0IF `VEb  1 e 0 @90 ]
+"2887
+[v _TMR1IE TMR1IE `VEb  1 e 0 @1120 ]
+"2890
+[v _TMR1IF TMR1IF `VEb  1 e 0 @96 ]
+"2893
+[v _TMR1ON TMR1ON `VEb  1 e 0 @128 ]
 "2917
 [v _TRISA0 TRISA0 `VEb  1 e 0 @1064 ]
 "2920
@@ -80,15 +235,216 @@ defunct 4
 [v _TRISA2 TRISA2 `VEb  1 e 0 @1066 ]
 "2926
 [v _TRISA3 TRISA3 `VEb  1 e 0 @1067 ]
-"23 C:\Users\peTron_Quantinity\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X\main.c
+"2959
+[v _TRISC0 TRISC0 `VEb  1 e 0 @1080 ]
+"2968
+[v _TRISC3 TRISC3 `VEb  1 e 0 @1083 ]
+"2971
+[v _TRISC4 TRISC4 `VEb  1 e 0 @1084 ]
+"22 C:\Users\peTron_Quantinity\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X\main.c
+[v _sec sec `i  1 e 2 0 ]
+"23
+[v _min min `i  1 e 2 0 ]
+"24
+[v _hour hour `i  1 e 2 0 ]
+"37
 [v _wind_val wind_val `i  1 e 2 0 ]
 [v _solar_val solar_val `i  1 e 2 0 ]
 [v _biogas_val biogas_val `i  1 e 2 0 ]
 [v _phcn_val phcn_val `i  1 e 2 0 ]
-"35
-[v _nextState nextState `E854  1 e 1 0 ]
-"38
+"49
+[v _nextState nextState `E970  1 e 1 0 ]
+"72
 [v _main main `(v  1 e 1 0 ]
 {
-"115
+"184
+} 0
+"240 C:\Users\peTron_Quantinity\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X/LCDLIBRARY1.h
+[v _config config `(v  1 e 1 0 ]
+{
+"271
+} 0
+"41 C:\Users\peTron_Quantinity\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X/PIC16F877a_DS3231.h
+[v _Update_Current_Date_Time Update_Current_Date_Time `(v  1 e 1 0 ]
+{
+"67
+} 0
+"40 C:\Users\peTron_Quantinity\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X/PIC16F877a_I2C.h
+[v _I2C_Write I2C_Write `(v  1 e 1 0 ]
+{
+[v I2C_Write@data data `ui  1 p 2 5 ]
+"44
+} 0
+"46
+[v _I2C_Read I2C_Read `(us  1 e 2 0 ]
+{
+"48
+[v I2C_Read@incoming incoming `us  1 a 2 9 ]
+"46
+[v I2C_Read@ack ack `us  1 p 2 5 ]
+"60
+} 0
+"34
+[v _I2C_End I2C_End `(v  1 e 1 0 ]
+{
+"38
+} 0
+"26
+[v _I2C_Begin I2C_Begin `(v  1 e 1 0 ]
+{
+"30
+} 0
+"21
+[v _I2C_Hold I2C_Hold `(v  1 e 1 0 ]
+{
+"24
+} 0
+"16 C:\Users\peTron_Quantinity\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X/PIC16F877a_DS3231.h
+[v _BCD_2_DEC BCD_2_DEC `(i  1 e 2 0 ]
+{
+[v BCD_2_DEC@to_convert to_convert `i  1 p 2 11 ]
+"19
+} 0
+"15 C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\Umul16.c
+[v ___wmul __wmul `(ui  1 e 2 0 ]
+{
+"17
+[v ___wmul@product product `ui  1 a 2 9 ]
+"15
+[v ___wmul@multiplier multiplier `ui  1 p 2 5 ]
+[v ___wmul@multiplicand multiplicand `ui  1 p 2 7 ]
+"53
+} 0
+"53 C:\Users\peTron_Quantinity\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X/LCDLIBRARY1.h
+[v _LCDWRITE LCDWRITE `(v  1 e 1 0 ]
+{
+[v LCDWRITE@P P `*.24DCuc  1 a 1 wreg ]
+"55
+[v LCDWRITE@i i `uc  1 a 1 11 ]
+[v LCDWRITE@k k `uc  1 a 1 10 ]
+[v LCDWRITE@j j `uc  1 a 1 9 ]
+"53
+[v LCDWRITE@P P `*.24DCuc  1 a 1 wreg ]
+"56
+[v LCDWRITE@P P `*.24DCuc  1 a 1 12 ]
+"68
+} 0
+"10 C:\Users\peTron_Quantinity\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X/PIC16F877a_I2C.h
+[v _I2C_Initialize I2C_Initialize `(v  1 e 1 0 ]
+{
+[v I2C_Initialize@feq_K feq_K `DCul  1 p 4 32 ]
+"19
+} 0
+"15 C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\Umul32.c
+[v ___lmul __lmul `(ul  1 e 4 0 ]
+{
+"17
+[v ___lmul@product product `ul  1 a 4 14 ]
+"15
+[v ___lmul@multiplier multiplier `ul  1 p 4 5 ]
+[v ___lmul@multiplicand multiplicand `ul  1 p 4 9 ]
+"129
+} 0
+"5 C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\__lldiv.c
+[v ___lldiv __lldiv `(ul  1 e 4 0 ]
+{
+"10
+[v ___lldiv@quotient quotient `ul  1 a 4 27 ]
+"11
+[v ___lldiv@counter counter `uc  1 a 1 31 ]
+"5
+[v ___lldiv@divisor divisor `ul  1 p 4 18 ]
+[v ___lldiv@dividend dividend `ul  1 p 4 22 ]
+"30
+} 0
+"199 C:\Users\peTron_Quantinity\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X/LCDLIBRARY1.h
+[v _CURSOR CURSOR `(v  1 e 1 0 ]
+{
+[v CURSOR@a a `uc  1 a 1 wreg ]
+[v CURSOR@a a `uc  1 a 1 wreg ]
+[v CURSOR@b b `uc  1 p 1 7 ]
+"201
+[v CURSOR@a a `uc  1 a 1 10 ]
+"215
+} 0
+"217
+[v _CLRDISP CLRDISP `(v  1 e 1 0 ]
+{
+"227
+} 0
+"29
+[v _delay1 delay1 `(v  1 e 1 0 ]
+{
+"34
+} 0
+"43
+[v _CLOCK CLOCK `(v  1 e 1 0 ]
+{
+"51
+} 0
+"36
+[v _delay2 delay2 `(v  1 e 1 0 ]
+{
+"41
+} 0
+"53 C:\Users\peTron_Quantinity\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X\main.c
+[v _ISR ISR `II(v  1 e 1 0 ]
+{
+"71
+} 0
+"26 C:\Users\peTron_Quantinity\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X/PIC16F877a_DS3231.h
+[v _Set_Time_Date Set_Time_Date `(v  1 e 1 0 ]
+{
+"39
+} 0
+"40 C:\Users\peTron_Quantinity\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X/PIC16F877a_I2C.h
+[v i1_I2C_Write I2C_Write `(v  1 e 1 0 ]
+{
+[v i1I2C_Write@data data `ui  1 p 2 0 ]
+"44
+} 0
+"34
+[v i1_I2C_End I2C_End `(v  1 e 1 0 ]
+{
+"38
+} 0
+"26
+[v i1_I2C_Begin I2C_Begin `(v  1 e 1 0 ]
+{
+"30
+} 0
+"21
+[v i1_I2C_Hold I2C_Hold `(v  1 e 1 0 ]
+{
+"24
+} 0
+"21 C:\Users\peTron_Quantinity\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X/PIC16F877a_DS3231.h
+[v _DEC_2_BCD DEC_2_BCD `(i  1 e 2 0 ]
+{
+[v DEC_2_BCD@to_convert to_convert `i  1 p 2 9 ]
+"24
+} 0
+"5 C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\awmod.c
+[v ___awmod __awmod `(i  1 e 2 0 ]
+{
+"10
+[v ___awmod@sign sign `uc  1 a 1 6 ]
+[v ___awmod@counter counter `uc  1 a 1 5 ]
+"5
+[v ___awmod@divisor divisor `i  1 p 2 0 ]
+[v ___awmod@dividend dividend `i  1 p 2 2 ]
+"34
+} 0
+"5 C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\awdiv.c
+[v ___awdiv __awdiv `(i  1 e 2 0 ]
+{
+"10
+[v ___awdiv@quotient quotient `i  1 a 2 7 ]
+"11
+[v ___awdiv@sign sign `uc  1 a 1 6 ]
+[v ___awdiv@counter counter `uc  1 a 1 5 ]
+"5
+[v ___awdiv@divisor divisor `i  1 p 2 0 ]
+[v ___awdiv@dividend dividend `i  1 p 2 2 ]
+"41
 } 0

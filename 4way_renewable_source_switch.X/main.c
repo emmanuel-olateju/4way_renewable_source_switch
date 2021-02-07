@@ -18,6 +18,20 @@
 #pragma config CP = ON          // Flash Program Memory Code Protection bit (All program memory code-protected)
 
 #define _XTAL_FREQ 20000000
+#include "PIC16F877a_I2C.h"
+int sec=0;
+int min=0;
+int hour=0;
+#include "PIC16F877a_DS3231.h"
+#define rtc_min_set RC0
+#define rtc_hour_set RA4
+#define RS RB6
+#define EN RB5
+#define D4 RB4
+#define D5 RB3
+#define D6 RB2
+#define D7 RB1
+#include "LCDLIBRARY1.h"
 
 //INPUTS
 int wind_val,solar_val,biogas_val,phcn_val;
@@ -26,24 +40,63 @@ int wind_val,solar_val,biogas_val,phcn_val;
 #define biogas_pindir TRISA2
 #define phcn_pindir TRISA3
 //OUTPUT TUPLE
-#define wind RC0
-#define solar RC1
-#define biogas RC2
-#define phcn RC3
+#define wind RD0
+#define solar RD1
+#define biogas RD2
+#define phcn RD3
 //STATES
-enum state {initialState,morning,afternoon,night,defunct}nextState;
+enum state {initialState,morning,afternoon,night,set_rtc,defunct}nextState;
 enum state nextState=initialState;
 //VIAS
 int thresh=878;
+
+void __interrupt() ISR(void){
+    RD5=1;RD4=0;
+    if(TMR0IF==1){
+        if(hour<=22)hour++;
+        else hour=0;
+    }
+    if(TMR1IF==1){
+        if(min<=22)min++;
+        else min=0;
+    }
+    TMR0IF=0;
+    TMR1IF=0;
+    TMR0=255;
+    TMR1=65535;
+    CLRWDT();
+    Set_Time_Date();
+    CLRWDT();
+    RD5=0;
+}
 void main(void){
+    TRISB=0x00;
+    PORTB=0x00;
+    TRISA=0xFF;
     ADCON1=0x80;
     ADCON0=0x41;
+    TRISD=0xC0;
+    PORTD=0x00;
+    I2C_Initialize(100000);
+    TMR0=255;
+    TMR0IE=1;
+    OPTION_REG=0xA8;
+    TRISC0=1;
+    T1CON=0x06;
+    TMR1=65535;
+    TMR1IE=1;
+    PEIE=1;
+    GIE=1;
+    TMR1ON=1;
     wind_pindir=1;
     solar_pindir=1;
     biogas_pindir=1;
     phcn_pindir=1;
-    TRISC=0x00;
-    PORTC=0xF0;
+    config();
+    CLRDISP();
+    CURSOR(FIRSTROW,4);
+    LCDWRITE("POWER SELECTOR");
+    
     while(1){
         if(nextState==initialState){
             RC7=RC6=RC5=RC4=1;
@@ -68,12 +121,20 @@ void main(void){
             while(ADCON0bits.GO_nDONE);
             __delay_us(20);
             phcn_val=(ADRESH<<8)+ADRESL;
-            //RTC module for time
+            Update_Current_Date_Time();//RTC module for time
+            CURSOR(SECONDROW,0);
+            /*NUMDISP(hour);*/LCDWRITE(":");
+//            NUMDISP(min);LCDWRITE(":");
+//            NUMDISP(sec);
             //check time from RTC to determine nextState, for now default nextState below is morning
-            nextState=morning;
-            RC7=RC6=RC5=RC4=0;
-            __delay_ms(100);
+            if((hour>0)&&(hour<=7))nextState=night;
+            else if((hour>7)&&(hour<12))nextState=morning;
+            else if(hour<18)nextState=afternoon;
+            else if(hour<23)nextState=night;
         }
+        CLRWDT();
+        RD4=1;
+        __delay_ms(10);
         if(nextState==morning){
             if(solar_val<thresh){
                 wind=0;solar=1;biogas=0;phcn=0;
@@ -110,6 +171,14 @@ void main(void){
             }
             nextState=initialState;
         }
+        RD4=0;
+//        CURSOR(THIRDROW,0);
+//        if(wind==1)LCDWRITE("WIND");
+//        if(solar==1)LCDWRITE("SOLA");
+//        if(biogas==1)LCDWRITE("BIOG");
+//        if(phcn==1)LCDWRITE("PHCN");
+        __delay_ms(10);
+        CLRWDT();
     }
     return;
 }

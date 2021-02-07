@@ -32,9 +32,9 @@ void Set_Time_Date()
    I2C_Write(DEC_2_BCD(min)); //update min
    I2C_Write(DEC_2_BCD(hour)); //update hour
    I2C_Write(1); //ignore updating day
-   I2C_Write(DEC_2_BCD(date)); //update date
-   I2C_Write(DEC_2_BCD(month)); //update month
-   I2C_Write(DEC_2_BCD(year)); //update year
+   I2C_Write(1); //update date
+   I2C_Write(1); //update month
+   I2C_Write(1); //update year
    I2C_End();
 }
 
@@ -53,9 +53,9 @@ void Update_Current_Date_Time()
    min = BCD_2_DEC(I2C_Read(1));   // Read sec from register 
    hour = BCD_2_DEC(I2C_Read(1));  
    I2C_Read(1);
-   date = BCD_2_DEC(I2C_Read(1));  
-   month = BCD_2_DEC(I2C_Read(1));  
-   year = BCD_2_DEC(I2C_Read(1));  
+   I2C_Read(1);
+   I2C_Read(1);
+   I2C_Read(1);
    I2C_End(); 
     
   //END Reading  
