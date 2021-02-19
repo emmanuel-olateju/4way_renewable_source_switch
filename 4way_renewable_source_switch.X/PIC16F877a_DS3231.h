@@ -13,55 +13,46 @@
 
 /****** Functions for RTC module *******/
 
-int  BCD_2_DEC(int to_convert)
+int  BCD_2_DEC(int num)
 {
-   return (to_convert >> 4) * 10 + (to_convert & 0x0F); 
+    int data=((num>>4)*10)+(num&0x0F);
+    return data; 
 }
 
-int DEC_2_BCD (int to_convert)
+int DEC_2_BCD (int num)
 {
-   return ((to_convert / 10) << 4) + (to_convert % 10);
+    int data=((num/10)<<4)+(num%10);
+    return data;
 }
 
 void Set_Time_Date()
 {
    I2C_Begin();       
    I2C_Write(0xD0); 
-   I2C_Write(0);  
-   I2C_Write(DEC_2_BCD(sec)); //update sec
-   I2C_Write(DEC_2_BCD(min)); //update min
-   I2C_Write(DEC_2_BCD(hour)); //update hour
+   I2C_Write(0);
+   I2C_Write(DEC_2_BCD(sec));  
+   I2C_Write(DEC_2_BCD(min)); //update sec
+   I2C_Write(DEC_2_BCD(hour)); //update min
+   I2C_Write(1); //update hour
    I2C_Write(1); //ignore updating day
    I2C_Write(1); //update date
    I2C_Write(1); //update month
-   I2C_Write(1); //update year
    I2C_End();
 }
 
 void Update_Current_Date_Time()
 {
-   //START to Read
    I2C_Begin();       
    I2C_Write(0xD0); 
    I2C_Write(0);    
-   I2C_End(); 
-   
-  //READ
-   I2C_Begin();
-   I2C_Write(0xD1);                              // Initialize data read
-   sec = BCD_2_DEC(I2C_Read(1));    
-   min = BCD_2_DEC(I2C_Read(1));   // Read sec from register 
-   hour = BCD_2_DEC(I2C_Read(1));  
-   I2C_Read(1);
-   I2C_Read(1);
-   I2C_Read(1);
+   I2C_Restart(); 
+   I2C_Write(0xD1);
+   sec=BCD_2_DEC(I2C_Read(0));
+   min=BCD_2_DEC(I2C_Read(0));
+   hour=BCD_2_DEC(I2C_Read(0));
+   I2C_Read(0);
+   I2C_Read(0);
+   I2C_Read(0);
    I2C_Read(1);
    I2C_End(); 
-    
-  //END Reading  
-    I2C_Begin();
-    I2C_Write(0xD1);                              // Initialize data read
-    I2C_Read(1);    
-    I2C_End(); 
-
 }

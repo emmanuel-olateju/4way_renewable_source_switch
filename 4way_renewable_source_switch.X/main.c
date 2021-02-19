@@ -12,16 +12,16 @@
 #pragma config WDTE = OFF       // Watchdog Timer Enable bit (WDT disabled)
 #pragma config PWRTE = OFF      // Power-up Timer Enable bit (PWRT disabled)
 #pragma config BOREN = OFF      // Brown-out Reset Enable bit (BOR disabled)
-#pragma config LVP = ON         // Low-Voltage (Single-Supply) In-Circuit Serial Programming Enable bit (RB3/PGM pin has PGM function; low-voltage programming enabled)
-#pragma config CPD = ON         // Data EEPROM Memory Code Protection bit (Data EEPROM code-protected)
+#pragma config LVP = OFF         // Low-Voltage (Single-Supply) In-Circuit Serial Programming Enable bit (RB3/PGM pin has PGM function; low-voltage programming enabled)
+#pragma config CPD = OFF         // Data EEPROM Memory Code Protection bit (Data EEPROM code-protected)
 #pragma config WRT = OFF        // Flash Program Memory Write Enable bits (Write protection off; all program memory may be written to by EECON control)
-#pragma config CP = ON          // Flash Program Memory Code Protection bit (All program memory code-protected)
+#pragma config CP = OFF          // Flash Program Memory Code Protection bit (All program memory code-protected)
 
 #define _XTAL_FREQ 20000000
 #include "PIC16F877a_I2C.h"
 int sec=0;
-int min=0;
-int hour=0;
+int min=10;
+int hour=15;
 #include "PIC16F877a_DS3231.h"
 #define rtc_min_set RC0
 #define rtc_hour_set RA4
@@ -51,7 +51,6 @@ enum state nextState=initialState;
 int thresh=878;
 
 void __interrupt() ISR(void){
-    RD5=1;RD4=0;
     if(TMR0IF==1){
         if(hour<=22)hour++;
         else hour=0;
@@ -77,7 +76,6 @@ void main(void){
     ADCON0=0x41;
     TRISD=0xC0;
     PORTD=0x00;
-    I2C_Initialize(100000);
     TMR0=255;
     TMR0IE=1;
     OPTION_REG=0xA8;
@@ -85,6 +83,7 @@ void main(void){
     T1CON=0x06;
     TMR1=65535;
     TMR1IE=1;
+    SSPIE=0;
     PEIE=1;
     GIE=1;
     TMR1ON=1;
@@ -92,12 +91,23 @@ void main(void){
     solar_pindir=1;
     biogas_pindir=1;
     phcn_pindir=1;
+    I2C_Initialize(100000);
+    Set_Time_Date();
     config();
     CLRDISP();
-    CURSOR(FIRSTROW,4);
-    LCDWRITE("POWER SELECTOR");
+    TRISD4=0;TRISD5=0;
+    RD4=0;RD5=0;
     
     while(1){
+        CLRDISP();
+        CURSOR(FIRSTROW,3);
+        LCDWRITE("PHASE SELECTOR");
+        CURSOR(SECONDROW,0);
+        LCDNUM(hour);
+        LCDWRITE(":");
+        LCDNUM(min);
+        LCDWRITE(":");
+        LCDNUM(sec);
         if(nextState==initialState){
             RC7=RC6=RC5=RC4=1;
             __delay_ms(100);
@@ -122,18 +132,12 @@ void main(void){
             __delay_us(20);
             phcn_val=(ADRESH<<8)+ADRESL;
             Update_Current_Date_Time();//RTC module for time
-            CURSOR(SECONDROW,0);
-            /*NUMDISP(hour);*/LCDWRITE(":");
-//            NUMDISP(min);LCDWRITE(":");
-//            NUMDISP(sec);
-            //check time from RTC to determine nextState, for now default nextState below is morning
             if((hour>0)&&(hour<=7))nextState=night;
             else if((hour>7)&&(hour<12))nextState=morning;
             else if(hour<18)nextState=afternoon;
             else if(hour<23)nextState=night;
         }
         CLRWDT();
-        RD4=1;
         __delay_ms(10);
         if(nextState==morning){
             if(solar_val<thresh){
@@ -171,14 +175,7 @@ void main(void){
             }
             nextState=initialState;
         }
-        RD4=0;
-//        CURSOR(THIRDROW,0);
-//        if(wind==1)LCDWRITE("WIND");
-//        if(solar==1)LCDWRITE("SOLA");
-//        if(biogas==1)LCDWRITE("BIOG");
-//        if(phcn==1)LCDWRITE("PHCN");
-        __delay_ms(10);
-        CLRWDT();
+        Update_Current_Date_Time();
     }
     return;
 }
