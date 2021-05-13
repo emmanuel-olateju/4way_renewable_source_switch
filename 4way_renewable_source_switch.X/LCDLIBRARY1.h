@@ -63,12 +63,23 @@ void LCDCHAR(char character){
 }
 
 void LCDNUM(int number){
-    if(number>9){
+    if(number>99){
+        unsigned char h=48+(number/100);
+        int r=number/100;
+        r=r*100;
+        number=number-r;
+        unsigned char t=48+(number/10);
+        unsigned char u=48+(number%10);
+        LCDCHAR(h);
+        LCDCHAR(t);
+        LCDCHAR(u);
+    }else if(number>9){
         unsigned char t=48+(number/10);
         unsigned char u=48+(number%10);
         LCDCHAR(t);
         LCDCHAR(u);
     }else{
+        LCDCHAR(48);
         LCDCHAR(number+48);
     }
 }

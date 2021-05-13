@@ -20,8 +20,8 @@
 #define _XTAL_FREQ 20000000
 #include "PIC16F877a_I2C.h"
 int sec=0;
-int min=10;
-int hour=15;
+int min=0;
+int hour=0;
 #include "PIC16F877a_DS3231.h"
 #define rtc_min_set RC0
 #define rtc_hour_set RA4
@@ -34,7 +34,7 @@ int hour=15;
 #include "LCDLIBRARY1.h"
 
 //INPUTS
-int wind_val,solar_val,biogas_val,phcn_val;
+int wind_val=0;int solar_val=0;int biogas_val=0;int phcn_val=0;
 #define wind_pindir TRISA0
 #define solar_pindir TRISA1
 #define biogas_pindir TRISA2
@@ -48,15 +48,18 @@ int wind_val,solar_val,biogas_val,phcn_val;
 enum state {initialState,morning,afternoon,night,set_rtc,defunct}nextState;
 enum state nextState=initialState;
 //VIAS
-int thresh=878;
+int thresh=920;
 
 void __interrupt() ISR(void){
+    RD5=1;
+    __delay_ms(100);
     if(TMR0IF==1){
-        if(hour<=22)hour++;
+        int dummy=hour;
+        if(hour<=22)hour=dummy+1;
         else hour=0;
     }
     if(TMR1IF==1){
-        if(min<=22)min++;
+        if(min<=58)min++;
         else min=0;
     }
     TMR0IF=0;
@@ -71,9 +74,9 @@ void __interrupt() ISR(void){
 void main(void){
     TRISB=0x00;
     PORTB=0x00;
+    ADCON1=0xC2;
+    ADCON0=0xC1;
     TRISA=0xFF;
-    ADCON1=0x80;
-    ADCON0=0x41;
     TRISD=0xC0;
     PORTD=0x00;
     TMR0=255;
@@ -97,12 +100,12 @@ void main(void){
     CLRDISP();
     TRISD4=0;TRISD5=0;
     RD4=0;RD5=0;
+    CLRDISP();
+    CURSOR(FIRSTROW,3);
+    LCDWRITE("PHASE SELECTOR");
     
     while(1){
-        CLRDISP();
-        CURSOR(FIRSTROW,3);
-        LCDWRITE("PHASE SELECTOR");
-        CURSOR(SECONDROW,0);
+        CURSOR(SECONDROW,5);
         LCDNUM(hour);
         LCDWRITE(":");
         LCDNUM(min);
@@ -112,27 +115,31 @@ void main(void){
             RC7=RC6=RC5=RC4=1;
             __delay_ms(100);
             ADCON0bits.CHS=0;
+             __delay_us(20);
             ADCON0bits.GO_nDONE=1;
             while(ADCON0bits.GO_nDONE);
-            __delay_us(20);
             wind_val=(ADRESH<<8)+ADRESL;
+            __delay_us(100);
             ADCON0bits.CHS=1;
+             __delay_us(20);
             ADCON0bits.GO_nDONE=1;
             while(ADCON0bits.GO_nDONE);
-            __delay_us(20);
             solar_val=(ADRESH<<8)+ADRESL;
+            __delay_us(100);
             ADCON0bits.CHS=2;
+             __delay_us(20);
             ADCON0bits.GO_nDONE=1;
             while(ADCON0bits.GO_nDONE);
-            __delay_us(20);
             biogas_val=(ADRESH<<8)+ADRESL;
+            __delay_us(100);
             ADCON0bits.CHS=3;
+             __delay_us(20);
             ADCON0bits.GO_nDONE=1;
             while(ADCON0bits.GO_nDONE);
-            __delay_us(20);
             phcn_val=(ADRESH<<8)+ADRESL;
+            __delay_us(100);
             Update_Current_Date_Time();//RTC module for time
-            if((hour>0)&&(hour<=7))nextState=night;
+            if((hour>=0)&&(hour<=7))nextState=night;
             else if((hour>7)&&(hour<12))nextState=morning;
             else if(hour<18)nextState=afternoon;
             else if(hour<23)nextState=night;
@@ -147,7 +154,7 @@ void main(void){
             }else if(phcn_val<thresh){
                 wind=0;solar=0;biogas=0;phcn=1;
             }else{
-                wind=0;solar=0;biogas=0;phcn=0;
+                wind=0;solar=0;biogas=1;phcn=0;
             }
             nextState=initialState;
         }
@@ -176,6 +183,37 @@ void main(void){
             nextState=initialState;
         }
         Update_Current_Date_Time();
+        CURSOR(THIRDROW,0);
+        int out=(wind&1)|((solar&1)<<1)|((biogas&1)<<2)|((phcn&1)<<3);
+        switch(out){
+            case 0:
+                LCDWRITE("NULL  ");
+                break;
+            case 1:
+                LCDWRITE("wind  ");
+                break;
+            case 2:
+                LCDWRITE("solar ");
+                break;
+            case 4:
+                LCDWRITE("biogas");
+                break;
+            case 8:
+                LCDWRITE("phcn  ");
+                break;
+            default:
+                LCDWRITE("RESET");
+                break;
+        }
+//        CURSOR(THIRDROW,6);
+//        LCDNUM(wind_val);
+//        LCDCHAR(' ');
+//        LCDNUM(solar_val);
+//        LCDCHAR(' ');
+//        LCDNUM(biogas_val);
+//        LCDCHAR(' ');
+//        LCDNUM(phcn_val);
+//        LCDCHAR(' ');
     }
     return;
 }
