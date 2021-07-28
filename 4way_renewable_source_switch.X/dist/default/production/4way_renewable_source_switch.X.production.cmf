@@ -11,59 +11,63 @@
 # All addresses and the length are given in unqualified hexadecimal
 # in delta units.  Any other numeric values are decimal.
 %PSECTS
-$C:\Users\EMMANU~1\AppData\Local\Temp\s9d4.o
+$C:\Users\olate\AppData\Local\Temp\xcAsa9s.o
 reset_vec CODE 0 0 0 3 2
 end_init CODE 0 10 10 3 2
 config CONFIG 4 2007 2007 1 2
 $dist/default/production\4way_renewable_source_switch.X.production.o
 cinit CODE 0 13 13 2C 2
-text1 CODE 0 67F 67F 69 2
-text2 CODE 0 4BF 4BF A4 2
-text3 CODE 0 BB7 BB7 9 2
-text4 CODE 0 CED CED 2F 2
-text5 CODE 0 CC0 CC0 2D 2
-text6 CODE 0 563 563 8E 2
-text7 CODE 0 C0D C0D F 2
-text8 CODE 0 BAE BAE 9 2
-text9 CODE 0 BA5 BA5 9 2
-text10 CODE 0 BF1 BF1 D 2
-text11 CODE 0 D8C D8C 3A 2
-text12 CODE 0 DC6 DC6 4E 2
-text13 CODE 0 3D5 3D5 EA 2
-text14 CODE 0 C6E C6E 27 2
-text15 CODE 0 E6D E6D 5B 2
-text16 CODE 0 F97 F97 69 2
-text17 CODE 0 C95 C95 2B 2
-text18 CODE 0 D52 D52 3A 2
-text19 CODE 0 F2F F2F 68 2
-text20 CODE 0 C4A C4A 24 2
-text21 CODE 0 C2D C2D 1D 2
-text22 CODE 0 BCC BCC C 2
-text23 CODE 0 C1C C1C 11 2
-text24 CODE 0 BC0 BC0 C 2
-text25 CODE 0 78C 78C 70 2
-text26 CODE 0 5F1 5F1 8E 2
-text27 CODE 0 BFE BFE F 2
-text28 CODE 0 B9C B9C 9 2
-text29 CODE 0 B93 B93 9 2
-text30 CODE 0 BE4 BE4 D 2
-text31 CODE 0 D1C D1C 36 2
-text32 CODE 0 E14 E14 59 2
-text33 CODE 0 EC8 EC8 67 2
-maintext CODE 0 3F 3F 396 2
+text1 CODE 0 F97 F97 69 2
+text2 CODE 0 D1C D1C 41 2
+text3 CODE 0 5CC 5CC A4 2
+text4 CODE 0 A37 A37 9 2
+text5 CODE 0 B80 B80 2F 2
+text6 CODE 0 B53 B53 2D 2
+text7 CODE 0 670 670 8E 2
+text8 CODE 0 A8D A8D F 2
+text9 CODE 0 A2E A2E 9 2
+text10 CODE 0 A25 A25 9 2
+text11 CODE 0 A71 A71 D 2
+text12 CODE 0 C1F C1F 3A 2
+text13 CODE 0 CDB CDB 41 2
+text14 CODE 0 C9A C9A 41 2
+text15 CODE 0 42D 42D EA 2
+text16 CODE 0 B01 B01 27 2
+text17 CODE 0 E04 E04 5B 2
+text18 CODE 0 F2E F2E 69 2
+text19 CODE 0 B28 B28 2B 2
+text20 CODE 0 BE5 BE5 3A 2
+text21 CODE 0 EC6 EC6 68 2
+text22 CODE 0 AC0 AC0 1D 2
+text23 CODE 0 A4C A4C C 2
+text24 CODE 0 C59 C59 41 2
+text25 CODE 0 D5D D5D 4E 2
+text26 CODE 0 ADD ADD 24 2
+text27 CODE 0 A9C A9C 11 2
+text28 CODE 0 A40 A40 C 2
+text29 CODE 0 78C 78C 73 2
+text30 CODE 0 6FE 6FE 8E 2
+text31 CODE 0 A7E A7E F 2
+text32 CODE 0 A1C A1C 9 2
+text33 CODE 0 A13 A13 9 2
+text34 CODE 0 A64 A64 D 2
+text35 CODE 0 BAF BAF 36 2
+text36 CODE 0 DAB DAB 59 2
+text37 CODE 0 E5F E5F 67 2
+maintext CODE 0 3F 3F 3EE 2
 cstackCOMMON COMMON 1 70 70 D 1
 cstackBANK0 BANK0 1 20 20 24 1
 cstackBANK1 BANK1 1 A0 A0 16 1
-inittext CODE 0 6E8 6E8 13 2
+inittext CODE 0 AAD AAD 13 2
 intentry CODE 0 4 4 C 2
-bssBANK0 BANK0 1 44 44 11 1
+bssBANK0 BANK0 1 44 44 13 1
 bssBANK1 BANK1 1 C2 C2 4 1
-idataBANK0 CODE 0 7FC 7FC 2 2
-idataBANK1 CODE 0 BD8 BD8 C 2
-strings STRING 0 700 700 8C 2
-dataBANK0 BANK0 1 55 55 2 1
+idataBANK0 CODE 0 A09 A09 2 2
+idataBANK1 CODE 0 A58 A58 C 2
+strings STRING 0 517 517 B5 2
+dataBANK0 BANK0 1 57 57 2 1
 dataBANK1 BANK1 1 B6 B6 C 1
-clrtext CODE 0 B8B B8B 8 2
+clrtext CODE 0 A0B A0B 8 2
 config CONFIG 4 2007 2007 1 2
 # %UNUSED Section
 # This section enumerates the unused ranges of each CLASS. Each entry
@@ -71,27 +75,24 @@ config CONFIG 4 2007 2007 1 2
 #    <class name> <range> <delta>
 # Addresses given in the range are in hexadecimal and units of delta.
 %UNUSED
-RAM 57-6F 1
+RAM 59-6F 1
 RAM C6-EF 1
 RAM 110-16F 1
 RAM 190-1EF 1
-BANK0 57-6F 1
+BANK0 59-6F 1
 BANK1 C6-EF 1
 BANK2 110-16F 1
 BANK3 190-1EF 1
 CONST 3-3 2
-CONST 6FB-6FF 2
-CONST 7FE-B8A 2
+CONST 7FF-A08 2
 CONST 1000-1FFF 2
 ENTRY 3-3 2
-ENTRY 6FB-6FF 2
-ENTRY 7FE-B8A 2
+ENTRY 7FF-A08 2
 ENTRY 1000-1FFF 2
 IDLOC 2000-2003 2
 STACK 110-16F 1
 CODE 3-3 2
-CODE 6FB-6FF 2
-CODE 7FE-B8A 2
+CODE 7FF-A08 2
 CODE 1000-1FFF 2
 SFR0 0-1F 1
 SFR1 80-9F 1
@@ -100,12 +101,10 @@ SFR3 180-18F 1
 COMMON 7D-7D 1
 EEDATA 2100-21FF 2
 STRCODE 3-3 2
-STRCODE 6FB-6FF 2
-STRCODE 7FE-B8A 2
+STRCODE 7FF-A08 2
 STRCODE 1000-1FFF 2
 STRING 3-3 2
-STRING 6FB-6FF 2
-STRING 7FE-B8A 2
+STRING 7FF-A08 2
 STRING 1000-1FFF 2
 # %LINETAB Section
 # This section enumerates the file/line to address mappings.
@@ -121,519 +120,710 @@ STRING 1000-1FFF 2
 # All other numeric values are in decimal.
 %LINETAB
 $dist/default/production\4way_renewable_source_switch.X.production.o
-13 cinit CODE >758:C:\Users\EMMANU~1\AppData\Local\Temp\s9d4.s
-13 cinit CODE >761:C:\Users\EMMANU~1\AppData\Local\Temp\s9d4.s
-13 cinit CODE >846:C:\Users\EMMANU~1\AppData\Local\Temp\s9d4.s
-14 cinit CODE >847:C:\Users\EMMANU~1\AppData\Local\Temp\s9d4.s
-15 cinit CODE >848:C:\Users\EMMANU~1\AppData\Local\Temp\s9d4.s
-16 cinit CODE >849:C:\Users\EMMANU~1\AppData\Local\Temp\s9d4.s
-17 cinit CODE >850:C:\Users\EMMANU~1\AppData\Local\Temp\s9d4.s
-18 cinit CODE >851:C:\Users\EMMANU~1\AppData\Local\Temp\s9d4.s
-19 cinit CODE >852:C:\Users\EMMANU~1\AppData\Local\Temp\s9d4.s
-1A cinit CODE >853:C:\Users\EMMANU~1\AppData\Local\Temp\s9d4.s
-1B cinit CODE >854:C:\Users\EMMANU~1\AppData\Local\Temp\s9d4.s
-1C cinit CODE >855:C:\Users\EMMANU~1\AppData\Local\Temp\s9d4.s
-21 cinit CODE >859:C:\Users\EMMANU~1\AppData\Local\Temp\s9d4.s
-26 cinit CODE >860:C:\Users\EMMANU~1\AppData\Local\Temp\s9d4.s
-27 cinit CODE >861:C:\Users\EMMANU~1\AppData\Local\Temp\s9d4.s
-2C cinit CODE >862:C:\Users\EMMANU~1\AppData\Local\Temp\s9d4.s
-2D cinit CODE >881:C:\Users\EMMANU~1\AppData\Local\Temp\s9d4.s
-2E cinit CODE >882:C:\Users\EMMANU~1\AppData\Local\Temp\s9d4.s
-2F cinit CODE >883:C:\Users\EMMANU~1\AppData\Local\Temp\s9d4.s
-30 cinit CODE >884:C:\Users\EMMANU~1\AppData\Local\Temp\s9d4.s
-31 cinit CODE >885:C:\Users\EMMANU~1\AppData\Local\Temp\s9d4.s
-32 cinit CODE >886:C:\Users\EMMANU~1\AppData\Local\Temp\s9d4.s
-33 cinit CODE >889:C:\Users\EMMANU~1\AppData\Local\Temp\s9d4.s
-34 cinit CODE >890:C:\Users\EMMANU~1\AppData\Local\Temp\s9d4.s
-35 cinit CODE >891:C:\Users\EMMANU~1\AppData\Local\Temp\s9d4.s
-36 cinit CODE >892:C:\Users\EMMANU~1\AppData\Local\Temp\s9d4.s
-3B cinit CODE >898:C:\Users\EMMANU~1\AppData\Local\Temp\s9d4.s
-3B cinit CODE >900:C:\Users\EMMANU~1\AppData\Local\Temp\s9d4.s
-3C cinit CODE >901:C:\Users\EMMANU~1\AppData\Local\Temp\s9d4.s
-4 intentry CODE >53:C:\Users\Emmanuel Olateju\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X\main.c
-EC8 text33 CODE >5:C:\Program Files\Microchip\xc8\v2.31\pic\sources\c90\common\awdiv.c
-EC8 text33 CODE >13:C:\Program Files\Microchip\xc8\v2.31\pic\sources\c90\common\awdiv.c
-EC9 text33 CODE >14:C:\Program Files\Microchip\xc8\v2.31\pic\sources\c90\common\awdiv.c
-ECD text33 CODE >15:C:\Program Files\Microchip\xc8\v2.31\pic\sources\c90\common\awdiv.c
-ED2 text33 CODE >16:C:\Program Files\Microchip\xc8\v2.31\pic\sources\c90\common\awdiv.c
-ED4 text33 CODE >18:C:\Program Files\Microchip\xc8\v2.31\pic\sources\c90\common\awdiv.c
-ED8 text33 CODE >19:C:\Program Files\Microchip\xc8\v2.31\pic\sources\c90\common\awdiv.c
-EDD text33 CODE >20:C:\Program Files\Microchip\xc8\v2.31\pic\sources\c90\common\awdiv.c
-EE1 text33 CODE >22:C:\Program Files\Microchip\xc8\v2.31\pic\sources\c90\common\awdiv.c
-EE3 text33 CODE >23:C:\Program Files\Microchip\xc8\v2.31\pic\sources\c90\common\awdiv.c
-EE9 text33 CODE >24:C:\Program Files\Microchip\xc8\v2.31\pic\sources\c90\common\awdiv.c
-EEB text33 CODE >25:C:\Program Files\Microchip\xc8\v2.31\pic\sources\c90\common\awdiv.c
-EEC text33 CODE >26:C:\Program Files\Microchip\xc8\v2.31\pic\sources\c90\common\awdiv.c
-EF3 text33 CODE >27:C:\Program Files\Microchip\xc8\v2.31\pic\sources\c90\common\awdiv.c
-EF7 text33 CODE >25:C:\Program Files\Microchip\xc8\v2.31\pic\sources\c90\common\awdiv.c
-EFB text33 CODE >30:C:\Program Files\Microchip\xc8\v2.31\pic\sources\c90\common\awdiv.c
-F02 text33 CODE >31:C:\Program Files\Microchip\xc8\v2.31\pic\sources\c90\common\awdiv.c
-F0C text33 CODE >32:C:\Program Files\Microchip\xc8\v2.31\pic\sources\c90\common\awdiv.c
-F12 text33 CODE >33:C:\Program Files\Microchip\xc8\v2.31\pic\sources\c90\common\awdiv.c
-F13 text33 CODE >35:C:\Program Files\Microchip\xc8\v2.31\pic\sources\c90\common\awdiv.c
-F1A text33 CODE >36:C:\Program Files\Microchip\xc8\v2.31\pic\sources\c90\common\awdiv.c
-F20 text33 CODE >38:C:\Program Files\Microchip\xc8\v2.31\pic\sources\c90\common\awdiv.c
-F25 text33 CODE >39:C:\Program Files\Microchip\xc8\v2.31\pic\sources\c90\common\awdiv.c
-F2A text33 CODE >40:C:\Program Files\Microchip\xc8\v2.31\pic\sources\c90\common\awdiv.c
-F2E text33 CODE >41:C:\Program Files\Microchip\xc8\v2.31\pic\sources\c90\common\awdiv.c
-E14 text32 CODE >5:C:\Program Files\Microchip\xc8\v2.31\pic\sources\c90\common\awmod.c
-E14 text32 CODE >12:C:\Program Files\Microchip\xc8\v2.31\pic\sources\c90\common\awmod.c
-E15 text32 CODE >13:C:\Program Files\Microchip\xc8\v2.31\pic\sources\c90\common\awmod.c
-E19 text32 CODE >14:C:\Program Files\Microchip\xc8\v2.31\pic\sources\c90\common\awmod.c
-E1E text32 CODE >15:C:\Program Files\Microchip\xc8\v2.31\pic\sources\c90\common\awmod.c
-E20 text32 CODE >17:C:\Program Files\Microchip\xc8\v2.31\pic\sources\c90\common\awmod.c
-E24 text32 CODE >18:C:\Program Files\Microchip\xc8\v2.31\pic\sources\c90\common\awmod.c
-E29 text32 CODE >19:C:\Program Files\Microchip\xc8\v2.31\pic\sources\c90\common\awmod.c
-E2F text32 CODE >20:C:\Program Files\Microchip\xc8\v2.31\pic\sources\c90\common\awmod.c
-E31 text32 CODE >21:C:\Program Files\Microchip\xc8\v2.31\pic\sources\c90\common\awmod.c
-E32 text32 CODE >22:C:\Program Files\Microchip\xc8\v2.31\pic\sources\c90\common\awmod.c
-E39 text32 CODE >23:C:\Program Files\Microchip\xc8\v2.31\pic\sources\c90\common\awmod.c
-E3D text32 CODE >21:C:\Program Files\Microchip\xc8\v2.31\pic\sources\c90\common\awmod.c
-E41 text32 CODE >26:C:\Program Files\Microchip\xc8\v2.31\pic\sources\c90\common\awmod.c
-E4B text32 CODE >27:C:\Program Files\Microchip\xc8\v2.31\pic\sources\c90\common\awmod.c
-E51 text32 CODE >28:C:\Program Files\Microchip\xc8\v2.31\pic\sources\c90\common\awmod.c
-E58 text32 CODE >29:C:\Program Files\Microchip\xc8\v2.31\pic\sources\c90\common\awmod.c
-E5E text32 CODE >31:C:\Program Files\Microchip\xc8\v2.31\pic\sources\c90\common\awmod.c
-E63 text32 CODE >32:C:\Program Files\Microchip\xc8\v2.31\pic\sources\c90\common\awmod.c
-E68 text32 CODE >33:C:\Program Files\Microchip\xc8\v2.31\pic\sources\c90\common\awmod.c
-E6C text32 CODE >34:C:\Program Files\Microchip\xc8\v2.31\pic\sources\c90\common\awmod.c
-D1C text31 CODE >22:C:\Users\Emmanuel Olateju\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X/PIC16F877a_DS3231.h
-D1C text31 CODE >24:C:\Users\Emmanuel Olateju\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X/PIC16F877a_DS3231.h
-D4D text31 CODE >25:C:\Users\Emmanuel Olateju\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X/PIC16F877a_DS3231.h
-D51 text31 CODE >26:C:\Users\Emmanuel Olateju\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X/PIC16F877a_DS3231.h
-BE4 text30 CODE >19:C:\Users\Emmanuel Olateju\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X/PIC16F877a_I2C.h
-BE4 text30 CODE >21:C:\Users\Emmanuel Olateju\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X/PIC16F877a_I2C.h
-BF0 text30 CODE >22:C:\Users\Emmanuel Olateju\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X/PIC16F877a_I2C.h
-B93 text29 CODE >24:C:\Users\Emmanuel Olateju\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X/PIC16F877a_I2C.h
-B93 text29 CODE >26:C:\Users\Emmanuel Olateju\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X/PIC16F877a_I2C.h
-B98 text29 CODE >27:C:\Users\Emmanuel Olateju\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X/PIC16F877a_I2C.h
-B9B text29 CODE >28:C:\Users\Emmanuel Olateju\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X/PIC16F877a_I2C.h
-B9C text28 CODE >35:C:\Users\Emmanuel Olateju\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X/PIC16F877a_I2C.h
-B9C text28 CODE >37:C:\Users\Emmanuel Olateju\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X/PIC16F877a_I2C.h
-BA1 text28 CODE >38:C:\Users\Emmanuel Olateju\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X/PIC16F877a_I2C.h
-BA4 text28 CODE >39:C:\Users\Emmanuel Olateju\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X/PIC16F877a_I2C.h
-BFE text27 CODE >42:C:\Users\Emmanuel Olateju\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X/PIC16F877a_I2C.h
-BFE text27 CODE >44:C:\Users\Emmanuel Olateju\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X/PIC16F877a_I2C.h
-C03 text27 CODE >45:C:\Users\Emmanuel Olateju\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X/PIC16F877a_I2C.h
-C07 text27 CODE >46:C:\Users\Emmanuel Olateju\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X/PIC16F877a_I2C.h
-C0C text27 CODE >47:C:\Users\Emmanuel Olateju\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X/PIC16F877a_I2C.h
-C0C text27 CODE >48:C:\Users\Emmanuel Olateju\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X/PIC16F877a_I2C.h
-5F1 text26 CODE >28:C:\Users\Emmanuel Olateju\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X/PIC16F877a_DS3231.h
-5F1 text26 CODE >30:C:\Users\Emmanuel Olateju\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X/PIC16F877a_DS3231.h
-5F6 text26 CODE >31:C:\Users\Emmanuel Olateju\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X/PIC16F877a_DS3231.h
-601 text26 CODE >32:C:\Users\Emmanuel Olateju\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X/PIC16F877a_DS3231.h
-60B text26 CODE >33:C:\Users\Emmanuel Olateju\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X/PIC16F877a_DS3231.h
-621 text26 CODE >34:C:\Users\Emmanuel Olateju\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X/PIC16F877a_DS3231.h
-637 text26 CODE >35:C:\Users\Emmanuel Olateju\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X/PIC16F877a_DS3231.h
-64D text26 CODE >36:C:\Users\Emmanuel Olateju\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X/PIC16F877a_DS3231.h
-658 text26 CODE >37:C:\Users\Emmanuel Olateju\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X/PIC16F877a_DS3231.h
-663 text26 CODE >38:C:\Users\Emmanuel Olateju\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X/PIC16F877a_DS3231.h
-66E text26 CODE >39:C:\Users\Emmanuel Olateju\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X/PIC16F877a_DS3231.h
-679 text26 CODE >40:C:\Users\Emmanuel Olateju\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X/PIC16F877a_DS3231.h
-67E text26 CODE >41:C:\Users\Emmanuel Olateju\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X/PIC16F877a_DS3231.h
-78C text25 CODE >53:C:\Users\Emmanuel Olateju\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X\main.c
-78C text25 CODE >54:C:\Users\Emmanuel Olateju\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X\main.c
-78D text25 CODE >55:C:\Users\Emmanuel Olateju\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X\main.c
-79B text25 CODE >56:C:\Users\Emmanuel Olateju\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X\main.c
-79F text25 CODE >57:C:\Users\Emmanuel Olateju\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X\main.c
-7A5 text25 CODE >58:C:\Users\Emmanuel Olateju\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X\main.c
-7BD text25 CODE >59:C:\Users\Emmanuel Olateju\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X\main.c
-7C1 text25 CODE >61:C:\Users\Emmanuel Olateju\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X\main.c
-7C7 text25 CODE >62:C:\Users\Emmanuel Olateju\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X\main.c
-7DD text25 CODE >63:C:\Users\Emmanuel Olateju\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X\main.c
-7E1 text25 CODE >65:C:\Users\Emmanuel Olateju\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X\main.c
-7E2 text25 CODE >66:C:\Users\Emmanuel Olateju\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X\main.c
-7E3 text25 CODE >67:C:\Users\Emmanuel Olateju\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X\main.c
-7E5 text25 CODE >68:C:\Users\Emmanuel Olateju\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X\main.c
-7E9 text25 CODE >69:C:\Users\Emmanuel Olateju\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X\main.c
-7EA text25 CODE >70:C:\Users\Emmanuel Olateju\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X\main.c
-7EF text25 CODE >71:C:\Users\Emmanuel Olateju\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X\main.c
-7F0 text25 CODE >72:C:\Users\Emmanuel Olateju\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X\main.c
-7F3 text25 CODE >73:C:\Users\Emmanuel Olateju\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X\main.c
-BC0 text24 CODE >38:C:\Users\Emmanuel Olateju\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X/LCDLIBRARY1.h
-BC0 text24 CODE >40:C:\Users\Emmanuel Olateju\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X/LCDLIBRARY1.h
-BCB text24 CODE >43:C:\Users\Emmanuel Olateju\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X/LCDLIBRARY1.h
-C1C text23 CODE >45:C:\Users\Emmanuel Olateju\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X/LCDLIBRARY1.h
-C1C text23 CODE >47:C:\Users\Emmanuel Olateju\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X/LCDLIBRARY1.h
-C1F text23 CODE >48:C:\Users\Emmanuel Olateju\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X/LCDLIBRARY1.h
-C24 text23 CODE >49:C:\Users\Emmanuel Olateju\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X/LCDLIBRARY1.h
-C27 text23 CODE >50:C:\Users\Emmanuel Olateju\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X/LCDLIBRARY1.h
-C2C text23 CODE >53:C:\Users\Emmanuel Olateju\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X/LCDLIBRARY1.h
-BCC text22 CODE >31:C:\Users\Emmanuel Olateju\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X/LCDLIBRARY1.h
-BCC text22 CODE >33:C:\Users\Emmanuel Olateju\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X/LCDLIBRARY1.h
-BD7 text22 CODE >36:C:\Users\Emmanuel Olateju\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X/LCDLIBRARY1.h
-C2D text21 CODE >157:C:\Users\Emmanuel Olateju\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X/LCDLIBRARY1.h
-C2D text21 CODE >159:C:\Users\Emmanuel Olateju\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X/LCDLIBRARY1.h
-C31 text21 CODE >160:C:\Users\Emmanuel Olateju\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X/LCDLIBRARY1.h
-C34 text21 CODE >161:C:\Users\Emmanuel Olateju\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X/LCDLIBRARY1.h
-C39 text21 CODE >162:C:\Users\Emmanuel Olateju\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X/LCDLIBRARY1.h
-C3F text21 CODE >163:C:\Users\Emmanuel Olateju\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X/LCDLIBRARY1.h
-C44 text21 CODE >164:C:\Users\Emmanuel Olateju\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X/LCDLIBRARY1.h
-C49 text21 CODE >167:C:\Users\Emmanuel Olateju\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X/LCDLIBRARY1.h
-C4A text20 CODE >139:C:\Users\Emmanuel Olateju\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X/LCDLIBRARY1.h
-C4D text20 CODE >141:C:\Users\Emmanuel Olateju\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X/LCDLIBRARY1.h
-C4F text20 CODE >143:C:\Users\Emmanuel Olateju\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X/LCDLIBRARY1.h
-C5D text20 CODE >144:C:\Users\Emmanuel Olateju\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X/LCDLIBRARY1.h
-C62 text20 CODE >145:C:\Users\Emmanuel Olateju\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X/LCDLIBRARY1.h
-C68 text20 CODE >146:C:\Users\Emmanuel Olateju\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X/LCDLIBRARY1.h
-C6D text20 CODE >155:C:\Users\Emmanuel Olateju\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X/LCDLIBRARY1.h
-F2F text19 CODE >5:C:\Program Files\Microchip\xc8\v2.31\pic\sources\c90\common\__lldiv.c
-F2F text19 CODE >13:C:\Program Files\Microchip\xc8\v2.31\pic\sources\c90\common\__lldiv.c
-F39 text19 CODE >14:C:\Program Files\Microchip\xc8\v2.31\pic\sources\c90\common\__lldiv.c
-F41 text19 CODE >15:C:\Program Files\Microchip\xc8\v2.31\pic\sources\c90\common\__lldiv.c
-F43 text19 CODE >16:C:\Program Files\Microchip\xc8\v2.31\pic\sources\c90\common\__lldiv.c
-F44 text19 CODE >17:C:\Program Files\Microchip\xc8\v2.31\pic\sources\c90\common\__lldiv.c
-F4D text19 CODE >18:C:\Program Files\Microchip\xc8\v2.31\pic\sources\c90\common\__lldiv.c
-F51 text19 CODE >16:C:\Program Files\Microchip\xc8\v2.31\pic\sources\c90\common\__lldiv.c
-F55 text19 CODE >21:C:\Program Files\Microchip\xc8\v2.31\pic\sources\c90\common\__lldiv.c
-F5E text19 CODE >22:C:\Program Files\Microchip\xc8\v2.31\pic\sources\c90\common\__lldiv.c
-F70 text19 CODE >23:C:\Program Files\Microchip\xc8\v2.31\pic\sources\c90\common\__lldiv.c
-F7E text19 CODE >24:C:\Program Files\Microchip\xc8\v2.31\pic\sources\c90\common\__lldiv.c
-F7F text19 CODE >26:C:\Program Files\Microchip\xc8\v2.31\pic\sources\c90\common\__lldiv.c
-F88 text19 CODE >27:C:\Program Files\Microchip\xc8\v2.31\pic\sources\c90\common\__lldiv.c
-F8E text19 CODE >29:C:\Program Files\Microchip\xc8\v2.31\pic\sources\c90\common\__lldiv.c
-F96 text19 CODE >30:C:\Program Files\Microchip\xc8\v2.31\pic\sources\c90\common\__lldiv.c
-D52 text18 CODE >10:C:\Users\Emmanuel Olateju\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X/PIC16F877a_I2C.h
-D52 text18 CODE >12:C:\Users\Emmanuel Olateju\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X/PIC16F877a_I2C.h
-D56 text18 CODE >13:C:\Users\Emmanuel Olateju\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X/PIC16F877a_I2C.h
-D59 text18 CODE >14:C:\Users\Emmanuel Olateju\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X/PIC16F877a_I2C.h
-D5A text18 CODE >15:C:\Users\Emmanuel Olateju\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X/PIC16F877a_I2C.h
-D89 text18 CODE >16:C:\Users\Emmanuel Olateju\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X/PIC16F877a_I2C.h
-D8B text18 CODE >17:C:\Users\Emmanuel Olateju\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X/PIC16F877a_I2C.h
-C95 text17 CODE >55:C:\Users\Emmanuel Olateju\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X/LCDLIBRARY1.h
-C98 text17 CODE >56:C:\Users\Emmanuel Olateju\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X/LCDLIBRARY1.h
-CA5 text17 CODE >57:C:\Users\Emmanuel Olateju\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X/LCDLIBRARY1.h
-CAA text17 CODE >58:C:\Users\Emmanuel Olateju\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X/LCDLIBRARY1.h
-CAB text17 CODE >59:C:\Users\Emmanuel Olateju\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X/LCDLIBRARY1.h
-CAF text17 CODE >60:C:\Users\Emmanuel Olateju\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X/LCDLIBRARY1.h
-CB4 text17 CODE >61:C:\Users\Emmanuel Olateju\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X/LCDLIBRARY1.h
-CBA text17 CODE >62:C:\Users\Emmanuel Olateju\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X/LCDLIBRARY1.h
-CBF text17 CODE >63:C:\Users\Emmanuel Olateju\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X/LCDLIBRARY1.h
-F97 text16 CODE >5:C:\Program Files\Microchip\xc8\v2.31\pic\sources\c90\common\awdiv.c
-F97 text16 CODE >13:C:\Program Files\Microchip\xc8\v2.31\pic\sources\c90\common\awdiv.c
-F9A text16 CODE >14:C:\Program Files\Microchip\xc8\v2.31\pic\sources\c90\common\awdiv.c
-F9E text16 CODE >15:C:\Program Files\Microchip\xc8\v2.31\pic\sources\c90\common\awdiv.c
-FA3 text16 CODE >16:C:\Program Files\Microchip\xc8\v2.31\pic\sources\c90\common\awdiv.c
-FA5 text16 CODE >18:C:\Program Files\Microchip\xc8\v2.31\pic\sources\c90\common\awdiv.c
-FA9 text16 CODE >19:C:\Program Files\Microchip\xc8\v2.31\pic\sources\c90\common\awdiv.c
-FAE text16 CODE >20:C:\Program Files\Microchip\xc8\v2.31\pic\sources\c90\common\awdiv.c
-FB2 text16 CODE >22:C:\Program Files\Microchip\xc8\v2.31\pic\sources\c90\common\awdiv.c
-FB4 text16 CODE >23:C:\Program Files\Microchip\xc8\v2.31\pic\sources\c90\common\awdiv.c
-FBA text16 CODE >24:C:\Program Files\Microchip\xc8\v2.31\pic\sources\c90\common\awdiv.c
-FBC text16 CODE >25:C:\Program Files\Microchip\xc8\v2.31\pic\sources\c90\common\awdiv.c
-FBD text16 CODE >26:C:\Program Files\Microchip\xc8\v2.31\pic\sources\c90\common\awdiv.c
-FC4 text16 CODE >27:C:\Program Files\Microchip\xc8\v2.31\pic\sources\c90\common\awdiv.c
-FC8 text16 CODE >25:C:\Program Files\Microchip\xc8\v2.31\pic\sources\c90\common\awdiv.c
-FCC text16 CODE >30:C:\Program Files\Microchip\xc8\v2.31\pic\sources\c90\common\awdiv.c
-FD3 text16 CODE >31:C:\Program Files\Microchip\xc8\v2.31\pic\sources\c90\common\awdiv.c
-FDD text16 CODE >32:C:\Program Files\Microchip\xc8\v2.31\pic\sources\c90\common\awdiv.c
-FE3 text16 CODE >33:C:\Program Files\Microchip\xc8\v2.31\pic\sources\c90\common\awdiv.c
-FE4 text16 CODE >35:C:\Program Files\Microchip\xc8\v2.31\pic\sources\c90\common\awdiv.c
-FEB text16 CODE >36:C:\Program Files\Microchip\xc8\v2.31\pic\sources\c90\common\awdiv.c
-FF1 text16 CODE >38:C:\Program Files\Microchip\xc8\v2.31\pic\sources\c90\common\awdiv.c
-FF6 text16 CODE >39:C:\Program Files\Microchip\xc8\v2.31\pic\sources\c90\common\awdiv.c
-FFB text16 CODE >40:C:\Program Files\Microchip\xc8\v2.31\pic\sources\c90\common\awdiv.c
-FFF text16 CODE >41:C:\Program Files\Microchip\xc8\v2.31\pic\sources\c90\common\awdiv.c
-E6D text15 CODE >5:C:\Program Files\Microchip\xc8\v2.31\pic\sources\c90\common\awmod.c
-E6D text15 CODE >12:C:\Program Files\Microchip\xc8\v2.31\pic\sources\c90\common\awmod.c
-E70 text15 CODE >13:C:\Program Files\Microchip\xc8\v2.31\pic\sources\c90\common\awmod.c
-E74 text15 CODE >14:C:\Program Files\Microchip\xc8\v2.31\pic\sources\c90\common\awmod.c
-E79 text15 CODE >15:C:\Program Files\Microchip\xc8\v2.31\pic\sources\c90\common\awmod.c
-E7B text15 CODE >17:C:\Program Files\Microchip\xc8\v2.31\pic\sources\c90\common\awmod.c
-E7F text15 CODE >18:C:\Program Files\Microchip\xc8\v2.31\pic\sources\c90\common\awmod.c
-E84 text15 CODE >19:C:\Program Files\Microchip\xc8\v2.31\pic\sources\c90\common\awmod.c
-E8A text15 CODE >20:C:\Program Files\Microchip\xc8\v2.31\pic\sources\c90\common\awmod.c
-E8C text15 CODE >21:C:\Program Files\Microchip\xc8\v2.31\pic\sources\c90\common\awmod.c
-E8D text15 CODE >22:C:\Program Files\Microchip\xc8\v2.31\pic\sources\c90\common\awmod.c
-E94 text15 CODE >23:C:\Program Files\Microchip\xc8\v2.31\pic\sources\c90\common\awmod.c
-E98 text15 CODE >21:C:\Program Files\Microchip\xc8\v2.31\pic\sources\c90\common\awmod.c
-E9C text15 CODE >26:C:\Program Files\Microchip\xc8\v2.31\pic\sources\c90\common\awmod.c
-EA6 text15 CODE >27:C:\Program Files\Microchip\xc8\v2.31\pic\sources\c90\common\awmod.c
-EAC text15 CODE >28:C:\Program Files\Microchip\xc8\v2.31\pic\sources\c90\common\awmod.c
-EB3 text15 CODE >29:C:\Program Files\Microchip\xc8\v2.31\pic\sources\c90\common\awmod.c
-EB9 text15 CODE >31:C:\Program Files\Microchip\xc8\v2.31\pic\sources\c90\common\awmod.c
-EBE text15 CODE >32:C:\Program Files\Microchip\xc8\v2.31\pic\sources\c90\common\awmod.c
-EC3 text15 CODE >33:C:\Program Files\Microchip\xc8\v2.31\pic\sources\c90\common\awmod.c
-EC7 text15 CODE >34:C:\Program Files\Microchip\xc8\v2.31\pic\sources\c90\common\awmod.c
-C6E text14 CODE >15:C:\Program Files\Microchip\xc8\v2.31\pic\sources\c90\common\Umul16.c
-C6E text14 CODE >43:C:\Program Files\Microchip\xc8\v2.31\pic\sources\c90\common\Umul16.c
-C72 text14 CODE >45:C:\Program Files\Microchip\xc8\v2.31\pic\sources\c90\common\Umul16.c
-C76 text14 CODE >46:C:\Program Files\Microchip\xc8\v2.31\pic\sources\c90\common\Umul16.c
-C7C text14 CODE >47:C:\Program Files\Microchip\xc8\v2.31\pic\sources\c90\common\Umul16.c
-C83 text14 CODE >48:C:\Program Files\Microchip\xc8\v2.31\pic\sources\c90\common\Umul16.c
-C8A text14 CODE >49:C:\Program Files\Microchip\xc8\v2.31\pic\sources\c90\common\Umul16.c
-C90 text14 CODE >52:C:\Program Files\Microchip\xc8\v2.31\pic\sources\c90\common\Umul16.c
-C94 text14 CODE >53:C:\Program Files\Microchip\xc8\v2.31\pic\sources\c90\common\Umul16.c
-3D5 text13 CODE >65:C:\Users\Emmanuel Olateju\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X/LCDLIBRARY1.h
-3D5 text13 CODE >66:C:\Users\Emmanuel Olateju\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X/LCDLIBRARY1.h
-3E4 text13 CODE >67:C:\Users\Emmanuel Olateju\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X/LCDLIBRARY1.h
-3FA text13 CODE >68:C:\Users\Emmanuel Olateju\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X/LCDLIBRARY1.h
-40D text13 CODE >69:C:\Users\Emmanuel Olateju\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X/LCDLIBRARY1.h
-420 text13 CODE >70:C:\Users\Emmanuel Olateju\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X/LCDLIBRARY1.h
-428 text13 CODE >71:C:\Users\Emmanuel Olateju\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X/LCDLIBRARY1.h
-43C text13 CODE >72:C:\Users\Emmanuel Olateju\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X/LCDLIBRARY1.h
-450 text13 CODE >73:C:\Users\Emmanuel Olateju\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X/LCDLIBRARY1.h
-456 text13 CODE >74:C:\Users\Emmanuel Olateju\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X/LCDLIBRARY1.h
-45E text13 CODE >75:C:\Users\Emmanuel Olateju\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X/LCDLIBRARY1.h
-466 text13 CODE >76:C:\Users\Emmanuel Olateju\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X/LCDLIBRARY1.h
-476 text13 CODE >77:C:\Users\Emmanuel Olateju\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X/LCDLIBRARY1.h
-48C text13 CODE >78:C:\Users\Emmanuel Olateju\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X/LCDLIBRARY1.h
-4A0 text13 CODE >79:C:\Users\Emmanuel Olateju\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X/LCDLIBRARY1.h
-4A6 text13 CODE >80:C:\Users\Emmanuel Olateju\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X/LCDLIBRARY1.h
-4AE text13 CODE >81:C:\Users\Emmanuel Olateju\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X/LCDLIBRARY1.h
-4AF text13 CODE >82:C:\Users\Emmanuel Olateju\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X/LCDLIBRARY1.h
-4B5 text13 CODE >83:C:\Users\Emmanuel Olateju\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X/LCDLIBRARY1.h
-4BE text13 CODE >85:C:\Users\Emmanuel Olateju\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X/LCDLIBRARY1.h
-DC6 text12 CODE >87:C:\Users\Emmanuel Olateju\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X/LCDLIBRARY1.h
-DC9 text12 CODE >90:C:\Users\Emmanuel Olateju\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X/LCDLIBRARY1.h
-DCB text12 CODE >92:C:\Users\Emmanuel Olateju\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X/LCDLIBRARY1.h
-DDF text12 CODE >93:C:\Users\Emmanuel Olateju\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X/LCDLIBRARY1.h
-DEB text12 CODE >94:C:\Users\Emmanuel Olateju\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X/LCDLIBRARY1.h
-DEC text12 CODE >96:C:\Users\Emmanuel Olateju\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X/LCDLIBRARY1.h
-DF0 text12 CODE >97:C:\Users\Emmanuel Olateju\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X/LCDLIBRARY1.h
-DF5 text12 CODE >98:C:\Users\Emmanuel Olateju\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X/LCDLIBRARY1.h
-DFB text12 CODE >99:C:\Users\Emmanuel Olateju\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X/LCDLIBRARY1.h
-E00 text12 CODE >100:C:\Users\Emmanuel Olateju\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X/LCDLIBRARY1.h
-E13 text12 CODE >102:C:\Users\Emmanuel Olateju\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X/LCDLIBRARY1.h
-D8C text11 CODE >22:C:\Users\Emmanuel Olateju\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X/PIC16F877a_DS3231.h
-D8C text11 CODE >24:C:\Users\Emmanuel Olateju\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X/PIC16F877a_DS3231.h
-DC1 text11 CODE >25:C:\Users\Emmanuel Olateju\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X/PIC16F877a_DS3231.h
-DC5 text11 CODE >26:C:\Users\Emmanuel Olateju\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X/PIC16F877a_DS3231.h
-BF1 text10 CODE >19:C:\Users\Emmanuel Olateju\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X/PIC16F877a_I2C.h
-BF1 text10 CODE >21:C:\Users\Emmanuel Olateju\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X/PIC16F877a_I2C.h
-BFD text10 CODE >22:C:\Users\Emmanuel Olateju\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X/PIC16F877a_I2C.h
-BA5 text9 CODE >24:C:\Users\Emmanuel Olateju\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X/PIC16F877a_I2C.h
-BA5 text9 CODE >26:C:\Users\Emmanuel Olateju\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X/PIC16F877a_I2C.h
-BAA text9 CODE >27:C:\Users\Emmanuel Olateju\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X/PIC16F877a_I2C.h
-BAD text9 CODE >28:C:\Users\Emmanuel Olateju\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X/PIC16F877a_I2C.h
-BAE text8 CODE >35:C:\Users\Emmanuel Olateju\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X/PIC16F877a_I2C.h
-BAE text8 CODE >37:C:\Users\Emmanuel Olateju\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X/PIC16F877a_I2C.h
-BB3 text8 CODE >38:C:\Users\Emmanuel Olateju\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X/PIC16F877a_I2C.h
-BB6 text8 CODE >39:C:\Users\Emmanuel Olateju\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X/PIC16F877a_I2C.h
-C0D text7 CODE >42:C:\Users\Emmanuel Olateju\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X/PIC16F877a_I2C.h
-C0D text7 CODE >44:C:\Users\Emmanuel Olateju\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X/PIC16F877a_I2C.h
-C12 text7 CODE >45:C:\Users\Emmanuel Olateju\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X/PIC16F877a_I2C.h
-C16 text7 CODE >46:C:\Users\Emmanuel Olateju\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X/PIC16F877a_I2C.h
-C1B text7 CODE >47:C:\Users\Emmanuel Olateju\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X/PIC16F877a_I2C.h
-C1B text7 CODE >48:C:\Users\Emmanuel Olateju\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X/PIC16F877a_I2C.h
-563 text6 CODE >28:C:\Users\Emmanuel Olateju\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X/PIC16F877a_DS3231.h
-563 text6 CODE >30:C:\Users\Emmanuel Olateju\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X/PIC16F877a_DS3231.h
-568 text6 CODE >31:C:\Users\Emmanuel Olateju\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X/PIC16F877a_DS3231.h
-573 text6 CODE >32:C:\Users\Emmanuel Olateju\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X/PIC16F877a_DS3231.h
-57D text6 CODE >33:C:\Users\Emmanuel Olateju\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X/PIC16F877a_DS3231.h
-593 text6 CODE >34:C:\Users\Emmanuel Olateju\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X/PIC16F877a_DS3231.h
-5A9 text6 CODE >35:C:\Users\Emmanuel Olateju\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X/PIC16F877a_DS3231.h
-5BF text6 CODE >36:C:\Users\Emmanuel Olateju\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X/PIC16F877a_DS3231.h
-5CA text6 CODE >37:C:\Users\Emmanuel Olateju\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X/PIC16F877a_DS3231.h
-5D5 text6 CODE >38:C:\Users\Emmanuel Olateju\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X/PIC16F877a_DS3231.h
-5E0 text6 CODE >39:C:\Users\Emmanuel Olateju\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X/PIC16F877a_DS3231.h
-5EB text6 CODE >40:C:\Users\Emmanuel Olateju\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X/PIC16F877a_DS3231.h
-5F0 text6 CODE >41:C:\Users\Emmanuel Olateju\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X/PIC16F877a_DS3231.h
-CC0 text5 CODE >16:C:\Users\Emmanuel Olateju\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X/PIC16F877a_DS3231.h
-CC0 text5 CODE >18:C:\Users\Emmanuel Olateju\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X/PIC16F877a_DS3231.h
-CE8 text5 CODE >19:C:\Users\Emmanuel Olateju\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X/PIC16F877a_DS3231.h
-CEC text5 CODE >20:C:\Users\Emmanuel Olateju\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X/PIC16F877a_DS3231.h
-CED text4 CODE >50:C:\Users\Emmanuel Olateju\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X/PIC16F877a_I2C.h
-CED text4 CODE >53:C:\Users\Emmanuel Olateju\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X/PIC16F877a_I2C.h
-CF2 text4 CODE >54:C:\Users\Emmanuel Olateju\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X/PIC16F877a_I2C.h
-CF5 text4 CODE >55:C:\Users\Emmanuel Olateju\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X/PIC16F877a_I2C.h
-CFA text4 CODE >56:C:\Users\Emmanuel Olateju\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X/PIC16F877a_I2C.h
-D03 text4 CODE >57:C:\Users\Emmanuel Olateju\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X/PIC16F877a_I2C.h
-D08 text4 CODE >58:C:\Users\Emmanuel Olateju\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X/PIC16F877a_I2C.h
-D14 text4 CODE >59:C:\Users\Emmanuel Olateju\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X/PIC16F877a_I2C.h
-D15 text4 CODE >60:C:\Users\Emmanuel Olateju\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X/PIC16F877a_I2C.h
-D1B text4 CODE >61:C:\Users\Emmanuel Olateju\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X/PIC16F877a_I2C.h
-BB7 text3 CODE >30:C:\Users\Emmanuel Olateju\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X/PIC16F877a_I2C.h
-BB7 text3 CODE >31:C:\Users\Emmanuel Olateju\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X/PIC16F877a_I2C.h
-BBC text3 CODE >32:C:\Users\Emmanuel Olateju\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X/PIC16F877a_I2C.h
-BBF text3 CODE >33:C:\Users\Emmanuel Olateju\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X/PIC16F877a_I2C.h
-4BF text2 CODE >43:C:\Users\Emmanuel Olateju\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X/PIC16F877a_DS3231.h
-4BF text2 CODE >45:C:\Users\Emmanuel Olateju\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X/PIC16F877a_DS3231.h
-4C4 text2 CODE >46:C:\Users\Emmanuel Olateju\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X/PIC16F877a_DS3231.h
-4CF text2 CODE >47:C:\Users\Emmanuel Olateju\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X/PIC16F877a_DS3231.h
-4D9 text2 CODE >48:C:\Users\Emmanuel Olateju\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X/PIC16F877a_DS3231.h
-4DE text2 CODE >49:C:\Users\Emmanuel Olateju\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X/PIC16F877a_DS3231.h
-4E9 text2 CODE >50:C:\Users\Emmanuel Olateju\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X/PIC16F877a_DS3231.h
-504 text2 CODE >51:C:\Users\Emmanuel Olateju\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X/PIC16F877a_DS3231.h
-51D text2 CODE >52:C:\Users\Emmanuel Olateju\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X/PIC16F877a_DS3231.h
-536 text2 CODE >53:C:\Users\Emmanuel Olateju\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X/PIC16F877a_DS3231.h
-53E text2 CODE >54:C:\Users\Emmanuel Olateju\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X/PIC16F877a_DS3231.h
-548 text2 CODE >55:C:\Users\Emmanuel Olateju\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X/PIC16F877a_DS3231.h
-552 text2 CODE >56:C:\Users\Emmanuel Olateju\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X/PIC16F877a_DS3231.h
-55D text2 CODE >57:C:\Users\Emmanuel Olateju\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X/PIC16F877a_DS3231.h
-562 text2 CODE >58:C:\Users\Emmanuel Olateju\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X/PIC16F877a_DS3231.h
-67F text1 CODE >180:C:\Users\Emmanuel Olateju\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X/LCDLIBRARY1.h
-67F text1 CODE >182:C:\Users\Emmanuel Olateju\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X/LCDLIBRARY1.h
-685 text1 CODE >183:C:\Users\Emmanuel Olateju\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X/LCDLIBRARY1.h
-687 text1 CODE >184:C:\Users\Emmanuel Olateju\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X/LCDLIBRARY1.h
-68C text1 CODE >185:C:\Users\Emmanuel Olateju\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X/LCDLIBRARY1.h
-691 text1 CODE >187:C:\Users\Emmanuel Olateju\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X/LCDLIBRARY1.h
-695 text1 CODE >188:C:\Users\Emmanuel Olateju\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X/LCDLIBRARY1.h
-69A text1 CODE >189:C:\Users\Emmanuel Olateju\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X/LCDLIBRARY1.h
-69F text1 CODE >191:C:\Users\Emmanuel Olateju\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X/LCDLIBRARY1.h
-6A3 text1 CODE >192:C:\Users\Emmanuel Olateju\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X/LCDLIBRARY1.h
-6A8 text1 CODE >193:C:\Users\Emmanuel Olateju\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X/LCDLIBRARY1.h
-6AD text1 CODE >195:C:\Users\Emmanuel Olateju\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X/LCDLIBRARY1.h
-6B1 text1 CODE >196:C:\Users\Emmanuel Olateju\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X/LCDLIBRARY1.h
-6B6 text1 CODE >197:C:\Users\Emmanuel Olateju\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X/LCDLIBRARY1.h
-6BB text1 CODE >199:C:\Users\Emmanuel Olateju\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X/LCDLIBRARY1.h
-6BE text1 CODE >200:C:\Users\Emmanuel Olateju\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X/LCDLIBRARY1.h
-6C3 text1 CODE >201:C:\Users\Emmanuel Olateju\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X/LCDLIBRARY1.h
-6C7 text1 CODE >202:C:\Users\Emmanuel Olateju\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X/LCDLIBRARY1.h
-6CC text1 CODE >203:C:\Users\Emmanuel Olateju\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X/LCDLIBRARY1.h
-6D1 text1 CODE >205:C:\Users\Emmanuel Olateju\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X/LCDLIBRARY1.h
-6D4 text1 CODE >206:C:\Users\Emmanuel Olateju\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X/LCDLIBRARY1.h
-6D9 text1 CODE >207:C:\Users\Emmanuel Olateju\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X/LCDLIBRARY1.h
-6DD text1 CODE >208:C:\Users\Emmanuel Olateju\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X/LCDLIBRARY1.h
-6E2 text1 CODE >209:C:\Users\Emmanuel Olateju\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X/LCDLIBRARY1.h
-6E7 text1 CODE >212:C:\Users\Emmanuel Olateju\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X/LCDLIBRARY1.h
-3F maintext CODE >74:C:\Users\Emmanuel Olateju\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X\main.c
-3F maintext CODE >75:C:\Users\Emmanuel Olateju\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X\main.c
-42 maintext CODE >76:C:\Users\Emmanuel Olateju\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X\main.c
-45 maintext CODE >77:C:\Users\Emmanuel Olateju\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X\main.c
-49 maintext CODE >78:C:\Users\Emmanuel Olateju\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X\main.c
-4D maintext CODE >79:C:\Users\Emmanuel Olateju\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X\main.c
-51 maintext CODE >80:C:\Users\Emmanuel Olateju\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X\main.c
-53 maintext CODE >81:C:\Users\Emmanuel Olateju\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X\main.c
-56 maintext CODE >82:C:\Users\Emmanuel Olateju\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X\main.c
-58 maintext CODE >83:C:\Users\Emmanuel Olateju\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X\main.c
-59 maintext CODE >84:C:\Users\Emmanuel Olateju\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X\main.c
-5D maintext CODE >85:C:\Users\Emmanuel Olateju\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X\main.c
-5E maintext CODE >86:C:\Users\Emmanuel Olateju\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X\main.c
-62 maintext CODE >87:C:\Users\Emmanuel Olateju\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X\main.c
-66 maintext CODE >88:C:\Users\Emmanuel Olateju\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X\main.c
-69 maintext CODE >89:C:\Users\Emmanuel Olateju\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X\main.c
-6A maintext CODE >90:C:\Users\Emmanuel Olateju\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X\main.c
-6B maintext CODE >91:C:\Users\Emmanuel Olateju\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X\main.c
-6C maintext CODE >92:C:\Users\Emmanuel Olateju\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X\main.c
-6F maintext CODE >93:C:\Users\Emmanuel Olateju\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X\main.c
-72 maintext CODE >94:C:\Users\Emmanuel Olateju\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X\main.c
-73 maintext CODE >95:C:\Users\Emmanuel Olateju\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X\main.c
-74 maintext CODE >96:C:\Users\Emmanuel Olateju\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X\main.c
-75 maintext CODE >97:C:\Users\Emmanuel Olateju\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X\main.c
-84 maintext CODE >98:C:\Users\Emmanuel Olateju\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X\main.c
-89 maintext CODE >99:C:\Users\Emmanuel Olateju\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X\main.c
-8E maintext CODE >100:C:\Users\Emmanuel Olateju\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X\main.c
-93 maintext CODE >101:C:\Users\Emmanuel Olateju\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X\main.c
-97 maintext CODE >102:C:\Users\Emmanuel Olateju\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X\main.c
-9B maintext CODE >103:C:\Users\Emmanuel Olateju\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X\main.c
-A0 maintext CODE >104:C:\Users\Emmanuel Olateju\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X\main.c
-AE maintext CODE >105:C:\Users\Emmanuel Olateju\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X\main.c
-B4 maintext CODE >108:C:\Users\Emmanuel Olateju\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X\main.c
-C2 maintext CODE >109:C:\Users\Emmanuel Olateju\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X\main.c
-CD maintext CODE >110:C:\Users\Emmanuel Olateju\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X\main.c
-D3 maintext CODE >111:C:\Users\Emmanuel Olateju\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X\main.c
-DE maintext CODE >112:C:\Users\Emmanuel Olateju\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X\main.c
-E4 maintext CODE >113:C:\Users\Emmanuel Olateju\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X\main.c
-EF maintext CODE >114:C:\Users\Emmanuel Olateju\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X\main.c
-F6 maintext CODE >115:C:\Users\Emmanuel Olateju\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X\main.c
-115 maintext CODE >116:C:\Users\Emmanuel Olateju\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X\main.c
-123 maintext CODE >117:C:\Users\Emmanuel Olateju\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X\main.c
-127 maintext CODE >118:C:\Users\Emmanuel Olateju\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X\main.c
-12E maintext CODE >119:C:\Users\Emmanuel Olateju\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X\main.c
-131 maintext CODE >120:C:\Users\Emmanuel Olateju\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X\main.c
-135 maintext CODE >121:C:\Users\Emmanuel Olateju\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X\main.c
-13D maintext CODE >122:C:\Users\Emmanuel Olateju\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X\main.c
-144 maintext CODE >123:C:\Users\Emmanuel Olateju\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X\main.c
-14A maintext CODE >124:C:\Users\Emmanuel Olateju\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X\main.c
-151 maintext CODE >125:C:\Users\Emmanuel Olateju\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X\main.c
-154 maintext CODE >126:C:\Users\Emmanuel Olateju\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X\main.c
-158 maintext CODE >127:C:\Users\Emmanuel Olateju\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X\main.c
-160 maintext CODE >128:C:\Users\Emmanuel Olateju\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X\main.c
-167 maintext CODE >129:C:\Users\Emmanuel Olateju\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X\main.c
-16D maintext CODE >130:C:\Users\Emmanuel Olateju\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X\main.c
-174 maintext CODE >131:C:\Users\Emmanuel Olateju\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X\main.c
-177 maintext CODE >132:C:\Users\Emmanuel Olateju\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X\main.c
-17B maintext CODE >133:C:\Users\Emmanuel Olateju\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X\main.c
-183 maintext CODE >134:C:\Users\Emmanuel Olateju\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X\main.c
-18A maintext CODE >135:C:\Users\Emmanuel Olateju\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X\main.c
-190 maintext CODE >136:C:\Users\Emmanuel Olateju\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X\main.c
-197 maintext CODE >137:C:\Users\Emmanuel Olateju\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X\main.c
-19A maintext CODE >138:C:\Users\Emmanuel Olateju\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X\main.c
-19E maintext CODE >139:C:\Users\Emmanuel Olateju\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X\main.c
-1A6 maintext CODE >140:C:\Users\Emmanuel Olateju\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X\main.c
-1AD maintext CODE >141:C:\Users\Emmanuel Olateju\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X\main.c
-1B2 maintext CODE >142:C:\Users\Emmanuel Olateju\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X\main.c
-1CE maintext CODE >143:C:\Users\Emmanuel Olateju\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X\main.c
-1F1 maintext CODE >144:C:\Users\Emmanuel Olateju\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X\main.c
-209 maintext CODE >145:C:\Users\Emmanuel Olateju\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X\main.c
-219 maintext CODE >146:C:\Users\Emmanuel Olateju\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X\main.c
-219 maintext CODE >147:C:\Users\Emmanuel Olateju\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X\main.c
-21A maintext CODE >148:C:\Users\Emmanuel Olateju\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X\main.c
-225 maintext CODE >149:C:\Users\Emmanuel Olateju\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X\main.c
-22C maintext CODE >150:C:\Users\Emmanuel Olateju\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X\main.c
-239 maintext CODE >151:C:\Users\Emmanuel Olateju\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X\main.c
-23F maintext CODE >152:C:\Users\Emmanuel Olateju\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X\main.c
-24F maintext CODE >153:C:\Users\Emmanuel Olateju\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X\main.c
-255 maintext CODE >154:C:\Users\Emmanuel Olateju\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X\main.c
-265 maintext CODE >155:C:\Users\Emmanuel Olateju\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X\main.c
-26B maintext CODE >156:C:\Users\Emmanuel Olateju\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X\main.c
-26C maintext CODE >157:C:\Users\Emmanuel Olateju\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X\main.c
-272 maintext CODE >159:C:\Users\Emmanuel Olateju\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X\main.c
-273 maintext CODE >161:C:\Users\Emmanuel Olateju\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X\main.c
-279 maintext CODE >162:C:\Users\Emmanuel Olateju\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X\main.c
-286 maintext CODE >163:C:\Users\Emmanuel Olateju\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X\main.c
-28C maintext CODE >164:C:\Users\Emmanuel Olateju\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X\main.c
-29C maintext CODE >165:C:\Users\Emmanuel Olateju\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X\main.c
-2A2 maintext CODE >166:C:\Users\Emmanuel Olateju\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X\main.c
-2B2 maintext CODE >167:C:\Users\Emmanuel Olateju\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X\main.c
-2B8 maintext CODE >168:C:\Users\Emmanuel Olateju\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X\main.c
-2B9 maintext CODE >169:C:\Users\Emmanuel Olateju\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X\main.c
-2BF maintext CODE >171:C:\Users\Emmanuel Olateju\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X\main.c
-2C0 maintext CODE >173:C:\Users\Emmanuel Olateju\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X\main.c
-2C6 maintext CODE >174:C:\Users\Emmanuel Olateju\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X\main.c
-2D3 maintext CODE >175:C:\Users\Emmanuel Olateju\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X\main.c
-2D9 maintext CODE >176:C:\Users\Emmanuel Olateju\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X\main.c
-2E9 maintext CODE >177:C:\Users\Emmanuel Olateju\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X\main.c
-2EF maintext CODE >178:C:\Users\Emmanuel Olateju\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X\main.c
-2FF maintext CODE >179:C:\Users\Emmanuel Olateju\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X\main.c
-305 maintext CODE >180:C:\Users\Emmanuel Olateju\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X\main.c
-306 maintext CODE >181:C:\Users\Emmanuel Olateju\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X\main.c
-30C maintext CODE >183:C:\Users\Emmanuel Olateju\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X\main.c
-30D maintext CODE >185:C:\Users\Emmanuel Olateju\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X\main.c
-312 maintext CODE >186:C:\Users\Emmanuel Olateju\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X\main.c
-31B maintext CODE >187:C:\Users\Emmanuel Olateju\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X\main.c
-391 maintext CODE >188:C:\Users\Emmanuel Olateju\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X\main.c
-392 maintext CODE >190:C:\Users\Emmanuel Olateju\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X\main.c
-398 maintext CODE >191:C:\Users\Emmanuel Olateju\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X\main.c
-399 maintext CODE >193:C:\Users\Emmanuel Olateju\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X\main.c
-39F maintext CODE >194:C:\Users\Emmanuel Olateju\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X\main.c
-3A0 maintext CODE >196:C:\Users\Emmanuel Olateju\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X\main.c
-3A6 maintext CODE >197:C:\Users\Emmanuel Olateju\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X\main.c
-3A7 maintext CODE >199:C:\Users\Emmanuel Olateju\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X\main.c
-3AD maintext CODE >200:C:\Users\Emmanuel Olateju\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X\main.c
-3AE maintext CODE >202:C:\Users\Emmanuel Olateju\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X\main.c
-3B4 maintext CODE >203:C:\Users\Emmanuel Olateju\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X\main.c
-3B5 maintext CODE >205:C:\Users\Emmanuel Olateju\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X\main.c
-3BB maintext CODE >206:C:\Users\Emmanuel Olateju\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X\main.c
-3BC maintext CODE >207:C:\Users\Emmanuel Olateju\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X\main.c
-B8B clrtext CODE >868:C:\Users\EMMANU~1\AppData\Local\Temp\s9d4.s
-B8B clrtext CODE >869:C:\Users\EMMANU~1\AppData\Local\Temp\s9d4.s
-B8C clrtext CODE >870:C:\Users\EMMANU~1\AppData\Local\Temp\s9d4.s
-B8C clrtext CODE >871:C:\Users\EMMANU~1\AppData\Local\Temp\s9d4.s
-B8D clrtext CODE >872:C:\Users\EMMANU~1\AppData\Local\Temp\s9d4.s
-B8E clrtext CODE >873:C:\Users\EMMANU~1\AppData\Local\Temp\s9d4.s
-B8F clrtext CODE >874:C:\Users\EMMANU~1\AppData\Local\Temp\s9d4.s
-B90 clrtext CODE >875:C:\Users\EMMANU~1\AppData\Local\Temp\s9d4.s
-B91 clrtext CODE >876:C:\Users\EMMANU~1\AppData\Local\Temp\s9d4.s
-B92 clrtext CODE >877:C:\Users\EMMANU~1\AppData\Local\Temp\s9d4.s
-6E8 inittext CODE >820:C:\Users\EMMANU~1\AppData\Local\Temp\s9d4.s
-6E8 inittext CODE >821:C:\Users\EMMANU~1\AppData\Local\Temp\s9d4.s
-6E9 inittext CODE >822:C:\Users\EMMANU~1\AppData\Local\Temp\s9d4.s
-6EA inittext CODE >823:C:\Users\EMMANU~1\AppData\Local\Temp\s9d4.s
-6EB inittext CODE >824:C:\Users\EMMANU~1\AppData\Local\Temp\s9d4.s
-6EC inittext CODE >831:C:\Users\EMMANU~1\AppData\Local\Temp\s9d4.s
-6EC inittext CODE >832:C:\Users\EMMANU~1\AppData\Local\Temp\s9d4.s
-6F1 inittext CODE >833:C:\Users\EMMANU~1\AppData\Local\Temp\s9d4.s
-6F2 inittext CODE >834:C:\Users\EMMANU~1\AppData\Local\Temp\s9d4.s
-6F3 inittext CODE >835:C:\Users\EMMANU~1\AppData\Local\Temp\s9d4.s
-6F4 inittext CODE >836:C:\Users\EMMANU~1\AppData\Local\Temp\s9d4.s
-6F5 inittext CODE >837:C:\Users\EMMANU~1\AppData\Local\Temp\s9d4.s
-6F6 inittext CODE >838:C:\Users\EMMANU~1\AppData\Local\Temp\s9d4.s
-6F7 inittext CODE >839:C:\Users\EMMANU~1\AppData\Local\Temp\s9d4.s
-6F8 inittext CODE >840:C:\Users\EMMANU~1\AppData\Local\Temp\s9d4.s
-6F9 inittext CODE >841:C:\Users\EMMANU~1\AppData\Local\Temp\s9d4.s
-6FA inittext CODE >842:C:\Users\EMMANU~1\AppData\Local\Temp\s9d4.s
+13 cinit CODE >807:C:\Users\olate\AppData\Local\Temp\xcAsa9s.s
+13 cinit CODE >810:C:\Users\olate\AppData\Local\Temp\xcAsa9s.s
+13 cinit CODE >898:C:\Users\olate\AppData\Local\Temp\xcAsa9s.s
+14 cinit CODE >899:C:\Users\olate\AppData\Local\Temp\xcAsa9s.s
+15 cinit CODE >900:C:\Users\olate\AppData\Local\Temp\xcAsa9s.s
+16 cinit CODE >901:C:\Users\olate\AppData\Local\Temp\xcAsa9s.s
+17 cinit CODE >902:C:\Users\olate\AppData\Local\Temp\xcAsa9s.s
+18 cinit CODE >903:C:\Users\olate\AppData\Local\Temp\xcAsa9s.s
+19 cinit CODE >904:C:\Users\olate\AppData\Local\Temp\xcAsa9s.s
+1A cinit CODE >905:C:\Users\olate\AppData\Local\Temp\xcAsa9s.s
+1B cinit CODE >906:C:\Users\olate\AppData\Local\Temp\xcAsa9s.s
+1C cinit CODE >907:C:\Users\olate\AppData\Local\Temp\xcAsa9s.s
+21 cinit CODE >911:C:\Users\olate\AppData\Local\Temp\xcAsa9s.s
+26 cinit CODE >912:C:\Users\olate\AppData\Local\Temp\xcAsa9s.s
+27 cinit CODE >913:C:\Users\olate\AppData\Local\Temp\xcAsa9s.s
+2C cinit CODE >914:C:\Users\olate\AppData\Local\Temp\xcAsa9s.s
+2D cinit CODE >933:C:\Users\olate\AppData\Local\Temp\xcAsa9s.s
+2E cinit CODE >934:C:\Users\olate\AppData\Local\Temp\xcAsa9s.s
+2F cinit CODE >935:C:\Users\olate\AppData\Local\Temp\xcAsa9s.s
+30 cinit CODE >936:C:\Users\olate\AppData\Local\Temp\xcAsa9s.s
+31 cinit CODE >937:C:\Users\olate\AppData\Local\Temp\xcAsa9s.s
+32 cinit CODE >938:C:\Users\olate\AppData\Local\Temp\xcAsa9s.s
+33 cinit CODE >941:C:\Users\olate\AppData\Local\Temp\xcAsa9s.s
+34 cinit CODE >942:C:\Users\olate\AppData\Local\Temp\xcAsa9s.s
+35 cinit CODE >943:C:\Users\olate\AppData\Local\Temp\xcAsa9s.s
+36 cinit CODE >944:C:\Users\olate\AppData\Local\Temp\xcAsa9s.s
+3B cinit CODE >950:C:\Users\olate\AppData\Local\Temp\xcAsa9s.s
+3B cinit CODE >952:C:\Users\olate\AppData\Local\Temp\xcAsa9s.s
+3C cinit CODE >953:C:\Users\olate\AppData\Local\Temp\xcAsa9s.s
+4 intentry CODE >116:C:\Users\olate\OneDrive\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X\main.c
+E5F text37 CODE >5:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\awdiv.c
+E5F text37 CODE >13:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\awdiv.c
+E60 text37 CODE >14:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\awdiv.c
+E64 text37 CODE >15:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\awdiv.c
+E67 text37 CODE >15:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\awdiv.c
+E69 text37 CODE >16:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\awdiv.c
+E6B text37 CODE >18:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\awdiv.c
+E6F text37 CODE >19:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\awdiv.c
+E72 text37 CODE >19:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\awdiv.c
+E74 text37 CODE >20:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\awdiv.c
+E78 text37 CODE >22:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\awdiv.c
+E7A text37 CODE >23:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\awdiv.c
+E80 text37 CODE >24:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\awdiv.c
+E82 text37 CODE >25:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\awdiv.c
+E83 text37 CODE >26:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\awdiv.c
+E84 text37 CODE >26:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\awdiv.c
+E88 text37 CODE >26:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\awdiv.c
+E8A text37 CODE >27:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\awdiv.c
+E8E text37 CODE >25:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\awdiv.c
+E92 text37 CODE >30:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\awdiv.c
+E93 text37 CODE >30:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\awdiv.c
+E97 text37 CODE >30:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\awdiv.c
+E99 text37 CODE >31:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\awdiv.c
+E9B text37 CODE >31:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\awdiv.c
+E9F text37 CODE >31:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\awdiv.c
+EA3 text37 CODE >32:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\awdiv.c
+EA6 text37 CODE >32:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\awdiv.c
+EA9 text37 CODE >33:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\awdiv.c
+EAA text37 CODE >35:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\awdiv.c
+EAB text37 CODE >35:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\awdiv.c
+EAF text37 CODE >35:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\awdiv.c
+EB1 text37 CODE >36:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\awdiv.c
+EB7 text37 CODE >38:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\awdiv.c
+EBC text37 CODE >39:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\awdiv.c
+EBF text37 CODE >39:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\awdiv.c
+EC1 text37 CODE >40:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\awdiv.c
+EC5 text37 CODE >41:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\awdiv.c
+DAB text36 CODE >5:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\awmod.c
+DAB text36 CODE >12:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\awmod.c
+DAC text36 CODE >13:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\awmod.c
+DB0 text36 CODE >14:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\awmod.c
+DB3 text36 CODE >14:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\awmod.c
+DB5 text36 CODE >15:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\awmod.c
+DB7 text36 CODE >17:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\awmod.c
+DBB text36 CODE >18:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\awmod.c
+DBE text36 CODE >18:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\awmod.c
+DC0 text36 CODE >19:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\awmod.c
+DC6 text36 CODE >20:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\awmod.c
+DC8 text36 CODE >21:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\awmod.c
+DC9 text36 CODE >22:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\awmod.c
+DCA text36 CODE >22:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\awmod.c
+DCE text36 CODE >22:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\awmod.c
+DD0 text36 CODE >23:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\awmod.c
+DD4 text36 CODE >21:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\awmod.c
+DD8 text36 CODE >26:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\awmod.c
+DDA text36 CODE >26:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\awmod.c
+DDE text36 CODE >26:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\awmod.c
+DE2 text36 CODE >27:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\awmod.c
+DE5 text36 CODE >27:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\awmod.c
+DE8 text36 CODE >28:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\awmod.c
+DE9 text36 CODE >28:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\awmod.c
+DED text36 CODE >28:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\awmod.c
+DEF text36 CODE >29:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\awmod.c
+DF5 text36 CODE >31:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\awmod.c
+DFA text36 CODE >32:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\awmod.c
+DFD text36 CODE >32:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\awmod.c
+DFF text36 CODE >33:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\awmod.c
+E03 text36 CODE >34:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\awmod.c
+BAF text35 CODE >22:C:\Users\olate\OneDrive\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X/PIC16F877a_DS3231.h
+BAF text35 CODE >24:C:\Users\olate\OneDrive\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X/PIC16F877a_DS3231.h
+BDC text35 CODE >24:C:\Users\olate\OneDrive\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X/PIC16F877a_DS3231.h
+BE0 text35 CODE >25:C:\Users\olate\OneDrive\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X/PIC16F877a_DS3231.h
+BE4 text35 CODE >26:C:\Users\olate\OneDrive\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X/PIC16F877a_DS3231.h
+A64 text34 CODE >19:C:\Users\olate\OneDrive\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X/PIC16F877a_I2C.h
+A64 text34 CODE >21:C:\Users\olate\OneDrive\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X/PIC16F877a_I2C.h
+A70 text34 CODE >22:C:\Users\olate\OneDrive\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X/PIC16F877a_I2C.h
+A13 text33 CODE >24:C:\Users\olate\OneDrive\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X/PIC16F877a_I2C.h
+A13 text33 CODE >26:C:\Users\olate\OneDrive\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X/PIC16F877a_I2C.h
+A18 text33 CODE >27:C:\Users\olate\OneDrive\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X/PIC16F877a_I2C.h
+A1B text33 CODE >28:C:\Users\olate\OneDrive\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X/PIC16F877a_I2C.h
+A1C text32 CODE >35:C:\Users\olate\OneDrive\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X/PIC16F877a_I2C.h
+A1C text32 CODE >37:C:\Users\olate\OneDrive\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X/PIC16F877a_I2C.h
+A21 text32 CODE >38:C:\Users\olate\OneDrive\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X/PIC16F877a_I2C.h
+A24 text32 CODE >39:C:\Users\olate\OneDrive\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X/PIC16F877a_I2C.h
+A7E text31 CODE >42:C:\Users\olate\OneDrive\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X/PIC16F877a_I2C.h
+A7E text31 CODE >44:C:\Users\olate\OneDrive\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X/PIC16F877a_I2C.h
+A83 text31 CODE >45:C:\Users\olate\OneDrive\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X/PIC16F877a_I2C.h
+A87 text31 CODE >46:C:\Users\olate\OneDrive\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X/PIC16F877a_I2C.h
+A8C text31 CODE >47:C:\Users\olate\OneDrive\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X/PIC16F877a_I2C.h
+A8C text31 CODE >48:C:\Users\olate\OneDrive\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X/PIC16F877a_I2C.h
+6FE text30 CODE >28:C:\Users\olate\OneDrive\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X/PIC16F877a_DS3231.h
+6FE text30 CODE >30:C:\Users\olate\OneDrive\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X/PIC16F877a_DS3231.h
+703 text30 CODE >31:C:\Users\olate\OneDrive\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X/PIC16F877a_DS3231.h
+70E text30 CODE >32:C:\Users\olate\OneDrive\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X/PIC16F877a_DS3231.h
+718 text30 CODE >33:C:\Users\olate\OneDrive\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X/PIC16F877a_DS3231.h
+72E text30 CODE >34:C:\Users\olate\OneDrive\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X/PIC16F877a_DS3231.h
+744 text30 CODE >35:C:\Users\olate\OneDrive\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X/PIC16F877a_DS3231.h
+75A text30 CODE >36:C:\Users\olate\OneDrive\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X/PIC16F877a_DS3231.h
+765 text30 CODE >37:C:\Users\olate\OneDrive\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X/PIC16F877a_DS3231.h
+770 text30 CODE >38:C:\Users\olate\OneDrive\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X/PIC16F877a_DS3231.h
+77B text30 CODE >39:C:\Users\olate\OneDrive\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X/PIC16F877a_DS3231.h
+786 text30 CODE >40:C:\Users\olate\OneDrive\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X/PIC16F877a_DS3231.h
+78B text30 CODE >41:C:\Users\olate\OneDrive\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X/PIC16F877a_DS3231.h
+78C text29 CODE >116:C:\Users\olate\OneDrive\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X\main.c
+78C text29 CODE >117:C:\Users\olate\OneDrive\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X\main.c
+78D text29 CODE >118:C:\Users\olate\OneDrive\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X\main.c
+790 text29 CODE >119:C:\Users\olate\OneDrive\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X\main.c
+79E text29 CODE >120:C:\Users\olate\OneDrive\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X\main.c
+7A2 text29 CODE >121:C:\Users\olate\OneDrive\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X\main.c
+7A8 text29 CODE >122:C:\Users\olate\OneDrive\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X\main.c
+7AD text29 CODE >122:C:\Users\olate\OneDrive\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X\main.c
+7B1 text29 CODE >122:C:\Users\olate\OneDrive\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X\main.c
+7BB text29 CODE >122:C:\Users\olate\OneDrive\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X\main.c
+7C0 text29 CODE >123:C:\Users\olate\OneDrive\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X\main.c
+7C4 text29 CODE >125:C:\Users\olate\OneDrive\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X\main.c
+7CA text29 CODE >126:C:\Users\olate\OneDrive\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X\main.c
+7CF text29 CODE >126:C:\Users\olate\OneDrive\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X\main.c
+7D3 text29 CODE >126:C:\Users\olate\OneDrive\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X\main.c
+7DB text29 CODE >126:C:\Users\olate\OneDrive\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X\main.c
+7E0 text29 CODE >127:C:\Users\olate\OneDrive\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X\main.c
+7E4 text29 CODE >129:C:\Users\olate\OneDrive\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X\main.c
+7E5 text29 CODE >130:C:\Users\olate\OneDrive\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X\main.c
+7E6 text29 CODE >131:C:\Users\olate\OneDrive\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X\main.c
+7E8 text29 CODE >132:C:\Users\olate\OneDrive\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X\main.c
+7EC text29 CODE >133:C:\Users\olate\OneDrive\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X\main.c
+7ED text29 CODE >134:C:\Users\olate\OneDrive\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X\main.c
+7F2 text29 CODE >135:C:\Users\olate\OneDrive\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X\main.c
+7F3 text29 CODE >136:C:\Users\olate\OneDrive\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X\main.c
+7F6 text29 CODE >137:C:\Users\olate\OneDrive\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X\main.c
+A40 text28 CODE >38:C:\Users\olate\OneDrive\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X/LCDLIBRARY1.h
+A40 text28 CODE >40:C:\Users\olate\OneDrive\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X/LCDLIBRARY1.h
+A4B text28 CODE >43:C:\Users\olate\OneDrive\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X/LCDLIBRARY1.h
+A9C text27 CODE >45:C:\Users\olate\OneDrive\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X/LCDLIBRARY1.h
+A9C text27 CODE >47:C:\Users\olate\OneDrive\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X/LCDLIBRARY1.h
+A9F text27 CODE >48:C:\Users\olate\OneDrive\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X/LCDLIBRARY1.h
+AA4 text27 CODE >49:C:\Users\olate\OneDrive\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X/LCDLIBRARY1.h
+AA7 text27 CODE >50:C:\Users\olate\OneDrive\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X/LCDLIBRARY1.h
+AAC text27 CODE >53:C:\Users\olate\OneDrive\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X/LCDLIBRARY1.h
+ADD text26 CODE >139:C:\Users\olate\OneDrive\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X/LCDLIBRARY1.h
+AE0 text26 CODE >141:C:\Users\olate\OneDrive\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X/LCDLIBRARY1.h
+AE2 text26 CODE >143:C:\Users\olate\OneDrive\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X/LCDLIBRARY1.h
+AF0 text26 CODE >144:C:\Users\olate\OneDrive\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X/LCDLIBRARY1.h
+AF5 text26 CODE >145:C:\Users\olate\OneDrive\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X/LCDLIBRARY1.h
+AFB text26 CODE >146:C:\Users\olate\OneDrive\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X/LCDLIBRARY1.h
+B00 text26 CODE >155:C:\Users\olate\OneDrive\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X/LCDLIBRARY1.h
+D5D text25 CODE >87:C:\Users\olate\OneDrive\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X/LCDLIBRARY1.h
+D60 text25 CODE >90:C:\Users\olate\OneDrive\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X/LCDLIBRARY1.h
+D62 text25 CODE >92:C:\Users\olate\OneDrive\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X/LCDLIBRARY1.h
+D6C text25 CODE >92:C:\Users\olate\OneDrive\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X/LCDLIBRARY1.h
+D6F text25 CODE >92:C:\Users\olate\OneDrive\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X/LCDLIBRARY1.h
+D76 text25 CODE >93:C:\Users\olate\OneDrive\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X/LCDLIBRARY1.h
+D82 text25 CODE >94:C:\Users\olate\OneDrive\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X/LCDLIBRARY1.h
+D83 text25 CODE >96:C:\Users\olate\OneDrive\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X/LCDLIBRARY1.h
+D87 text25 CODE >97:C:\Users\olate\OneDrive\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X/LCDLIBRARY1.h
+D8C text25 CODE >98:C:\Users\olate\OneDrive\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X/LCDLIBRARY1.h
+D92 text25 CODE >99:C:\Users\olate\OneDrive\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X/LCDLIBRARY1.h
+D97 text25 CODE >100:C:\Users\olate\OneDrive\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X/LCDLIBRARY1.h
+DA6 text25 CODE >100:C:\Users\olate\OneDrive\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X/LCDLIBRARY1.h
+DAA text25 CODE >102:C:\Users\olate\OneDrive\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X/LCDLIBRARY1.h
+C59 text24 CODE >86:C:\Users\olate\OneDrive\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X\main.c
+C59 text24 CODE >87:C:\Users\olate\OneDrive\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X\main.c
+C60 text24 CODE >88:C:\Users\olate\OneDrive\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X\main.c
+C60 text24 CODE >89:C:\Users\olate\OneDrive\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X\main.c
+C61 text24 CODE >90:C:\Users\olate\OneDrive\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X\main.c
+C68 text24 CODE >91:C:\Users\olate\OneDrive\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X\main.c
+C6E text24 CODE >92:C:\Users\olate\OneDrive\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X\main.c
+C7D text24 CODE >93:C:\Users\olate\OneDrive\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X\main.c
+C83 text24 CODE >94:C:\Users\olate\OneDrive\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X\main.c
+C84 text24 CODE >95:C:\Users\olate\OneDrive\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X\main.c
+C93 text24 CODE >96:C:\Users\olate\OneDrive\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X\main.c
+C98 text24 CODE >97:C:\Users\olate\OneDrive\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X\main.c
+C99 text24 CODE >99:C:\Users\olate\OneDrive\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X\main.c
+A4C text23 CODE >31:C:\Users\olate\OneDrive\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X/LCDLIBRARY1.h
+A4C text23 CODE >33:C:\Users\olate\OneDrive\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X/LCDLIBRARY1.h
+A57 text23 CODE >36:C:\Users\olate\OneDrive\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X/LCDLIBRARY1.h
+AC0 text22 CODE >157:C:\Users\olate\OneDrive\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X/LCDLIBRARY1.h
+AC0 text22 CODE >159:C:\Users\olate\OneDrive\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X/LCDLIBRARY1.h
+AC4 text22 CODE >160:C:\Users\olate\OneDrive\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X/LCDLIBRARY1.h
+AC7 text22 CODE >161:C:\Users\olate\OneDrive\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X/LCDLIBRARY1.h
+ACC text22 CODE >162:C:\Users\olate\OneDrive\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X/LCDLIBRARY1.h
+AD2 text22 CODE >163:C:\Users\olate\OneDrive\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X/LCDLIBRARY1.h
+AD7 text22 CODE >164:C:\Users\olate\OneDrive\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X/LCDLIBRARY1.h
+ADC text22 CODE >167:C:\Users\olate\OneDrive\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X/LCDLIBRARY1.h
+EC6 text21 CODE >5:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\__lldiv.c
+EC6 text21 CODE >13:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\__lldiv.c
+ED0 text21 CODE >14:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\__lldiv.c
+ED4 text21 CODE >14:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\__lldiv.c
+ED8 text21 CODE >15:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\__lldiv.c
+EDA text21 CODE >16:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\__lldiv.c
+EDB text21 CODE >17:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\__lldiv.c
+EDD text21 CODE >17:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\__lldiv.c
+EE4 text21 CODE >18:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\__lldiv.c
+EE8 text21 CODE >16:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\__lldiv.c
+EEC text21 CODE >21:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\__lldiv.c
+EEE text21 CODE >21:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\__lldiv.c
+EF5 text21 CODE >22:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\__lldiv.c
+EF7 text21 CODE >22:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\__lldiv.c
+EFB text21 CODE >22:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\__lldiv.c
+EFF text21 CODE >22:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\__lldiv.c
+F03 text21 CODE >22:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\__lldiv.c
+F07 text21 CODE >23:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\__lldiv.c
+F0A text21 CODE >23:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\__lldiv.c
+F0E text21 CODE >23:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\__lldiv.c
+F12 text21 CODE >23:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\__lldiv.c
+F15 text21 CODE >24:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\__lldiv.c
+F16 text21 CODE >26:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\__lldiv.c
+F17 text21 CODE >26:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\__lldiv.c
+F1D text21 CODE >26:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\__lldiv.c
+F1F text21 CODE >27:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\__lldiv.c
+F25 text21 CODE >29:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\__lldiv.c
+F2D text21 CODE >30:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\__lldiv.c
+BE5 text20 CODE >10:C:\Users\olate\OneDrive\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X/PIC16F877a_I2C.h
+BE5 text20 CODE >12:C:\Users\olate\OneDrive\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X/PIC16F877a_I2C.h
+BE9 text20 CODE >13:C:\Users\olate\OneDrive\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X/PIC16F877a_I2C.h
+BEC text20 CODE >14:C:\Users\olate\OneDrive\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X/PIC16F877a_I2C.h
+BED text20 CODE >15:C:\Users\olate\OneDrive\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X/PIC16F877a_I2C.h
+BF8 text20 CODE >15:C:\Users\olate\OneDrive\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X/PIC16F877a_I2C.h
+BFE text20 CODE >15:C:\Users\olate\OneDrive\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X/PIC16F877a_I2C.h
+C1C text20 CODE >16:C:\Users\olate\OneDrive\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X/PIC16F877a_I2C.h
+C1E text20 CODE >17:C:\Users\olate\OneDrive\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X/PIC16F877a_I2C.h
+B28 text19 CODE >55:C:\Users\olate\OneDrive\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X/LCDLIBRARY1.h
+B2B text19 CODE >56:C:\Users\olate\OneDrive\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X/LCDLIBRARY1.h
+B2E text19 CODE >56:C:\Users\olate\OneDrive\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X/LCDLIBRARY1.h
+B31 text19 CODE >56:C:\Users\olate\OneDrive\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X/LCDLIBRARY1.h
+B38 text19 CODE >57:C:\Users\olate\OneDrive\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X/LCDLIBRARY1.h
+B3D text19 CODE >58:C:\Users\olate\OneDrive\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X/LCDLIBRARY1.h
+B3E text19 CODE >59:C:\Users\olate\OneDrive\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X/LCDLIBRARY1.h
+B42 text19 CODE >60:C:\Users\olate\OneDrive\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X/LCDLIBRARY1.h
+B47 text19 CODE >61:C:\Users\olate\OneDrive\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X/LCDLIBRARY1.h
+B4D text19 CODE >62:C:\Users\olate\OneDrive\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X/LCDLIBRARY1.h
+B52 text19 CODE >63:C:\Users\olate\OneDrive\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X/LCDLIBRARY1.h
+F2E text18 CODE >5:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\awdiv.c
+F2E text18 CODE >13:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\awdiv.c
+F31 text18 CODE >14:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\awdiv.c
+F35 text18 CODE >15:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\awdiv.c
+F38 text18 CODE >15:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\awdiv.c
+F3A text18 CODE >16:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\awdiv.c
+F3C text18 CODE >18:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\awdiv.c
+F40 text18 CODE >19:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\awdiv.c
+F43 text18 CODE >19:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\awdiv.c
+F45 text18 CODE >20:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\awdiv.c
+F49 text18 CODE >22:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\awdiv.c
+F4B text18 CODE >23:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\awdiv.c
+F51 text18 CODE >24:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\awdiv.c
+F53 text18 CODE >25:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\awdiv.c
+F54 text18 CODE >26:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\awdiv.c
+F55 text18 CODE >26:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\awdiv.c
+F59 text18 CODE >26:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\awdiv.c
+F5B text18 CODE >27:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\awdiv.c
+F5F text18 CODE >25:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\awdiv.c
+F63 text18 CODE >30:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\awdiv.c
+F64 text18 CODE >30:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\awdiv.c
+F68 text18 CODE >30:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\awdiv.c
+F6A text18 CODE >31:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\awdiv.c
+F6C text18 CODE >31:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\awdiv.c
+F70 text18 CODE >31:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\awdiv.c
+F74 text18 CODE >32:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\awdiv.c
+F77 text18 CODE >32:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\awdiv.c
+F7A text18 CODE >33:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\awdiv.c
+F7B text18 CODE >35:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\awdiv.c
+F7C text18 CODE >35:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\awdiv.c
+F80 text18 CODE >35:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\awdiv.c
+F82 text18 CODE >36:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\awdiv.c
+F88 text18 CODE >38:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\awdiv.c
+F8D text18 CODE >39:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\awdiv.c
+F90 text18 CODE >39:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\awdiv.c
+F92 text18 CODE >40:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\awdiv.c
+F96 text18 CODE >41:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\awdiv.c
+E04 text17 CODE >5:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\awmod.c
+E04 text17 CODE >12:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\awmod.c
+E07 text17 CODE >13:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\awmod.c
+E0B text17 CODE >14:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\awmod.c
+E0E text17 CODE >14:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\awmod.c
+E10 text17 CODE >15:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\awmod.c
+E12 text17 CODE >17:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\awmod.c
+E16 text17 CODE >18:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\awmod.c
+E19 text17 CODE >18:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\awmod.c
+E1B text17 CODE >19:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\awmod.c
+E21 text17 CODE >20:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\awmod.c
+E23 text17 CODE >21:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\awmod.c
+E24 text17 CODE >22:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\awmod.c
+E25 text17 CODE >22:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\awmod.c
+E29 text17 CODE >22:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\awmod.c
+E2B text17 CODE >23:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\awmod.c
+E2F text17 CODE >21:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\awmod.c
+E33 text17 CODE >26:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\awmod.c
+E35 text17 CODE >26:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\awmod.c
+E39 text17 CODE >26:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\awmod.c
+E3D text17 CODE >27:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\awmod.c
+E40 text17 CODE >27:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\awmod.c
+E43 text17 CODE >28:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\awmod.c
+E44 text17 CODE >28:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\awmod.c
+E48 text17 CODE >28:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\awmod.c
+E4A text17 CODE >29:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\awmod.c
+E50 text17 CODE >31:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\awmod.c
+E55 text17 CODE >32:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\awmod.c
+E58 text17 CODE >32:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\awmod.c
+E5A text17 CODE >33:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\awmod.c
+E5E text17 CODE >34:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\awmod.c
+B01 text16 CODE >15:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\Umul16.c
+B01 text16 CODE >43:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\Umul16.c
+B05 text16 CODE >45:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\Umul16.c
+B09 text16 CODE >46:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\Umul16.c
+B0B text16 CODE >46:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\Umul16.c
+B0F text16 CODE >47:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\Umul16.c
+B10 text16 CODE >47:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\Umul16.c
+B14 text16 CODE >47:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\Umul16.c
+B16 text16 CODE >48:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\Umul16.c
+B17 text16 CODE >48:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\Umul16.c
+B1B text16 CODE >48:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\Umul16.c
+B1D text16 CODE >49:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\Umul16.c
+B23 text16 CODE >52:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\Umul16.c
+B27 text16 CODE >53:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\Umul16.c
+42D text15 CODE >65:C:\Users\olate\OneDrive\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X/LCDLIBRARY1.h
+42D text15 CODE >66:C:\Users\olate\OneDrive\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X/LCDLIBRARY1.h
+434 text15 CODE >66:C:\Users\olate\OneDrive\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X/LCDLIBRARY1.h
+438 text15 CODE >66:C:\Users\olate\OneDrive\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X/LCDLIBRARY1.h
+43C text15 CODE >67:C:\Users\olate\OneDrive\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X/LCDLIBRARY1.h
+452 text15 CODE >68:C:\Users\olate\OneDrive\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X/LCDLIBRARY1.h
+465 text15 CODE >69:C:\Users\olate\OneDrive\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X/LCDLIBRARY1.h
+478 text15 CODE >70:C:\Users\olate\OneDrive\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X/LCDLIBRARY1.h
+47C text15 CODE >70:C:\Users\olate\OneDrive\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X/LCDLIBRARY1.h
+480 text15 CODE >71:C:\Users\olate\OneDrive\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X/LCDLIBRARY1.h
+494 text15 CODE >72:C:\Users\olate\OneDrive\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X/LCDLIBRARY1.h
+4A8 text15 CODE >73:C:\Users\olate\OneDrive\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X/LCDLIBRARY1.h
+4AE text15 CODE >74:C:\Users\olate\OneDrive\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X/LCDLIBRARY1.h
+4B6 text15 CODE >75:C:\Users\olate\OneDrive\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X/LCDLIBRARY1.h
+4BE text15 CODE >76:C:\Users\olate\OneDrive\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X/LCDLIBRARY1.h
+4C6 text15 CODE >76:C:\Users\olate\OneDrive\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X/LCDLIBRARY1.h
+4CA text15 CODE >76:C:\Users\olate\OneDrive\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X/LCDLIBRARY1.h
+4CE text15 CODE >77:C:\Users\olate\OneDrive\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X/LCDLIBRARY1.h
+4E4 text15 CODE >78:C:\Users\olate\OneDrive\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X/LCDLIBRARY1.h
+4F8 text15 CODE >79:C:\Users\olate\OneDrive\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X/LCDLIBRARY1.h
+4FE text15 CODE >80:C:\Users\olate\OneDrive\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X/LCDLIBRARY1.h
+506 text15 CODE >81:C:\Users\olate\OneDrive\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X/LCDLIBRARY1.h
+507 text15 CODE >82:C:\Users\olate\OneDrive\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X/LCDLIBRARY1.h
+50D text15 CODE >83:C:\Users\olate\OneDrive\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X/LCDLIBRARY1.h
+516 text15 CODE >85:C:\Users\olate\OneDrive\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X/LCDLIBRARY1.h
+C9A text14 CODE >100:C:\Users\olate\OneDrive\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X\main.c
+C9A text14 CODE >101:C:\Users\olate\OneDrive\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X\main.c
+CA1 text14 CODE >102:C:\Users\olate\OneDrive\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X\main.c
+CA1 text14 CODE >103:C:\Users\olate\OneDrive\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X\main.c
+CA2 text14 CODE >104:C:\Users\olate\OneDrive\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X\main.c
+CA9 text14 CODE >105:C:\Users\olate\OneDrive\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X\main.c
+CAF text14 CODE >106:C:\Users\olate\OneDrive\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X\main.c
+CBE text14 CODE >107:C:\Users\olate\OneDrive\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X\main.c
+CC4 text14 CODE >108:C:\Users\olate\OneDrive\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X\main.c
+CC5 text14 CODE >109:C:\Users\olate\OneDrive\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X\main.c
+CD4 text14 CODE >110:C:\Users\olate\OneDrive\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X\main.c
+CD9 text14 CODE >111:C:\Users\olate\OneDrive\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X\main.c
+CDA text14 CODE >113:C:\Users\olate\OneDrive\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X\main.c
+CDB text13 CODE >72:C:\Users\olate\OneDrive\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X\main.c
+CDB text13 CODE >73:C:\Users\olate\OneDrive\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X\main.c
+CE2 text13 CODE >74:C:\Users\olate\OneDrive\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X\main.c
+CE2 text13 CODE >75:C:\Users\olate\OneDrive\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X\main.c
+CE3 text13 CODE >76:C:\Users\olate\OneDrive\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X\main.c
+CEA text13 CODE >77:C:\Users\olate\OneDrive\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X\main.c
+CF0 text13 CODE >78:C:\Users\olate\OneDrive\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X\main.c
+CFF text13 CODE >79:C:\Users\olate\OneDrive\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X\main.c
+D05 text13 CODE >80:C:\Users\olate\OneDrive\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X\main.c
+D06 text13 CODE >81:C:\Users\olate\OneDrive\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X\main.c
+D15 text13 CODE >82:C:\Users\olate\OneDrive\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X\main.c
+D1A text13 CODE >83:C:\Users\olate\OneDrive\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X\main.c
+D1B text13 CODE >85:C:\Users\olate\OneDrive\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X\main.c
+C1F text12 CODE >22:C:\Users\olate\OneDrive\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X/PIC16F877a_DS3231.h
+C1F text12 CODE >24:C:\Users\olate\OneDrive\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X/PIC16F877a_DS3231.h
+C50 text12 CODE >24:C:\Users\olate\OneDrive\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X/PIC16F877a_DS3231.h
+C54 text12 CODE >25:C:\Users\olate\OneDrive\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X/PIC16F877a_DS3231.h
+C58 text12 CODE >26:C:\Users\olate\OneDrive\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X/PIC16F877a_DS3231.h
+A71 text11 CODE >19:C:\Users\olate\OneDrive\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X/PIC16F877a_I2C.h
+A71 text11 CODE >21:C:\Users\olate\OneDrive\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X/PIC16F877a_I2C.h
+A7D text11 CODE >22:C:\Users\olate\OneDrive\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X/PIC16F877a_I2C.h
+A25 text10 CODE >24:C:\Users\olate\OneDrive\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X/PIC16F877a_I2C.h
+A25 text10 CODE >26:C:\Users\olate\OneDrive\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X/PIC16F877a_I2C.h
+A2A text10 CODE >27:C:\Users\olate\OneDrive\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X/PIC16F877a_I2C.h
+A2D text10 CODE >28:C:\Users\olate\OneDrive\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X/PIC16F877a_I2C.h
+A2E text9 CODE >35:C:\Users\olate\OneDrive\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X/PIC16F877a_I2C.h
+A2E text9 CODE >37:C:\Users\olate\OneDrive\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X/PIC16F877a_I2C.h
+A33 text9 CODE >38:C:\Users\olate\OneDrive\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X/PIC16F877a_I2C.h
+A36 text9 CODE >39:C:\Users\olate\OneDrive\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X/PIC16F877a_I2C.h
+A8D text8 CODE >42:C:\Users\olate\OneDrive\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X/PIC16F877a_I2C.h
+A8D text8 CODE >44:C:\Users\olate\OneDrive\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X/PIC16F877a_I2C.h
+A92 text8 CODE >45:C:\Users\olate\OneDrive\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X/PIC16F877a_I2C.h
+A96 text8 CODE >46:C:\Users\olate\OneDrive\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X/PIC16F877a_I2C.h
+A9B text8 CODE >47:C:\Users\olate\OneDrive\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X/PIC16F877a_I2C.h
+A9B text8 CODE >48:C:\Users\olate\OneDrive\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X/PIC16F877a_I2C.h
+670 text7 CODE >28:C:\Users\olate\OneDrive\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X/PIC16F877a_DS3231.h
+670 text7 CODE >30:C:\Users\olate\OneDrive\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X/PIC16F877a_DS3231.h
+675 text7 CODE >31:C:\Users\olate\OneDrive\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X/PIC16F877a_DS3231.h
+680 text7 CODE >32:C:\Users\olate\OneDrive\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X/PIC16F877a_DS3231.h
+68A text7 CODE >33:C:\Users\olate\OneDrive\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X/PIC16F877a_DS3231.h
+6A0 text7 CODE >34:C:\Users\olate\OneDrive\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X/PIC16F877a_DS3231.h
+6B6 text7 CODE >35:C:\Users\olate\OneDrive\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X/PIC16F877a_DS3231.h
+6CC text7 CODE >36:C:\Users\olate\OneDrive\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X/PIC16F877a_DS3231.h
+6D7 text7 CODE >37:C:\Users\olate\OneDrive\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X/PIC16F877a_DS3231.h
+6E2 text7 CODE >38:C:\Users\olate\OneDrive\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X/PIC16F877a_DS3231.h
+6ED text7 CODE >39:C:\Users\olate\OneDrive\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X/PIC16F877a_DS3231.h
+6F8 text7 CODE >40:C:\Users\olate\OneDrive\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X/PIC16F877a_DS3231.h
+6FD text7 CODE >41:C:\Users\olate\OneDrive\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X/PIC16F877a_DS3231.h
+B53 text6 CODE >16:C:\Users\olate\OneDrive\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X/PIC16F877a_DS3231.h
+B53 text6 CODE >18:C:\Users\olate\OneDrive\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X/PIC16F877a_DS3231.h
+B77 text6 CODE >18:C:\Users\olate\OneDrive\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X/PIC16F877a_DS3231.h
+B7B text6 CODE >19:C:\Users\olate\OneDrive\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X/PIC16F877a_DS3231.h
+B7F text6 CODE >20:C:\Users\olate\OneDrive\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X/PIC16F877a_DS3231.h
+B80 text5 CODE >50:C:\Users\olate\OneDrive\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X/PIC16F877a_I2C.h
+B80 text5 CODE >53:C:\Users\olate\OneDrive\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X/PIC16F877a_I2C.h
+B85 text5 CODE >54:C:\Users\olate\OneDrive\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X/PIC16F877a_I2C.h
+B88 text5 CODE >55:C:\Users\olate\OneDrive\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X/PIC16F877a_I2C.h
+B8D text5 CODE >56:C:\Users\olate\OneDrive\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X/PIC16F877a_I2C.h
+B96 text5 CODE >57:C:\Users\olate\OneDrive\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X/PIC16F877a_I2C.h
+B9B text5 CODE >58:C:\Users\olate\OneDrive\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X/PIC16F877a_I2C.h
+BA7 text5 CODE >59:C:\Users\olate\OneDrive\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X/PIC16F877a_I2C.h
+BA8 text5 CODE >60:C:\Users\olate\OneDrive\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X/PIC16F877a_I2C.h
+BAE text5 CODE >61:C:\Users\olate\OneDrive\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X/PIC16F877a_I2C.h
+A37 text4 CODE >30:C:\Users\olate\OneDrive\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X/PIC16F877a_I2C.h
+A37 text4 CODE >31:C:\Users\olate\OneDrive\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X/PIC16F877a_I2C.h
+A3C text4 CODE >32:C:\Users\olate\OneDrive\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X/PIC16F877a_I2C.h
+A3F text4 CODE >33:C:\Users\olate\OneDrive\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X/PIC16F877a_I2C.h
+5CC text3 CODE >43:C:\Users\olate\OneDrive\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X/PIC16F877a_DS3231.h
+5CC text3 CODE >45:C:\Users\olate\OneDrive\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X/PIC16F877a_DS3231.h
+5D1 text3 CODE >46:C:\Users\olate\OneDrive\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X/PIC16F877a_DS3231.h
+5DC text3 CODE >47:C:\Users\olate\OneDrive\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X/PIC16F877a_DS3231.h
+5E6 text3 CODE >48:C:\Users\olate\OneDrive\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X/PIC16F877a_DS3231.h
+5EB text3 CODE >49:C:\Users\olate\OneDrive\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X/PIC16F877a_DS3231.h
+5F6 text3 CODE >50:C:\Users\olate\OneDrive\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X/PIC16F877a_DS3231.h
+611 text3 CODE >51:C:\Users\olate\OneDrive\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X/PIC16F877a_DS3231.h
+62A text3 CODE >52:C:\Users\olate\OneDrive\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X/PIC16F877a_DS3231.h
+643 text3 CODE >53:C:\Users\olate\OneDrive\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X/PIC16F877a_DS3231.h
+64B text3 CODE >54:C:\Users\olate\OneDrive\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X/PIC16F877a_DS3231.h
+655 text3 CODE >55:C:\Users\olate\OneDrive\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X/PIC16F877a_DS3231.h
+65F text3 CODE >56:C:\Users\olate\OneDrive\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X/PIC16F877a_DS3231.h
+66A text3 CODE >57:C:\Users\olate\OneDrive\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X/PIC16F877a_DS3231.h
+66F text3 CODE >58:C:\Users\olate\OneDrive\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X/PIC16F877a_DS3231.h
+D1C text2 CODE >58:C:\Users\olate\OneDrive\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X\main.c
+D1C text2 CODE >59:C:\Users\olate\OneDrive\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X\main.c
+D23 text2 CODE >60:C:\Users\olate\OneDrive\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X\main.c
+D23 text2 CODE >61:C:\Users\olate\OneDrive\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X\main.c
+D24 text2 CODE >62:C:\Users\olate\OneDrive\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X\main.c
+D2B text2 CODE >63:C:\Users\olate\OneDrive\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X\main.c
+D31 text2 CODE >64:C:\Users\olate\OneDrive\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X\main.c
+D40 text2 CODE >65:C:\Users\olate\OneDrive\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X\main.c
+D46 text2 CODE >66:C:\Users\olate\OneDrive\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X\main.c
+D47 text2 CODE >67:C:\Users\olate\OneDrive\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X\main.c
+D56 text2 CODE >68:C:\Users\olate\OneDrive\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X\main.c
+D5B text2 CODE >69:C:\Users\olate\OneDrive\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X\main.c
+D5C text2 CODE >71:C:\Users\olate\OneDrive\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X\main.c
+F97 text1 CODE >180:C:\Users\olate\OneDrive\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X/LCDLIBRARY1.h
+F97 text1 CODE >182:C:\Users\olate\OneDrive\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X/LCDLIBRARY1.h
+F9D text1 CODE >183:C:\Users\olate\OneDrive\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X/LCDLIBRARY1.h
+F9F text1 CODE >184:C:\Users\olate\OneDrive\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X/LCDLIBRARY1.h
+FA4 text1 CODE >185:C:\Users\olate\OneDrive\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X/LCDLIBRARY1.h
+FA9 text1 CODE >187:C:\Users\olate\OneDrive\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X/LCDLIBRARY1.h
+FAD text1 CODE >188:C:\Users\olate\OneDrive\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X/LCDLIBRARY1.h
+FB2 text1 CODE >189:C:\Users\olate\OneDrive\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X/LCDLIBRARY1.h
+FB7 text1 CODE >191:C:\Users\olate\OneDrive\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X/LCDLIBRARY1.h
+FBB text1 CODE >192:C:\Users\olate\OneDrive\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X/LCDLIBRARY1.h
+FC0 text1 CODE >193:C:\Users\olate\OneDrive\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X/LCDLIBRARY1.h
+FC5 text1 CODE >195:C:\Users\olate\OneDrive\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X/LCDLIBRARY1.h
+FC9 text1 CODE >196:C:\Users\olate\OneDrive\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X/LCDLIBRARY1.h
+FCE text1 CODE >197:C:\Users\olate\OneDrive\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X/LCDLIBRARY1.h
+FD3 text1 CODE >199:C:\Users\olate\OneDrive\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X/LCDLIBRARY1.h
+FD6 text1 CODE >200:C:\Users\olate\OneDrive\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X/LCDLIBRARY1.h
+FDB text1 CODE >201:C:\Users\olate\OneDrive\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X/LCDLIBRARY1.h
+FDF text1 CODE >202:C:\Users\olate\OneDrive\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X/LCDLIBRARY1.h
+FE4 text1 CODE >203:C:\Users\olate\OneDrive\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X/LCDLIBRARY1.h
+FE9 text1 CODE >205:C:\Users\olate\OneDrive\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X/LCDLIBRARY1.h
+FEC text1 CODE >206:C:\Users\olate\OneDrive\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X/LCDLIBRARY1.h
+FF1 text1 CODE >207:C:\Users\olate\OneDrive\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X/LCDLIBRARY1.h
+FF5 text1 CODE >208:C:\Users\olate\OneDrive\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X/LCDLIBRARY1.h
+FFA text1 CODE >209:C:\Users\olate\OneDrive\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X/LCDLIBRARY1.h
+FFF text1 CODE >212:C:\Users\olate\OneDrive\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X/LCDLIBRARY1.h
+3F maintext CODE >138:C:\Users\olate\OneDrive\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X\main.c
+3F maintext CODE >139:C:\Users\olate\OneDrive\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X\main.c
+42 maintext CODE >140:C:\Users\olate\OneDrive\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X\main.c
+45 maintext CODE >141:C:\Users\olate\OneDrive\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X\main.c
+49 maintext CODE >142:C:\Users\olate\OneDrive\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X\main.c
+4D maintext CODE >143:C:\Users\olate\OneDrive\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X\main.c
+51 maintext CODE >144:C:\Users\olate\OneDrive\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X\main.c
+53 maintext CODE >145:C:\Users\olate\OneDrive\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X\main.c
+56 maintext CODE >146:C:\Users\olate\OneDrive\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X\main.c
+58 maintext CODE >147:C:\Users\olate\OneDrive\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X\main.c
+59 maintext CODE >148:C:\Users\olate\OneDrive\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X\main.c
+5D maintext CODE >149:C:\Users\olate\OneDrive\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X\main.c
+5E maintext CODE >150:C:\Users\olate\OneDrive\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X\main.c
+62 maintext CODE >151:C:\Users\olate\OneDrive\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X\main.c
+66 maintext CODE >152:C:\Users\olate\OneDrive\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X\main.c
+69 maintext CODE >153:C:\Users\olate\OneDrive\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X\main.c
+6A maintext CODE >154:C:\Users\olate\OneDrive\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X\main.c
+6B maintext CODE >155:C:\Users\olate\OneDrive\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X\main.c
+6C maintext CODE >156:C:\Users\olate\OneDrive\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X\main.c
+6F maintext CODE >157:C:\Users\olate\OneDrive\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X\main.c
+7C maintext CODE >158:C:\Users\olate\OneDrive\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X\main.c
+81 maintext CODE >159:C:\Users\olate\OneDrive\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X\main.c
+82 maintext CODE >160:C:\Users\olate\OneDrive\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X\main.c
+85 maintext CODE >161:C:\Users\olate\OneDrive\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X\main.c
+8A maintext CODE >162:C:\Users\olate\OneDrive\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X\main.c
+8F maintext CODE >163:C:\Users\olate\OneDrive\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X\main.c
+94 maintext CODE >164:C:\Users\olate\OneDrive\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X\main.c
+A2 maintext CODE >165:C:\Users\olate\OneDrive\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X\main.c
+A8 maintext CODE >166:C:\Users\olate\OneDrive\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X\main.c
+AE maintext CODE >167:C:\Users\olate\OneDrive\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X\main.c
+AF maintext CODE >168:C:\Users\olate\OneDrive\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X\main.c
+B0 maintext CODE >171:C:\Users\olate\OneDrive\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X\main.c
+BE maintext CODE >172:C:\Users\olate\OneDrive\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X\main.c
+C9 maintext CODE >173:C:\Users\olate\OneDrive\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X\main.c
+CF maintext CODE >174:C:\Users\olate\OneDrive\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X\main.c
+DA maintext CODE >175:C:\Users\olate\OneDrive\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X\main.c
+E0 maintext CODE >176:C:\Users\olate\OneDrive\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X\main.c
+EB maintext CODE >177:C:\Users\olate\OneDrive\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X\main.c
+F2 maintext CODE >178:C:\Users\olate\OneDrive\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X\main.c
+111 maintext CODE >179:C:\Users\olate\OneDrive\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X\main.c
+11F maintext CODE >180:C:\Users\olate\OneDrive\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X\main.c
+123 maintext CODE >181:C:\Users\olate\OneDrive\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X\main.c
+12A maintext CODE >182:C:\Users\olate\OneDrive\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X\main.c
+12D maintext CODE >183:C:\Users\olate\OneDrive\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X\main.c
+131 maintext CODE >184:C:\Users\olate\OneDrive\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X\main.c
+139 maintext CODE >185:C:\Users\olate\OneDrive\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X\main.c
+140 maintext CODE >186:C:\Users\olate\OneDrive\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X\main.c
+146 maintext CODE >187:C:\Users\olate\OneDrive\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X\main.c
+14D maintext CODE >188:C:\Users\olate\OneDrive\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X\main.c
+150 maintext CODE >189:C:\Users\olate\OneDrive\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X\main.c
+154 maintext CODE >190:C:\Users\olate\OneDrive\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X\main.c
+15C maintext CODE >191:C:\Users\olate\OneDrive\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X\main.c
+163 maintext CODE >192:C:\Users\olate\OneDrive\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X\main.c
+169 maintext CODE >193:C:\Users\olate\OneDrive\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X\main.c
+170 maintext CODE >194:C:\Users\olate\OneDrive\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X\main.c
+173 maintext CODE >195:C:\Users\olate\OneDrive\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X\main.c
+177 maintext CODE >196:C:\Users\olate\OneDrive\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X\main.c
+17F maintext CODE >197:C:\Users\olate\OneDrive\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X\main.c
+186 maintext CODE >198:C:\Users\olate\OneDrive\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X\main.c
+18C maintext CODE >199:C:\Users\olate\OneDrive\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X\main.c
+193 maintext CODE >200:C:\Users\olate\OneDrive\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X\main.c
+196 maintext CODE >201:C:\Users\olate\OneDrive\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X\main.c
+19A maintext CODE >202:C:\Users\olate\OneDrive\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X\main.c
+1A2 maintext CODE >203:C:\Users\olate\OneDrive\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X\main.c
+1A9 maintext CODE >204:C:\Users\olate\OneDrive\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X\main.c
+1AE maintext CODE >205:C:\Users\olate\OneDrive\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X\main.c
+1B9 maintext CODE >205:C:\Users\olate\OneDrive\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X\main.c
+1BD maintext CODE >205:C:\Users\olate\OneDrive\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X\main.c
+1CA maintext CODE >206:C:\Users\olate\OneDrive\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X\main.c
+1D1 maintext CODE >206:C:\Users\olate\OneDrive\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X\main.c
+1D5 maintext CODE >206:C:\Users\olate\OneDrive\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X\main.c
+1E0 maintext CODE >206:C:\Users\olate\OneDrive\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X\main.c
+1E4 maintext CODE >206:C:\Users\olate\OneDrive\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X\main.c
+1ED maintext CODE >207:C:\Users\olate\OneDrive\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X\main.c
+1F4 maintext CODE >207:C:\Users\olate\OneDrive\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X\main.c
+1F8 maintext CODE >207:C:\Users\olate\OneDrive\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X\main.c
+205 maintext CODE >208:C:\Users\olate\OneDrive\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X\main.c
+20C maintext CODE >208:C:\Users\olate\OneDrive\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X\main.c
+210 maintext CODE >208:C:\Users\olate\OneDrive\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X\main.c
+215 maintext CODE >209:C:\Users\olate\OneDrive\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X\main.c
+215 maintext CODE >210:C:\Users\olate\OneDrive\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X\main.c
+216 maintext CODE >211:C:\Users\olate\OneDrive\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X\main.c
+221 maintext CODE >212:C:\Users\olate\OneDrive\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X\main.c
+225 maintext CODE >212:C:\Users\olate\OneDrive\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X\main.c
+227 maintext CODE >212:C:\Users\olate\OneDrive\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X\main.c
+237 maintext CODE >213:C:\Users\olate\OneDrive\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X\main.c
+239 maintext CODE >213:C:\Users\olate\OneDrive\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X\main.c
+23B maintext CODE >213:C:\Users\olate\OneDrive\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X\main.c
+241 maintext CODE >213:C:\Users\olate\OneDrive\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X\main.c
+24E maintext CODE >214:C:\Users\olate\OneDrive\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X\main.c
+250 maintext CODE >214:C:\Users\olate\OneDrive\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X\main.c
+252 maintext CODE >214:C:\Users\olate\OneDrive\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X\main.c
+258 maintext CODE >214:C:\Users\olate\OneDrive\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X\main.c
+25B maintext CODE >214:C:\Users\olate\OneDrive\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X\main.c
+268 maintext CODE >215:C:\Users\olate\OneDrive\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X\main.c
+26A maintext CODE >215:C:\Users\olate\OneDrive\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X\main.c
+26C maintext CODE >215:C:\Users\olate\OneDrive\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X\main.c
+272 maintext CODE >215:C:\Users\olate\OneDrive\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X\main.c
+275 maintext CODE >215:C:\Users\olate\OneDrive\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X\main.c
+278 maintext CODE >215:C:\Users\olate\OneDrive\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X\main.c
+285 maintext CODE >216:C:\Users\olate\OneDrive\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X\main.c
+28A maintext CODE >217:C:\Users\olate\OneDrive\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X\main.c
+28F maintext CODE >217:C:\Users\olate\OneDrive\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X\main.c
+293 maintext CODE >217:C:\Users\olate\OneDrive\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X\main.c
+29D maintext CODE >218:C:\Users\olate\OneDrive\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X\main.c
+2A4 maintext CODE >218:C:\Users\olate\OneDrive\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X\main.c
+2A8 maintext CODE >218:C:\Users\olate\OneDrive\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X\main.c
+2B2 maintext CODE >219:C:\Users\olate\OneDrive\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X\main.c
+2B9 maintext CODE >219:C:\Users\olate\OneDrive\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X\main.c
+2BD maintext CODE >219:C:\Users\olate\OneDrive\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X\main.c
+2C7 maintext CODE >220:C:\Users\olate\OneDrive\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X\main.c
+2CC maintext CODE >221:C:\Users\olate\OneDrive\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X\main.c
+2CF maintext CODE >223:C:\Users\olate\OneDrive\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X\main.c
+2D5 maintext CODE >224:C:\Users\olate\OneDrive\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X\main.c
+2DA maintext CODE >224:C:\Users\olate\OneDrive\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X\main.c
+2DE maintext CODE >224:C:\Users\olate\OneDrive\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X\main.c
+2E8 maintext CODE >225:C:\Users\olate\OneDrive\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X\main.c
+2EF maintext CODE >225:C:\Users\olate\OneDrive\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X\main.c
+2F3 maintext CODE >225:C:\Users\olate\OneDrive\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X\main.c
+2FD maintext CODE >226:C:\Users\olate\OneDrive\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X\main.c
+304 maintext CODE >226:C:\Users\olate\OneDrive\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X\main.c
+308 maintext CODE >226:C:\Users\olate\OneDrive\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X\main.c
+312 maintext CODE >227:C:\Users\olate\OneDrive\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X\main.c
+317 maintext CODE >228:C:\Users\olate\OneDrive\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X\main.c
+31A maintext CODE >230:C:\Users\olate\OneDrive\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X\main.c
+320 maintext CODE >231:C:\Users\olate\OneDrive\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X\main.c
+325 maintext CODE >231:C:\Users\olate\OneDrive\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X\main.c
+329 maintext CODE >231:C:\Users\olate\OneDrive\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X\main.c
+333 maintext CODE >232:C:\Users\olate\OneDrive\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X\main.c
+33A maintext CODE >232:C:\Users\olate\OneDrive\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X\main.c
+33E maintext CODE >232:C:\Users\olate\OneDrive\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X\main.c
+348 maintext CODE >233:C:\Users\olate\OneDrive\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X\main.c
+34F maintext CODE >233:C:\Users\olate\OneDrive\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X\main.c
+353 maintext CODE >233:C:\Users\olate\OneDrive\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X\main.c
+35D maintext CODE >234:C:\Users\olate\OneDrive\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X\main.c
+362 maintext CODE >235:C:\Users\olate\OneDrive\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X\main.c
+365 maintext CODE >237:C:\Users\olate\OneDrive\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X\main.c
+36A maintext CODE >238:C:\Users\olate\OneDrive\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X\main.c
+373 maintext CODE >239:C:\Users\olate\OneDrive\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X\main.c
+377 maintext CODE >239:C:\Users\olate\OneDrive\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X\main.c
+379 maintext CODE >239:C:\Users\olate\OneDrive\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X\main.c
+385 maintext CODE >239:C:\Users\olate\OneDrive\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X\main.c
+388 maintext CODE >239:C:\Users\olate\OneDrive\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X\main.c
+38B maintext CODE >239:C:\Users\olate\OneDrive\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X\main.c
+38E maintext CODE >239:C:\Users\olate\OneDrive\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X\main.c
+392 maintext CODE >239:C:\Users\olate\OneDrive\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X\main.c
+394 maintext CODE >239:C:\Users\olate\OneDrive\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X\main.c
+3A0 maintext CODE >239:C:\Users\olate\OneDrive\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X\main.c
+3A3 maintext CODE >239:C:\Users\olate\OneDrive\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X\main.c
+3A6 maintext CODE >239:C:\Users\olate\OneDrive\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X\main.c
+3AA maintext CODE >239:C:\Users\olate\OneDrive\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X\main.c
+3AC maintext CODE >239:C:\Users\olate\OneDrive\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X\main.c
+3B8 maintext CODE >239:C:\Users\olate\OneDrive\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X\main.c
+3BB maintext CODE >239:C:\Users\olate\OneDrive\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X\main.c
+3BF maintext CODE >239:C:\Users\olate\OneDrive\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X\main.c
+3C1 maintext CODE >239:C:\Users\olate\OneDrive\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X\main.c
+3E9 maintext CODE >240:C:\Users\olate\OneDrive\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X\main.c
+3EA maintext CODE >242:C:\Users\olate\OneDrive\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X\main.c
+3F0 maintext CODE >243:C:\Users\olate\OneDrive\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X\main.c
+3F1 maintext CODE >245:C:\Users\olate\OneDrive\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X\main.c
+3F7 maintext CODE >246:C:\Users\olate\OneDrive\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X\main.c
+3F8 maintext CODE >248:C:\Users\olate\OneDrive\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X\main.c
+3FE maintext CODE >249:C:\Users\olate\OneDrive\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X\main.c
+3FF maintext CODE >251:C:\Users\olate\OneDrive\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X\main.c
+405 maintext CODE >252:C:\Users\olate\OneDrive\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X\main.c
+406 maintext CODE >254:C:\Users\olate\OneDrive\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X\main.c
+40C maintext CODE >255:C:\Users\olate\OneDrive\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X\main.c
+40D maintext CODE >257:C:\Users\olate\OneDrive\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X\main.c
+413 maintext CODE >258:C:\Users\olate\OneDrive\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X\main.c
+414 maintext CODE >259:C:\Users\olate\OneDrive\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X\main.c
+416 maintext CODE >259:C:\Users\olate\OneDrive\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X\main.c
+41B maintext CODE >259:C:\Users\olate\OneDrive\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X\main.c
+41E maintext CODE >259:C:\Users\olate\OneDrive\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X\main.c
+421 maintext CODE >259:C:\Users\olate\OneDrive\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X\main.c
+424 maintext CODE >259:C:\Users\olate\OneDrive\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X\main.c
+427 maintext CODE >259:C:\Users\olate\OneDrive\Documents\GitHub\4way_renewable_source_switch\4way_renewable_source_switch.X\main.c
+A0B clrtext CODE >920:C:\Users\olate\AppData\Local\Temp\xcAsa9s.s
+A0B clrtext CODE >921:C:\Users\olate\AppData\Local\Temp\xcAsa9s.s
+A0C clrtext CODE >922:C:\Users\olate\AppData\Local\Temp\xcAsa9s.s
+A0C clrtext CODE >923:C:\Users\olate\AppData\Local\Temp\xcAsa9s.s
+A0D clrtext CODE >924:C:\Users\olate\AppData\Local\Temp\xcAsa9s.s
+A0E clrtext CODE >925:C:\Users\olate\AppData\Local\Temp\xcAsa9s.s
+A0F clrtext CODE >926:C:\Users\olate\AppData\Local\Temp\xcAsa9s.s
+A10 clrtext CODE >927:C:\Users\olate\AppData\Local\Temp\xcAsa9s.s
+A11 clrtext CODE >928:C:\Users\olate\AppData\Local\Temp\xcAsa9s.s
+A12 clrtext CODE >929:C:\Users\olate\AppData\Local\Temp\xcAsa9s.s
+AAD inittext CODE >872:C:\Users\olate\AppData\Local\Temp\xcAsa9s.s
+AAD inittext CODE >873:C:\Users\olate\AppData\Local\Temp\xcAsa9s.s
+AAE inittext CODE >874:C:\Users\olate\AppData\Local\Temp\xcAsa9s.s
+AAF inittext CODE >875:C:\Users\olate\AppData\Local\Temp\xcAsa9s.s
+AB0 inittext CODE >876:C:\Users\olate\AppData\Local\Temp\xcAsa9s.s
+AB1 inittext CODE >883:C:\Users\olate\AppData\Local\Temp\xcAsa9s.s
+AB1 inittext CODE >884:C:\Users\olate\AppData\Local\Temp\xcAsa9s.s
+AB6 inittext CODE >885:C:\Users\olate\AppData\Local\Temp\xcAsa9s.s
+AB7 inittext CODE >886:C:\Users\olate\AppData\Local\Temp\xcAsa9s.s
+AB8 inittext CODE >887:C:\Users\olate\AppData\Local\Temp\xcAsa9s.s
+AB9 inittext CODE >888:C:\Users\olate\AppData\Local\Temp\xcAsa9s.s
+ABA inittext CODE >889:C:\Users\olate\AppData\Local\Temp\xcAsa9s.s
+ABB inittext CODE >890:C:\Users\olate\AppData\Local\Temp\xcAsa9s.s
+ABC inittext CODE >891:C:\Users\olate\AppData\Local\Temp\xcAsa9s.s
+ABD inittext CODE >892:C:\Users\olate\AppData\Local\Temp\xcAsa9s.s
+ABE inittext CODE >893:C:\Users\olate\AppData\Local\Temp\xcAsa9s.s
+ABF inittext CODE >894:C:\Users\olate\AppData\Local\Temp\xcAsa9s.s
 # %SYMTAB Section
 # An enumeration of all symbols in the program.
 # The beginning of the section is indicated by %SYMTAB.
@@ -658,61 +848,65 @@ __Hspace_3 0 0 ABS 0 - -
 __Hspace_4 400F 0 ABS 0 - -
 __HidataBANK0 0 0 ABS 0 idataBANK0 -
 __HidataBANK1 0 0 ABS 0 idataBANK1 -
-_CLRDISP 185A 0 CODE 0 text21 dist/default/production\4way_renewable_source_switch.X.production.o
+_CLRDISP 1580 0 CODE 0 text22 dist/default/production\4way_renewable_source_switch.X.production.o
 ISR@dummy 2A 0 BANK0 1 cstackBANK0 dist/default/production\4way_renewable_source_switch.X.production.o
 __size_of_I2C_End 0 0 ABS 0 - dist/default/production\4way_renewable_source_switch.X.production.o
 __Heeprom_data 0 0 EEDATA 3 eeprom_data -
-__end_of_LCDNUM 97E 0 CODE 0 text13 dist/default/production\4way_renewable_source_switch.X.production.o
+__end_of_LCDNUM A2E 0 CODE 0 text15 dist/default/production\4way_renewable_source_switch.X.production.o
 i1___awdiv@dividend 72 0 COMMON 1 cstackCOMMON dist/default/production\4way_renewable_source_switch.X.production.o
-__end_of_I2C_Begin 175C 0 CODE 0 text9 dist/default/production\4way_renewable_source_switch.X.production.o
-__end_of_I2C_Write 1838 0 CODE 0 text7 dist/default/production\4way_renewable_source_switch.X.production.o
+__end_of_I2C_Begin 145C 0 CODE 0 text10 dist/default/production\4way_renewable_source_switch.X.production.o
+__end_of_I2C_Write 1538 0 CODE 0 text8 dist/default/production\4way_renewable_source_switch.X.production.o
 __Hstrings 0 0 ABS 0 strings -
 __size_of_I2C_Begin 0 0 ABS 0 - dist/default/production\4way_renewable_source_switch.X.production.o
 __size_of_Set_Time_Date 0 0 ABS 0 - dist/default/production\4way_renewable_source_switch.X.production.o
 _PEIE 5E 0 ABS 0 - dist/default/production\4way_renewable_source_switch.X.production.o
+_PHCN 1934 0 CODE 0 text14 dist/default/production\4way_renewable_source_switch.X.production.o
 _RCEN 48B 0 ABS 0 - dist/default/production\4way_renewable_source_switch.X.production.o
 _RSEN 489 0 ABS 0 - dist/default/production\4way_renewable_source_switch.X.production.o
 _TMR0 1 0 ABS 0 - dist/default/production\4way_renewable_source_switch.X.production.o
 _TMR1 E 0 ABS 0 - dist/default/production\4way_renewable_source_switch.X.production.o
-___sp 0 0 STACK 2 stack C:\Users\EMMANU~1\AppData\Local\Temp\s9d4.o
-_hour 4E 0 BANK0 1 bssBANK0 dist/default/production\4way_renewable_source_switch.X.production.o
+_WIND 1A38 0 CODE 0 text2 dist/default/production\4way_renewable_source_switch.X.production.o
+___sp 0 0 STACK 2 stack C:\Users\olate\AppData\Local\Temp\xcAsa9s.o
+_hour 50 0 BANK0 1 bssBANK0 dist/default/production\4way_renewable_source_switch.X.production.o
 _main 7E 0 CODE 0 maintext dist/default/production\4way_renewable_source_switch.X.production.o
 btemp 7E 0 ABS 0 - dist/default/production\4way_renewable_source_switch.X.production.o
 __size_of_I2C_Write 0 0 ABS 0 - dist/default/production\4way_renewable_source_switch.X.production.o
-_biogas_val 48 0 BANK0 1 bssBANK0 dist/default/production\4way_renewable_source_switch.X.production.o
-start 20 0 CODE 0 init C:\Users\EMMANU~1\AppData\Local\Temp\s9d4.o
+_biogas_val 4A 0 BANK0 1 bssBANK0 dist/default/production\4way_renewable_source_switch.X.production.o
+start 20 0 CODE 0 init C:\Users\olate\AppData\Local\Temp\xcAsa9s.o
 __size_of___awdiv 0 0 ABS 0 - dist/default/production\4way_renewable_source_switch.X.production.o
 __size_of___awmod 0 0 ABS 0 - dist/default/production\4way_renewable_source_switch.X.production.o
+__size_of_PHCN 0 0 ABS 0 - dist/default/production\4way_renewable_source_switch.X.production.o
+__size_of_WIND 0 0 ABS 0 - dist/default/production\4way_renewable_source_switch.X.production.o
 __size_of_main 0 0 ABS 0 - dist/default/production\4way_renewable_source_switch.X.production.o
 __size_of___lldiv 0 0 ABS 0 - dist/default/production\4way_renewable_source_switch.X.production.o
 ?___wmul 2C 0 BANK0 1 cstackBANK0 dist/default/production\4way_renewable_source_switch.X.production.o
 __size_of_LCDCHAR 0 0 ABS 0 - dist/default/production\4way_renewable_source_switch.X.production.o
 __size_of_I2C_Hold 0 0 ABS 0 - dist/default/production\4way_renewable_source_switch.X.production.o
 __size_of_I2C_Read 0 0 ABS 0 - dist/default/production\4way_renewable_source_switch.X.production.o
-i1_DEC_2_BCD 1A38 0 CODE 0 text31 dist/default/production\4way_renewable_source_switch.X.production.o
+i1_DEC_2_BCD 175E 0 CODE 0 text35 dist/default/production\4way_renewable_source_switch.X.production.o
 __LidataBANK0 0 0 ABS 0 idataBANK0 -
 __LidataBANK1 0 0 ABS 0 idataBANK1 -
-_I2C_Restart 176E 0 CODE 0 text3 dist/default/production\4way_renewable_source_switch.X.production.o
-_I2C_Begin 174A 0 CODE 0 text9 dist/default/production\4way_renewable_source_switch.X.production.o
-_LCDWRITE 1B8C 0 CODE 0 text12 dist/default/production\4way_renewable_source_switch.X.production.o
+_I2C_Restart 146E 0 CODE 0 text4 dist/default/production\4way_renewable_source_switch.X.production.o
+_I2C_Begin 144A 0 CODE 0 text10 dist/default/production\4way_renewable_source_switch.X.production.o
+_LCDWRITE 1ABA 0 CODE 0 text25 dist/default/production\4way_renewable_source_switch.X.production.o
 __size_ofi1_I2C_Hold 0 0 ABS 0 - dist/default/production\4way_renewable_source_switch.X.production.o
 __Hpowerup 0 0 CODE 0 powerup -
-_I2C_Write 181A 0 CODE 0 text7 dist/default/production\4way_renewable_source_switch.X.production.o
+_I2C_Write 151A 0 CODE 0 text8 dist/default/production\4way_renewable_source_switch.X.production.o
 ___awmod@sign 32 0 BANK0 1 cstackBANK0 dist/default/production\4way_renewable_source_switch.X.production.o
-__end_of_LCDWRITE 1C28 0 CODE 0 text12 dist/default/production\4way_renewable_source_switch.X.production.o
-intlevel0 0 0 ENTRY 0 functab C:\Users\EMMANU~1\AppData\Local\Temp\s9d4.o
-intlevel1 0 0 ENTRY 0 functab C:\Users\EMMANU~1\AppData\Local\Temp\s9d4.o
-intlevel2 0 0 ENTRY 0 functab C:\Users\EMMANU~1\AppData\Local\Temp\s9d4.o
-intlevel3 0 0 ENTRY 0 functab C:\Users\EMMANU~1\AppData\Local\Temp\s9d4.o
-intlevel4 0 0 ENTRY 0 functab C:\Users\EMMANU~1\AppData\Local\Temp\s9d4.o
-intlevel5 0 0 ENTRY 0 functab C:\Users\EMMANU~1\AppData\Local\Temp\s9d4.o
-__end_of_Set_Time_Date BE2 0 CODE 0 text6 dist/default/production\4way_renewable_source_switch.X.production.o
-_nextState 54 0 BANK0 1 bssBANK0 dist/default/production\4way_renewable_source_switch.X.production.o
-__end_oflog@coeff EA4 0 STRING 0 strings dist/default/production\4way_renewable_source_switch.X.production.o
+__end_of_LCDWRITE 1B56 0 CODE 0 text25 dist/default/production\4way_renewable_source_switch.X.production.o
+intlevel0 0 0 ENTRY 0 functab C:\Users\olate\AppData\Local\Temp\xcAsa9s.o
+intlevel1 0 0 ENTRY 0 functab C:\Users\olate\AppData\Local\Temp\xcAsa9s.o
+intlevel2 0 0 ENTRY 0 functab C:\Users\olate\AppData\Local\Temp\xcAsa9s.o
+intlevel3 0 0 ENTRY 0 functab C:\Users\olate\AppData\Local\Temp\xcAsa9s.o
+intlevel4 0 0 ENTRY 0 functab C:\Users\olate\AppData\Local\Temp\xcAsa9s.o
+intlevel5 0 0 ENTRY 0 functab C:\Users\olate\AppData\Local\Temp\xcAsa9s.o
+__end_of_Set_Time_Date DFC 0 CODE 0 text7 dist/default/production\4way_renewable_source_switch.X.production.o
+_nextState 56 0 BANK0 1 bssBANK0 dist/default/production\4way_renewable_source_switch.X.production.o
+__end_oflog@coeff AD2 0 STRING 0 strings dist/default/production\4way_renewable_source_switch.X.production.o
 BCD_2_DEC@num 32 0 BANK0 1 cstackBANK0 dist/default/production\4way_renewable_source_switch.X.production.o
 i1DEC_2_BCD@data 20 0 BANK0 1 cstackBANK0 dist/default/production\4way_renewable_source_switch.X.production.o
 wtemp0 7E 0 ABS 0 - dist/default/production\4way_renewable_source_switch.X.production.o
-__end_of_Update_Current_Date_Time AC6 0 CODE 0 text2 dist/default/production\4way_renewable_source_switch.X.production.o
+__end_of_Update_Current_Date_Time CE0 0 CODE 0 text3 dist/default/production\4way_renewable_source_switch.X.production.o
 __Hfunctab 0 0 ENTRY 0 functab -
 ___awdiv@sign 32 0 BANK0 1 cstackBANK0 dist/default/production\4way_renewable_source_switch.X.production.o
 __Hclrtext 0 0 ABS 0 clrtext -
@@ -723,41 +917,44 @@ _ADRESH 1E 0 ABS 0 - dist/default/production\4way_renewable_source_switch.X.prod
 _ADRESL 9E 0 ABS 0 - dist/default/production\4way_renewable_source_switch.X.production.o
 DEC_2_BCD@data 39 0 BANK0 1 cstackBANK0 dist/default/production\4way_renewable_source_switch.X.production.o
 ___awdiv@dividend 2E 0 BANK0 1 cstackBANK0 dist/default/production\4way_renewable_source_switch.X.production.o
-__end_ofi1_I2C_End 174A 0 CODE 0 text28 dist/default/production\4way_renewable_source_switch.X.production.o
-_CURSOR 1894 0 CODE 0 text20 dist/default/production\4way_renewable_source_switch.X.production.o
-_I2C_Hold 17E2 0 CODE 0 text10 dist/default/production\4way_renewable_source_switch.X.production.o
-_I2C_Read 19DA 0 CODE 0 text4 dist/default/production\4way_renewable_source_switch.X.production.o
+_BIOGAS 18B2 0 CODE 0 text24 dist/default/production\4way_renewable_source_switch.X.production.o
+__end_ofi1_I2C_End 144A 0 CODE 0 text32 dist/default/production\4way_renewable_source_switch.X.production.o
+_CURSOR 15BA 0 CODE 0 text26 dist/default/production\4way_renewable_source_switch.X.production.o
+_I2C_Hold 14E2 0 CODE 0 text11 dist/default/production\4way_renewable_source_switch.X.production.o
+_I2C_Read 1700 0 CODE 0 text5 dist/default/production\4way_renewable_source_switch.X.production.o
 __size_ofi1_I2C_End 0 0 ABS 0 - dist/default/production\4way_renewable_source_switch.X.production.o
-__end_of_I2C_End 176E 0 CODE 0 text8 dist/default/production\4way_renewable_source_switch.X.production.o
-__end_of___wmul 192A 0 CODE 0 text14 dist/default/production\4way_renewable_source_switch.X.production.o
+__end_of_I2C_End 146E 0 CODE 0 text9 dist/default/production\4way_renewable_source_switch.X.production.o
+__end_of___wmul 1650 0 CODE 0 text16 dist/default/production\4way_renewable_source_switch.X.production.o
 i1___awmod@divisor 70 0 COMMON 1 cstackCOMMON dist/default/production\4way_renewable_source_switch.X.production.o
 main@out 42 0 BANK0 1 cstackBANK0 dist/default/production\4way_renewable_source_switch.X.production.o
-__end_ofi1___awdiv 1E5E 0 CODE 0 text33 dist/default/production\4way_renewable_source_switch.X.production.o
-__end_ofi1___awmod 1CDA 0 CODE 0 text32 dist/default/production\4way_renewable_source_switch.X.production.o
+__end_ofi1___awdiv 1D8C 0 CODE 0 text37 dist/default/production\4way_renewable_source_switch.X.production.o
+__end_ofi1___awmod 1C08 0 CODE 0 text36 dist/default/production\4way_renewable_source_switch.X.production.o
 __Lmaintext 0 0 ABS 0 maintext -
-__end_ofi1_I2C_Begin 1738 0 CODE 0 text29 dist/default/production\4way_renewable_source_switch.X.production.o
-__end_of_I2C_Hold 17FC 0 CODE 0 text10 dist/default/production\4way_renewable_source_switch.X.production.o
-__end_of_I2C_Read 1A38 0 CODE 0 text4 dist/default/production\4way_renewable_source_switch.X.production.o
-__end_ofi1_I2C_Write 181A 0 CODE 0 text27 dist/default/production\4way_renewable_source_switch.X.production.o
+__end_ofi1_I2C_Begin 1438 0 CODE 0 text33 dist/default/production\4way_renewable_source_switch.X.production.o
+__end_of_I2C_Hold 14FC 0 CODE 0 text11 dist/default/production\4way_renewable_source_switch.X.production.o
+__end_of_I2C_Read 175E 0 CODE 0 text5 dist/default/production\4way_renewable_source_switch.X.production.o
+__end_ofi1_I2C_Write 151A 0 CODE 0 text31 dist/default/production\4way_renewable_source_switch.X.production.o
 ___awdiv@divisor 2C 0 BANK0 1 cstackBANK0 dist/default/production\4way_renewable_source_switch.X.production.o
 __size_ofi1___awdiv 0 0 ABS 0 - dist/default/production\4way_renewable_source_switch.X.production.o
 __size_ofi1___awmod 0 0 ABS 0 - dist/default/production\4way_renewable_source_switch.X.production.o
-__end_of___awdiv 2000 0 CODE 0 text16 dist/default/production\4way_renewable_source_switch.X.production.o
-__end_of___awmod 1D90 0 CODE 0 text15 dist/default/production\4way_renewable_source_switch.X.production.o
-__end_of___lldiv 1F2E 0 CODE 0 text19 dist/default/production\4way_renewable_source_switch.X.production.o
-__end_of_config DD0 0 CODE 0 text1 dist/default/production\4way_renewable_source_switch.X.production.o
-i1_I2C_End 1738 0 CODE 0 text28 dist/default/production\4way_renewable_source_switch.X.production.o
-__end_of_delay1 17B0 0 CODE 0 text22 dist/default/production\4way_renewable_source_switch.X.production.o
-__end_of_delay2 1798 0 CODE 0 text24 dist/default/production\4way_renewable_source_switch.X.production.o
+__end_of___awdiv 1F2E 0 CODE 0 text18 dist/default/production\4way_renewable_source_switch.X.production.o
+__end_of___awmod 1CBE 0 CODE 0 text17 dist/default/production\4way_renewable_source_switch.X.production.o
+__end_of___lldiv 1E5C 0 CODE 0 text21 dist/default/production\4way_renewable_source_switch.X.production.o
+__end_of_config 2000 0 CODE 0 text1 dist/default/production\4way_renewable_source_switch.X.production.o
+i1_I2C_End 1438 0 CODE 0 text32 dist/default/production\4way_renewable_source_switch.X.production.o
+__end_of_delay1 14B0 0 CODE 0 text23 dist/default/production\4way_renewable_source_switch.X.production.o
+__end_of_delay2 1498 0 CODE 0 text28 dist/default/production\4way_renewable_source_switch.X.production.o
 _OPTION_REG 81 0 ABS 0 - dist/default/production\4way_renewable_source_switch.X.production.o
-___stackhi 0 0 ABS 0 - C:\Users\EMMANU~1\AppData\Local\Temp\s9d4.o
-___stacklo 0 0 ABS 0 - C:\Users\EMMANU~1\AppData\Local\Temp\s9d4.o
-__end_of_LCDCHAR 1980 0 CODE 0 text17 dist/default/production\4way_renewable_source_switch.X.production.o
+___stackhi 0 0 ABS 0 - C:\Users\olate\AppData\Local\Temp\xcAsa9s.o
+___stacklo 0 0 ABS 0 - C:\Users\olate\AppData\Local\Temp\xcAsa9s.o
+__end_of_LCDCHAR 16A6 0 CODE 0 text19 dist/default/production\4way_renewable_source_switch.X.production.o
 __size_of_CLOCK 0 0 ABS 0 - dist/default/production\4way_renewable_source_switch.X.production.o
-_LCDNUM 7AA 0 CODE 0 text13 dist/default/production\4way_renewable_source_switch.X.production.o
-i1___awdiv 1D90 0 CODE 0 text33 dist/default/production\4way_renewable_source_switch.X.production.o
-i1___awmod 1C28 0 CODE 0 text32 dist/default/production\4way_renewable_source_switch.X.production.o
-__end_of_DEC_2_BCD 1B8C 0 CODE 0 text11 dist/default/production\4way_renewable_source_switch.X.production.o
+__size_of_SOLAR 0 0 ABS 0 - dist/default/production\4way_renewable_source_switch.X.production.o
+_LCDNUM 85A 0 CODE 0 text15 dist/default/production\4way_renewable_source_switch.X.production.o
+i1___awdiv 1CBE 0 CODE 0 text37 dist/default/production\4way_renewable_source_switch.X.production.o
+i1___awmod 1B56 0 CODE 0 text36 dist/default/production\4way_renewable_source_switch.X.production.o
+__end_of_DEC_2_BCD 18B2 0 CODE 0 text12 dist/default/production\4way_renewable_source_switch.X.production.o
+__size_of_BIOGAS 0 0 ABS 0 - dist/default/production\4way_renewable_source_switch.X.production.o
 __size_of_DEC_2_BCD 0 0 ABS 0 - dist/default/production\4way_renewable_source_switch.X.production.o
 ___lldiv@counter 39 0 BANK0 1 cstackBANK0 dist/default/production\4way_renewable_source_switch.X.production.o
 start_initialization 26 0 CODE 0 cinit dist/default/production\4way_renewable_source_switch.X.production.o
@@ -765,8 +962,8 @@ __size_of_CURSOR 0 0 ABS 0 - dist/default/production\4way_renewable_source_switc
 _TRISBbits 86 0 ABS 0 - dist/default/production\4way_renewable_source_switch.X.production.o
 _ACKSTAT 48E 0 ABS 0 - dist/default/production\4way_renewable_source_switch.X.production.o
 ___lldiv@dividend 30 0 BANK0 1 cstackBANK0 dist/default/production\4way_renewable_source_switch.X.production.o
-_DEC_2_BCD 1B18 0 CODE 0 text11 dist/default/production\4way_renewable_source_switch.X.production.o
-clear_ram0 1716 0 CODE 0 clrtext dist/default/production\4way_renewable_source_switch.X.production.o
+_DEC_2_BCD 183E 0 CODE 0 text12 dist/default/production\4way_renewable_source_switch.X.production.o
+clear_ram0 1416 0 CODE 0 clrtext dist/default/production\4way_renewable_source_switch.X.production.o
 __pcstackBANK0 20 0 BANK0 1 cstackBANK0 dist/default/production\4way_renewable_source_switch.X.production.o
 __pcstackBANK1 A0 0 BANK1 1 cstackBANK1 dist/default/production\4way_renewable_source_switch.X.production.o
 _SSPADD 93 0 ABS 0 - dist/default/production\4way_renewable_source_switch.X.production.o
@@ -777,18 +974,12 @@ _TMR0IF 5A 0 ABS 0 - dist/default/production\4way_renewable_source_switch.X.prod
 _TMR1IE 460 0 ABS 0 - dist/default/production\4way_renewable_source_switch.X.production.o
 _TMR1IF 60 0 ABS 0 - dist/default/production\4way_renewable_source_switch.X.production.o
 _TMR1ON 80 0 ABS 0 - dist/default/production\4way_renewable_source_switch.X.production.o
-_TRISA0 428 0 ABS 0 - dist/default/production\4way_renewable_source_switch.X.production.o
-_TRISA1 429 0 ABS 0 - dist/default/production\4way_renewable_source_switch.X.production.o
-_TRISA2 42A 0 ABS 0 - dist/default/production\4way_renewable_source_switch.X.production.o
-_TRISA3 42B 0 ABS 0 - dist/default/production\4way_renewable_source_switch.X.production.o
 _TRISC0 438 0 ABS 0 - dist/default/production\4way_renewable_source_switch.X.production.o
 _TRISC3 43B 0 ABS 0 - dist/default/production\4way_renewable_source_switch.X.production.o
 _TRISC4 43C 0 ABS 0 - dist/default/production\4way_renewable_source_switch.X.production.o
-_TRISD4 444 0 ABS 0 - dist/default/production\4way_renewable_source_switch.X.production.o
-_TRISD5 445 0 ABS 0 - dist/default/production\4way_renewable_source_switch.X.production.o
 i1___awdiv@counter 75 0 COMMON 1 cstackCOMMON dist/default/production\4way_renewable_source_switch.X.production.o
 __size_of_LCDNUM 0 0 ABS 0 - dist/default/production\4way_renewable_source_switch.X.production.o
-___int_sp 0 0 STACK 2 stack C:\Users\EMMANU~1\AppData\Local\Temp\s9d4.o
+___int_sp 0 0 STACK 2 stack C:\Users\olate\AppData\Local\Temp\xcAsa9s.o
 __Hbank0 0 0 ABS 0 bank0 -
 __Hbank1 0 0 ABS 0 bank1 -
 __Hbank2 0 0 ABS 0 bank2 -
@@ -799,7 +990,7 @@ LCDNUM@r 3D 0 BANK0 1 cstackBANK0 dist/default/production\4way_renewable_source_
 LCDNUM@t 39 0 BANK0 1 cstackBANK0 dist/default/production\4way_renewable_source_switch.X.production.o
 LCDNUM@u 3A 0 BANK0 1 cstackBANK0 dist/default/production\4way_renewable_source_switch.X.production.o
 __Hstack 0 0 STACK 2 stack -
-__stringbase E0A 0 STRING 0 strings dist/default/production\4way_renewable_source_switch.X.production.o
+__stringbase A38 0 STRING 0 strings dist/default/production\4way_renewable_source_switch.X.production.o
 __size_of_I2C_Initialize 0 0 ABS 0 - dist/default/production\4way_renewable_source_switch.X.production.o
 __Hmaintext 0 0 ABS 0 maintext -
 __Hcommon 0 0 ABS 0 common -
@@ -832,14 +1023,14 @@ __Lsfr2 0 0 ABS 0 sfr2 -
 __Lsfr3 0 0 ABS 0 sfr3 -
 __Ltext 0 0 ABS 0 text -
 __size_of_CLRDISP 0 0 ABS 0 - dist/default/production\4way_renewable_source_switch.X.production.o
-___wmul 18DC 0 CODE 0 text14 dist/default/production\4way_renewable_source_switch.X.production.o
+___wmul 1602 0 CODE 0 text16 dist/default/production\4way_renewable_source_switch.X.production.o
 ?_I2C_Read 2C 0 BANK0 1 cstackBANK0 dist/default/production\4way_renewable_source_switch.X.production.o
 LCDNUM@number 35 0 BANK0 1 cstackBANK0 dist/default/production\4way_renewable_source_switch.X.production.o
 __LcstackBANK0 0 0 ABS 0 cstackBANK0 -
 __LcstackBANK1 0 0 ABS 0 cstackBANK1 -
 __HcstackCOMMON 0 0 ABS 0 cstackCOMMON -
 _GIE 5F 0 ABS 0 - dist/default/production\4way_renewable_source_switch.X.production.o
-_ISR F18 0 CODE 0 text25 dist/default/production\4way_renewable_source_switch.X.production.o
+_ISR F18 0 CODE 0 text29 dist/default/production\4way_renewable_source_switch.X.production.o
 _PEN 48A 0 ABS 0 - dist/default/production\4way_renewable_source_switch.X.production.o
 _RB4 34 0 ABS 0 - dist/default/production\4way_renewable_source_switch.X.production.o
 _RB6 36 0 ABS 0 - dist/default/production\4way_renewable_source_switch.X.production.o
@@ -858,25 +1049,25 @@ __S0 1000 0 ABS 0 - -
 __S1 C6 0 ABS 0 - -
 __S2 0 0 ABS 0 - -
 __S3 0 0 ABS 0 - -
-_min 50 0 BANK0 1 bssBANK0 dist/default/production\4way_renewable_source_switch.X.production.o
-_sec 52 0 BANK0 1 bssBANK0 dist/default/production\4way_renewable_source_switch.X.production.o
+_min 52 0 BANK0 1 bssBANK0 dist/default/production\4way_renewable_source_switch.X.production.o
+_sec 54 0 BANK0 1 bssBANK0 dist/default/production\4way_renewable_source_switch.X.production.o
 i1DEC_2_BCD@num 79 0 COMMON 1 cstackCOMMON dist/default/production\4way_renewable_source_switch.X.production.o
-__end_ofi1_DEC_2_BCD 1AA4 0 CODE 0 text31 dist/default/production\4way_renewable_source_switch.X.production.o
-__end_of_I2C_Restart 1780 0 CODE 0 text3 dist/default/production\4way_renewable_source_switch.X.production.o
+__end_ofi1_DEC_2_BCD 17CA 0 CODE 0 text35 dist/default/production\4way_renewable_source_switch.X.production.o
+__end_of_I2C_Restart 1480 0 CODE 0 text4 dist/default/production\4way_renewable_source_switch.X.production.o
 __size_ofi1_I2C_Begin 0 0 ABS 0 - dist/default/production\4way_renewable_source_switch.X.production.o
 saved_w 7E 0 ABS 0 - dist/default/production\4way_renewable_source_switch.X.production.o
-_config CFE 0 CODE 0 text1 dist/default/production\4way_renewable_source_switch.X.production.o
+_config 1F2E 0 CODE 0 text1 dist/default/production\4way_renewable_source_switch.X.production.o
 __size_ofi1_I2C_Write 0 0 ABS 0 - dist/default/production\4way_renewable_source_switch.X.production.o
-_delay1 1798 0 CODE 0 text22 dist/default/production\4way_renewable_source_switch.X.production.o
-_delay2 1780 0 CODE 0 text24 dist/default/production\4way_renewable_source_switch.X.production.o
-__end_of_ISR FF8 0 CODE 0 text25 dist/default/production\4way_renewable_source_switch.X.production.o
+_delay1 1498 0 CODE 0 text23 dist/default/production\4way_renewable_source_switch.X.production.o
+_delay2 1480 0 CODE 0 text28 dist/default/production\4way_renewable_source_switch.X.production.o
+__end_of_ISR FFE 0 CODE 0 text29 dist/default/production\4way_renewable_source_switch.X.production.o
 __Lintentry 8 0 CODE 0 intentry -
 ___lldiv@divisor 2C 0 BANK0 1 cstackBANK0 dist/default/production\4way_renewable_source_switch.X.production.o
-__stringtab E00 0 STRING 0 strings dist/default/production\4way_renewable_source_switch.X.production.o
-LCDNUM@t_239 3B 0 BANK0 1 cstackBANK0 dist/default/production\4way_renewable_source_switch.X.production.o
-LCDNUM@u_240 3C 0 BANK0 1 cstackBANK0 dist/default/production\4way_renewable_source_switch.X.production.o
-reset_vec 0 0 CODE 0 reset_vec C:\Users\EMMANU~1\AppData\Local\Temp\s9d4.o
-__pdataBANK0 55 0 BANK0 1 dataBANK0 dist/default/production\4way_renewable_source_switch.X.production.o
+__stringtab A2E 0 STRING 0 strings dist/default/production\4way_renewable_source_switch.X.production.o
+LCDNUM@t_233 3B 0 BANK0 1 cstackBANK0 dist/default/production\4way_renewable_source_switch.X.production.o
+LCDNUM@u_234 3C 0 BANK0 1 cstackBANK0 dist/default/production\4way_renewable_source_switch.X.production.o
+reset_vec 0 0 CODE 0 reset_vec C:\Users\olate\AppData\Local\Temp\xcAsa9s.o
+__pdataBANK0 57 0 BANK0 1 dataBANK0 dist/default/production\4way_renewable_source_switch.X.production.o
 __pdataBANK1 B6 0 BANK1 1 dataBANK1 dist/default/production\4way_renewable_source_switch.X.production.o
 __size_of___wmul 0 0 ABS 0 - dist/default/production\4way_renewable_source_switch.X.production.o
 __LbssBANK0 0 0 ABS 0 bssBANK0 -
@@ -885,41 +1076,45 @@ LCDWRITE@P 33 0 BANK0 1 cstackBANK0 dist/default/production\4way_renewable_sourc
 LCDWRITE@i 32 0 BANK0 1 cstackBANK0 dist/default/production\4way_renewable_source_switch.X.production.o
 LCDWRITE@j 30 0 BANK0 1 cstackBANK0 dist/default/production\4way_renewable_source_switch.X.production.o
 LCDWRITE@k 31 0 BANK0 1 cstackBANK0 dist/default/production\4way_renewable_source_switch.X.production.o
-_I2C_End 175C 0 CODE 0 text8 dist/default/production\4way_renewable_source_switch.X.production.o
+_I2C_End 145C 0 CODE 0 text9 dist/default/production\4way_renewable_source_switch.X.production.o
 i1___awdiv@quotient 77 0 COMMON 1 cstackCOMMON dist/default/production\4way_renewable_source_switch.X.production.o
 ___awmod@counter 31 0 BANK0 1 cstackBANK0 dist/default/production\4way_renewable_source_switch.X.production.o
 I2C_Read@ack 2C 0 BANK0 1 cstackBANK0 dist/default/production\4way_renewable_source_switch.X.production.o
 i1___awmod@sign 76 0 COMMON 1 cstackCOMMON dist/default/production\4way_renewable_source_switch.X.production.o
-_wind_val 4C 0 BANK0 1 bssBANK0 dist/default/production\4way_renewable_source_switch.X.production.o
+_wind_val 4E 0 BANK0 1 bssBANK0 dist/default/production\4way_renewable_source_switch.X.production.o
 i1___awmod@dividend 72 0 COMMON 1 cstackCOMMON dist/default/production\4way_renewable_source_switch.X.production.o
-__ptext10 17E2 0 CODE 0 text10 dist/default/production\4way_renewable_source_switch.X.production.o
-__ptext11 1B18 0 CODE 0 text11 dist/default/production\4way_renewable_source_switch.X.production.o
-__ptext12 1B8C 0 CODE 0 text12 dist/default/production\4way_renewable_source_switch.X.production.o
-__ptext13 7AA 0 CODE 0 text13 dist/default/production\4way_renewable_source_switch.X.production.o
-__ptext14 18DC 0 CODE 0 text14 dist/default/production\4way_renewable_source_switch.X.production.o
-__ptext15 1CDA 0 CODE 0 text15 dist/default/production\4way_renewable_source_switch.X.production.o
-__ptext16 1F2E 0 CODE 0 text16 dist/default/production\4way_renewable_source_switch.X.production.o
-__ptext17 192A 0 CODE 0 text17 dist/default/production\4way_renewable_source_switch.X.production.o
-__ptext18 1AA4 0 CODE 0 text18 dist/default/production\4way_renewable_source_switch.X.production.o
-__ptext19 1E5E 0 CODE 0 text19 dist/default/production\4way_renewable_source_switch.X.production.o
-__ptext20 1894 0 CODE 0 text20 dist/default/production\4way_renewable_source_switch.X.production.o
-__ptext21 185A 0 CODE 0 text21 dist/default/production\4way_renewable_source_switch.X.production.o
-__ptext22 1798 0 CODE 0 text22 dist/default/production\4way_renewable_source_switch.X.production.o
-__ptext23 1838 0 CODE 0 text23 dist/default/production\4way_renewable_source_switch.X.production.o
-__ptext24 1780 0 CODE 0 text24 dist/default/production\4way_renewable_source_switch.X.production.o
-__ptext25 F18 0 CODE 0 text25 dist/default/production\4way_renewable_source_switch.X.production.o
-__ptext26 BE2 0 CODE 0 text26 dist/default/production\4way_renewable_source_switch.X.production.o
-__ptext27 17FC 0 CODE 0 text27 dist/default/production\4way_renewable_source_switch.X.production.o
-__ptext28 1738 0 CODE 0 text28 dist/default/production\4way_renewable_source_switch.X.production.o
-__ptext29 1726 0 CODE 0 text29 dist/default/production\4way_renewable_source_switch.X.production.o
-__ptext30 17C8 0 CODE 0 text30 dist/default/production\4way_renewable_source_switch.X.production.o
-__ptext31 1A38 0 CODE 0 text31 dist/default/production\4way_renewable_source_switch.X.production.o
-__ptext32 1C28 0 CODE 0 text32 dist/default/production\4way_renewable_source_switch.X.production.o
-__ptext33 1D90 0 CODE 0 text33 dist/default/production\4way_renewable_source_switch.X.production.o
-___awdiv 1F2E 0 CODE 0 text16 dist/default/production\4way_renewable_source_switch.X.production.o
-___awmod 1CDA 0 CODE 0 text15 dist/default/production\4way_renewable_source_switch.X.production.o
+__ptext10 144A 0 CODE 0 text10 dist/default/production\4way_renewable_source_switch.X.production.o
+__ptext11 14E2 0 CODE 0 text11 dist/default/production\4way_renewable_source_switch.X.production.o
+__ptext12 183E 0 CODE 0 text12 dist/default/production\4way_renewable_source_switch.X.production.o
+__ptext13 19B6 0 CODE 0 text13 dist/default/production\4way_renewable_source_switch.X.production.o
+__ptext14 1934 0 CODE 0 text14 dist/default/production\4way_renewable_source_switch.X.production.o
+__ptext15 85A 0 CODE 0 text15 dist/default/production\4way_renewable_source_switch.X.production.o
+__ptext16 1602 0 CODE 0 text16 dist/default/production\4way_renewable_source_switch.X.production.o
+__ptext17 1C08 0 CODE 0 text17 dist/default/production\4way_renewable_source_switch.X.production.o
+__ptext18 1E5C 0 CODE 0 text18 dist/default/production\4way_renewable_source_switch.X.production.o
+__ptext19 1650 0 CODE 0 text19 dist/default/production\4way_renewable_source_switch.X.production.o
+__ptext20 17CA 0 CODE 0 text20 dist/default/production\4way_renewable_source_switch.X.production.o
+__ptext21 1D8C 0 CODE 0 text21 dist/default/production\4way_renewable_source_switch.X.production.o
+__ptext22 1580 0 CODE 0 text22 dist/default/production\4way_renewable_source_switch.X.production.o
+__ptext23 1498 0 CODE 0 text23 dist/default/production\4way_renewable_source_switch.X.production.o
+__ptext24 18B2 0 CODE 0 text24 dist/default/production\4way_renewable_source_switch.X.production.o
+__ptext25 1ABA 0 CODE 0 text25 dist/default/production\4way_renewable_source_switch.X.production.o
+__ptext26 15BA 0 CODE 0 text26 dist/default/production\4way_renewable_source_switch.X.production.o
+__ptext27 1538 0 CODE 0 text27 dist/default/production\4way_renewable_source_switch.X.production.o
+__ptext28 1480 0 CODE 0 text28 dist/default/production\4way_renewable_source_switch.X.production.o
+__ptext29 F18 0 CODE 0 text29 dist/default/production\4way_renewable_source_switch.X.production.o
+__ptext30 DFC 0 CODE 0 text30 dist/default/production\4way_renewable_source_switch.X.production.o
+__ptext31 14FC 0 CODE 0 text31 dist/default/production\4way_renewable_source_switch.X.production.o
+__ptext32 1438 0 CODE 0 text32 dist/default/production\4way_renewable_source_switch.X.production.o
+__ptext33 1426 0 CODE 0 text33 dist/default/production\4way_renewable_source_switch.X.production.o
+__ptext34 14C8 0 CODE 0 text34 dist/default/production\4way_renewable_source_switch.X.production.o
+__ptext35 175E 0 CODE 0 text35 dist/default/production\4way_renewable_source_switch.X.production.o
+__ptext36 1B56 0 CODE 0 text36 dist/default/production\4way_renewable_source_switch.X.production.o
+__ptext37 1CBE 0 CODE 0 text37 dist/default/production\4way_renewable_source_switch.X.production.o
+___awdiv 1E5C 0 CODE 0 text18 dist/default/production\4way_renewable_source_switch.X.production.o
+___awmod 1C08 0 CODE 0 text17 dist/default/production\4way_renewable_source_switch.X.production.o
 __size_of_config 0 0 ABS 0 - dist/default/production\4way_renewable_source_switch.X.production.o
-___lldiv 1E5E 0 CODE 0 text19 dist/default/production\4way_renewable_source_switch.X.production.o
+___lldiv 1D8C 0 CODE 0 text21 dist/default/production\4way_renewable_source_switch.X.production.o
 __pmaintext 7E 0 CODE 0 maintext dist/default/production\4way_renewable_source_switch.X.production.o
 __size_of_delay1 0 0 ABS 0 - dist/default/production\4way_renewable_source_switch.X.production.o
 __size_of_delay2 0 0 ABS 0 - dist/default/production\4way_renewable_source_switch.X.production.o
@@ -927,25 +1122,25 @@ __Lcommon 0 0 ABS 0 common -
 __Lconfig 0 0 CONFIG 4 config -
 i1___awdiv@divisor 70 0 COMMON 1 cstackCOMMON dist/default/production\4way_renewable_source_switch.X.production.o
 __Hinittext 0 0 ABS 0 inittext -
-_LCDCHAR 192A 0 CODE 0 text17 dist/default/production\4way_renewable_source_switch.X.production.o
+_LCDCHAR 1650 0 CODE 0 text19 dist/default/production\4way_renewable_source_switch.X.production.o
 ___wmul@multiplier 2C 0 BANK0 1 cstackBANK0 dist/default/production\4way_renewable_source_switch.X.production.o
 I2C_Read@data 30 0 BANK0 1 cstackBANK0 dist/default/production\4way_renewable_source_switch.X.production.o
 CURSOR@a 31 0 BANK0 1 cstackBANK0 dist/default/production\4way_renewable_source_switch.X.production.o
 CURSOR@b 2E 0 BANK0 1 cstackBANK0 dist/default/production\4way_renewable_source_switch.X.production.o
 i1___awdiv@sign 76 0 COMMON 1 cstackCOMMON dist/default/production\4way_renewable_source_switch.X.production.o
-__end_of_CLRDISP 1894 0 CODE 0 text21 dist/default/production\4way_renewable_source_switch.X.production.o
-i1_I2C_Hold 17C8 0 CODE 0 text30 dist/default/production\4way_renewable_source_switch.X.production.o
+__end_of_CLRDISP 15BA 0 CODE 0 text22 dist/default/production\4way_renewable_source_switch.X.production.o
+i1_I2C_Hold 14C8 0 CODE 0 text34 dist/default/production\4way_renewable_source_switch.X.production.o
 i1I2C_Write@data 22 0 BANK0 1 cstackBANK0 dist/default/production\4way_renewable_source_switch.X.production.o
 _ADCON0bits 1F 0 ABS 0 - dist/default/production\4way_renewable_source_switch.X.production.o
-__end_of__stringtab E0C 0 STRING 0 strings dist/default/production\4way_renewable_source_switch.X.production.o
-__end_ofi1_Set_Time_Date CFE 0 CODE 0 text26 dist/default/production\4way_renewable_source_switch.X.production.o
+__end_of__stringtab A3A 0 STRING 0 strings dist/default/production\4way_renewable_source_switch.X.production.o
+__end_ofi1_Set_Time_Date F18 0 CODE 0 text30 dist/default/production\4way_renewable_source_switch.X.production.o
 __Lspace_0 0 0 ABS 0 - -
 __Lspace_1 0 0 ABS 0 - -
 __Lspace_2 0 0 ABS 0 - -
 __Lspace_3 0 0 ABS 0 - -
 __Lspace_4 0 0 ABS 0 - -
 ?i1_DEC_2_BCD 79 0 COMMON 1 cstackCOMMON dist/default/production\4way_renewable_source_switch.X.production.o
-init_fetch0 DD0 0 CODE 0 inittext dist/default/production\4way_renewable_source_switch.X.production.o
+init_fetch0 155A 0 CODE 0 inittext dist/default/production\4way_renewable_source_switch.X.production.o
 __HcstackBANK0 0 0 ABS 0 cstackBANK0 -
 __HcstackBANK1 0 0 ABS 0 cstackBANK1 -
 I2C_Write@data 3B 0 BANK0 1 cstackBANK0 dist/default/production\4way_renewable_source_switch.X.production.o
@@ -953,9 +1148,9 @@ __Lend_init 20 0 CODE 0 end_init -
 __LcstackCOMMON 0 0 ABS 0 cstackCOMMON -
 end_of_initialization 76 0 CODE 0 cinit dist/default/production\4way_renewable_source_switch.X.production.o
 __Hintentry 20 0 CODE 0 intentry -
-_Update_Current_Date_Time 97E 0 CODE 0 text2 dist/default/production\4way_renewable_source_switch.X.production.o
+_Update_Current_Date_Time B98 0 CODE 0 text3 dist/default/production\4way_renewable_source_switch.X.production.o
 BCD_2_DEC@data 36 0 BANK0 1 cstackBANK0 dist/default/production\4way_renewable_source_switch.X.production.o
-_phcn_val 46 0 BANK0 1 bssBANK0 dist/default/production\4way_renewable_source_switch.X.production.o
+_phcn_val 48 0 BANK0 1 bssBANK0 dist/default/production\4way_renewable_source_switch.X.production.o
 __Lstrings 0 0 ABS 0 strings -
 ___awdiv@quotient 33 0 BANK0 1 cstackBANK0 dist/default/production\4way_renewable_source_switch.X.production.o
 ?___awdiv 2C 0 BANK0 1 cstackBANK0 dist/default/production\4way_renewable_source_switch.X.production.o
@@ -967,36 +1162,36 @@ __HbssBANK1 0 0 ABS 0 bssBANK1 -
 ___awmod@dividend 2E 0 BANK0 1 cstackBANK0 dist/default/production\4way_renewable_source_switch.X.production.o
 __size_ofi1_DEC_2_BCD 0 0 ABS 0 - dist/default/production\4way_renewable_source_switch.X.production.o
 __size_of_I2C_Restart 0 0 ABS 0 - dist/default/production\4way_renewable_source_switch.X.production.o
-__ptext1 CFE 0 CODE 0 text1 dist/default/production\4way_renewable_source_switch.X.production.o
-__ptext2 97E 0 CODE 0 text2 dist/default/production\4way_renewable_source_switch.X.production.o
-__ptext3 176E 0 CODE 0 text3 dist/default/production\4way_renewable_source_switch.X.production.o
-__ptext4 19DA 0 CODE 0 text4 dist/default/production\4way_renewable_source_switch.X.production.o
-__ptext5 1980 0 CODE 0 text5 dist/default/production\4way_renewable_source_switch.X.production.o
-__ptext6 AC6 0 CODE 0 text6 dist/default/production\4way_renewable_source_switch.X.production.o
-__ptext7 181A 0 CODE 0 text7 dist/default/production\4way_renewable_source_switch.X.production.o
-__ptext8 175C 0 CODE 0 text8 dist/default/production\4way_renewable_source_switch.X.production.o
-__ptext9 174A 0 CODE 0 text9 dist/default/production\4way_renewable_source_switch.X.production.o
+__ptext1 1F2E 0 CODE 0 text1 dist/default/production\4way_renewable_source_switch.X.production.o
+__ptext2 1A38 0 CODE 0 text2 dist/default/production\4way_renewable_source_switch.X.production.o
+__ptext3 B98 0 CODE 0 text3 dist/default/production\4way_renewable_source_switch.X.production.o
+__ptext4 146E 0 CODE 0 text4 dist/default/production\4way_renewable_source_switch.X.production.o
+__ptext5 1700 0 CODE 0 text5 dist/default/production\4way_renewable_source_switch.X.production.o
+__ptext6 16A6 0 CODE 0 text6 dist/default/production\4way_renewable_source_switch.X.production.o
+__ptext7 CE0 0 CODE 0 text7 dist/default/production\4way_renewable_source_switch.X.production.o
+__ptext8 151A 0 CODE 0 text8 dist/default/production\4way_renewable_source_switch.X.production.o
+__ptext9 145C 0 CODE 0 text9 dist/default/production\4way_renewable_source_switch.X.production.o
 I2C_Initialize@feq_K 3A 0 BANK0 1 cstackBANK0 dist/default/production\4way_renewable_source_switch.X.production.o
-__end_ofi1_I2C_Hold 17E2 0 CODE 0 text30 dist/default/production\4way_renewable_source_switch.X.production.o
+__end_ofi1_I2C_Hold 14E2 0 CODE 0 text34 dist/default/production\4way_renewable_source_switch.X.production.o
 __Lpowerup 0 0 CODE 0 powerup -
 __Leeprom_data 0 0 EEDATA 3 eeprom_data -
-i1_Set_Time_Date BE2 0 CODE 0 text26 dist/default/production\4way_renewable_source_switch.X.production.o
+i1_Set_Time_Date DFC 0 CODE 0 text30 dist/default/production\4way_renewable_source_switch.X.production.o
 __Lreset_vec 0 0 CODE 0 reset_vec -
 ?i1___awdiv 70 0 COMMON 1 cstackCOMMON dist/default/production\4way_renewable_source_switch.X.production.o
 ?i1___awmod 70 0 COMMON 1 cstackCOMMON dist/default/production\4way_renewable_source_switch.X.production.o
 __end_of__initialization 76 0 CODE 0 cinit dist/default/production\4way_renewable_source_switch.X.production.o
 ___awmod@divisor 2C 0 BANK0 1 cstackBANK0 dist/default/production\4way_renewable_source_switch.X.production.o
-i1_I2C_Begin 1726 0 CODE 0 text29 dist/default/production\4way_renewable_source_switch.X.production.o
+i1_I2C_Begin 1426 0 CODE 0 text33 dist/default/production\4way_renewable_source_switch.X.production.o
 __Lfunctab 0 0 ENTRY 0 functab -
-__end_of_BCD_2_DEC 19DA 0 CODE 0 text5 dist/default/production\4way_renewable_source_switch.X.production.o
-i1_I2C_Write 17FC 0 CODE 0 text27 dist/default/production\4way_renewable_source_switch.X.production.o
-__pidataBANK0 FF8 0 CODE 0 idataBANK0 dist/default/production\4way_renewable_source_switch.X.production.o
-__pidataBANK1 17B0 0 CODE 0 idataBANK1 dist/default/production\4way_renewable_source_switch.X.production.o
+__end_of_BCD_2_DEC 1700 0 CODE 0 text6 dist/default/production\4way_renewable_source_switch.X.production.o
+i1_I2C_Write 14FC 0 CODE 0 text31 dist/default/production\4way_renewable_source_switch.X.production.o
+__pidataBANK0 1412 0 CODE 0 idataBANK0 dist/default/production\4way_renewable_source_switch.X.production.o
+__pidataBANK1 14B0 0 CODE 0 idataBANK1 dist/default/production\4way_renewable_source_switch.X.production.o
 __size_of_BCD_2_DEC 0 0 ABS 0 - dist/default/production\4way_renewable_source_switch.X.production.o
-_Set_Time_Date AC6 0 CODE 0 text6 dist/default/production\4way_renewable_source_switch.X.production.o
+_Set_Time_Date CE0 0 CODE 0 text7 dist/default/production\4way_renewable_source_switch.X.production.o
 __Lclrtext 0 0 ABS 0 clrtext -
-_I2C_Initialize 1AA4 0 CODE 0 text18 dist/default/production\4way_renewable_source_switch.X.production.o
-_solar_val 4A 0 BANK0 1 bssBANK0 dist/default/production\4way_renewable_source_switch.X.production.o
+_I2C_Initialize 17CA 0 CODE 0 text20 dist/default/production\4way_renewable_source_switch.X.production.o
+_solar_val 4C 0 BANK0 1 bssBANK0 dist/default/production\4way_renewable_source_switch.X.production.o
 LCDCHAR@character 32 0 BANK0 1 cstackBANK0 dist/default/production\4way_renewable_source_switch.X.production.o
 ___lldiv@quotient 35 0 BANK0 1 cstackBANK0 dist/default/production\4way_renewable_source_switch.X.production.o
 __pcstackCOMMON 70 0 COMMON 1 cstackCOMMON dist/default/production\4way_renewable_source_switch.X.production.o
@@ -1004,15 +1199,19 @@ __pcstackCOMMON 70 0 COMMON 1 cstackCOMMON dist/default/production\4way_renewabl
 _SSPCON2 91 0 ABS 0 - dist/default/production\4way_renewable_source_switch.X.production.o
 _SSPSTAT 94 0 ABS 0 - dist/default/production\4way_renewable_source_switch.X.production.o
 __Hend_init 26 0 CODE 0 end_init -
-init_ram0 DD8 0 CODE 0 inittext dist/default/production\4way_renewable_source_switch.X.production.o
-_BCD_2_DEC 1980 0 CODE 0 text5 dist/default/production\4way_renewable_source_switch.X.production.o
-__end_of_main 7AA 0 CODE 0 maintext dist/default/production\4way_renewable_source_switch.X.production.o
-__end_of_CLOCK 185A 0 CODE 0 text23 dist/default/production\4way_renewable_source_switch.X.production.o
+init_ram0 1562 0 CODE 0 inittext dist/default/production\4way_renewable_source_switch.X.production.o
+_BCD_2_DEC 16A6 0 CODE 0 text6 dist/default/production\4way_renewable_source_switch.X.production.o
+__end_of_PHCN 19B6 0 CODE 0 text14 dist/default/production\4way_renewable_source_switch.X.production.o
+__end_of_WIND 1ABA 0 CODE 0 text2 dist/default/production\4way_renewable_source_switch.X.production.o
+__end_of_main 85A 0 CODE 0 maintext dist/default/production\4way_renewable_source_switch.X.production.o
+__end_of_CLOCK 155A 0 CODE 0 text27 dist/default/production\4way_renewable_source_switch.X.production.o
+__end_of_SOLAR 1A38 0 CODE 0 text13 dist/default/production\4way_renewable_source_switch.X.production.o
 _ACKDT 48D 0 ABS 0 - dist/default/production\4way_renewable_source_switch.X.production.o
 _ACKEN 48C 0 ABS 0 - dist/default/production\4way_renewable_source_switch.X.production.o
-_CLOCK 1838 0 CODE 0 text23 dist/default/production\4way_renewable_source_switch.X.production.o
+_CLOCK 1538 0 CODE 0 text27 dist/default/production\4way_renewable_source_switch.X.production.o
 _PORTB 6 0 ABS 0 - dist/default/production\4way_renewable_source_switch.X.production.o
 _PORTD 8 0 ABS 0 - dist/default/production\4way_renewable_source_switch.X.production.o
+_SOLAR 19B6 0 CODE 0 text13 dist/default/production\4way_renewable_source_switch.X.production.o
 _T1CON 10 0 ABS 0 - dist/default/production\4way_renewable_source_switch.X.production.o
 _SSPIE 463 0 ABS 0 - dist/default/production\4way_renewable_source_switch.X.production.o
 _TRISA 85 0 ABS 0 - dist/default/production\4way_renewable_source_switch.X.production.o
@@ -1020,20 +1219,22 @@ _TRISB 86 0 ABS 0 - dist/default/production\4way_renewable_source_switch.X.produ
 _TRISD 88 0 ABS 0 - dist/default/production\4way_renewable_source_switch.X.production.o
 __Hram 0 0 ABS 0 ram -
 __Lram 0 0 ABS 0 ram -
+_combo 46 0 BANK0 1 bssBANK0 dist/default/production\4way_renewable_source_switch.X.production.o
 interrupt_function 8 0 CODE 0 intentry dist/default/production\4way_renewable_source_switch.X.production.o
 __pintentry 8 0 CODE 0 intentry dist/default/production\4way_renewable_source_switch.X.production.o
 __size_of_ISR 0 0 ABS 0 - dist/default/production\4way_renewable_source_switch.X.production.o
 __HdataBANK0 0 0 ABS 0 dataBANK0 -
 __HdataBANK1 0 0 ABS 0 dataBANK1 -
+__end_of_BIOGAS 1934 0 CODE 0 text24 dist/default/production\4way_renewable_source_switch.X.production.o
 __initialization 26 0 CODE 0 cinit dist/default/production\4way_renewable_source_switch.X.production.o
 __pbssBANK0 44 0 BANK0 1 bssBANK0 dist/default/production\4way_renewable_source_switch.X.production.o
 __pbssBANK1 C2 0 BANK1 1 bssBANK1 dist/default/production\4way_renewable_source_switch.X.production.o
-__end_of_CURSOR 18DC 0 CODE 0 text20 dist/default/production\4way_renewable_source_switch.X.production.o
-__end_ofexp@coeff E5C 0 STRING 0 strings dist/default/production\4way_renewable_source_switch.X.production.o
-__pstrings E00 0 STRING 0 strings dist/default/production\4way_renewable_source_switch.X.production.o
+__end_of_CURSOR 1602 0 CODE 0 text26 dist/default/production\4way_renewable_source_switch.X.production.o
+__end_ofexp@coeff A8A 0 STRING 0 strings dist/default/production\4way_renewable_source_switch.X.production.o
+__pstrings A2E 0 STRING 0 strings dist/default/production\4way_renewable_source_switch.X.production.o
 ___wmul@product 30 0 BANK0 1 cstackBANK0 dist/default/production\4way_renewable_source_switch.X.production.o
 __size_of_Update_Current_Date_Time 0 0 ABS 0 - dist/default/production\4way_renewable_source_switch.X.production.o
-__end_of_I2C_Initialize 1B18 0 CODE 0 text18 dist/default/production\4way_renewable_source_switch.X.production.o
+__end_of_I2C_Initialize 183E 0 CODE 0 text20 dist/default/production\4way_renewable_source_switch.X.production.o
 __size_of_LCDWRITE 0 0 ABS 0 - dist/default/production\4way_renewable_source_switch.X.production.o
 i1___awmod@counter 75 0 COMMON 1 cstackCOMMON dist/default/production\4way_renewable_source_switch.X.production.o
 __size_ofi1_Set_Time_Date 0 0 ABS 0 - dist/default/production\4way_renewable_source_switch.X.production.o
@@ -1062,42 +1263,49 @@ __size_ofi1_Set_Time_Date 0 0 ABS 0 - dist/default/production\4way_renewable_sou
 # and size are in units of delta. The file address is in units of bytes.
 # All other numeric quantities are in decimal.
 %SEGMENTS
-text3 0 BB7 176E 9 2
-text4 0 CED 19DA 2F 2
-text5 0 CC0 1980 2D 2
-text7 0 C0D 181A F 2
-text8 0 BAE 175C 9 2
-text9 0 BA5 174A 9 2
-text10 0 BF1 17E2 D 2
-text11 0 D8C 1B18 3A 2
-text12 0 DC6 1B8C 4E 2
-text14 0 C6E 18DC 27 2
-text15 0 E6D 1CDA 5B 2
-text16 0 F97 1F2E 69 2
-text17 0 C95 192A 2B 2
-text18 0 D52 1AA4 3A 2
-text19 0 F2F 1E5E 68 2
-text20 0 C4A 1894 24 2
-text21 0 C2D 185A 1D 2
-text22 0 BCC 1798 C 2
-text23 0 C1C 1838 11 2
-text24 0 BC0 1780 C 2
-text25 0 78C F18 72 2
-text27 0 BFE 17FC F 2
-text28 0 B9C 1738 9 2
-text29 0 B93 1726 9 2
-text30 0 BE4 17C8 D 2
-text31 0 D1C 1A38 36 2
-text32 0 E14 1C28 59 2
-text33 0 EC8 1D90 67 2
+text1 0 F97 1F2E 69 2
+text2 0 D1C 1A38 41 2
+text3 0 5CC B98 233 2
+text4 0 A37 146E 9 2
+text5 0 B80 1700 2F 2
+text6 0 B53 16A6 2D 2
+text8 0 A8D 151A F 2
+text9 0 A2E 145C 9 2
+text10 0 A25 144A 9 2
+text11 0 A71 14E2 D 2
+text12 0 C1F 183E 3A 2
+text13 0 CDB 19B6 41 2
+text14 0 C9A 1934 41 2
+text16 0 B01 1602 27 2
+text17 0 E04 1C08 5B 2
+text18 0 F2E 1E5C 69 2
+text19 0 B28 1650 2B 2
+text20 0 BE5 17CA 3A 2
+text21 0 EC6 1D8C 68 2
+text22 0 AC0 1580 1D 2
+text23 0 A4C 1498 C 2
+text24 0 C59 18B2 41 2
+text25 0 D5D 1ABA 4E 2
+text26 0 ADD 15BA 24 2
+text27 0 A9C 1538 11 2
+text28 0 A40 1480 C 2
+text31 0 A7E 14FC F 2
+text32 0 A1C 1438 9 2
+text33 0 A13 1426 9 2
+text34 0 A64 14C8 D 2
+text35 0 BAF 175E 36 2
+text36 0 DAB 1B56 59 2
+text37 0 E5F 1CBE 67 2
 cstackCOMMON 1 70 70 D 1
-cstackBANK0 1 20 20 37 1
+cstackBANK0 1 20 20 39 1
 cstackBANK1 1 A0 A0 26 1
-intentry 0 4 8 6F7 2
+inittext 0 AAD 155A 13 2
+intentry 0 4 8 513 2
 reset_vec 0 0 0 3 2
-idataBANK1 0 BD8 17B0 C 2
-strings 0 700 E00 8C 2
-clrtext 0 B8B 1716 8 2
+idataBANK0 0 A09 1412 2 2
+idataBANK1 0 A58 14B0 C 2
+strings 0 517 A2E B5 2
+clrtext 0 A0B 1416 8 2
 # %NOTES Section
 # This section contains data of all the note-psects.  The beginning of the section
 # is indicated by %NOTES. The first line indicates the name and decimal

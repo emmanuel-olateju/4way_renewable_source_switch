@@ -44,13 +44,77 @@ int wind_val=0;int solar_val=0;int biogas_val=0;int phcn_val=0;
 #define solar RD1
 #define biogas RD2
 #define phcn RD3
+#define intermittent RD4
+int combo;
 //STATES
 enum state {initialState,morning,afternoon,night,set_rtc,defunct}nextState;
 enum state nextState=initialState;
 //VIAS
 int thresh=920;
 
+#define milli1 4000
+#define milli2 250
+
+void WIND(){
+    if(wind==1);
+    else{
+        intermittent=1;
+        CURSOR(THIRDROW,0);
+        LCDWRITE("switching...");
+        __delay_ms(milli1);
+        wind=solar=biogas=phcn=0;
+        wind=1;
+        __delay_ms(milli1);
+        solar=0;biogas=0;phcn=0;
+        intermittent=0;
+    }
+}
+void SOLAR(){
+    if(solar==1);
+    else{
+        intermittent=1;
+        CURSOR(THIRDROW,0);
+        LCDWRITE("switching...");
+        __delay_ms(milli1);
+        wind=solar=biogas=phcn=0;
+        solar=1;
+        __delay_ms(milli1);
+        wind=0;biogas=0;phcn=0;
+        intermittent=0;
+    }
+}
+void BIOGAS(){
+    if(biogas==1);
+    else{
+        intermittent=1;
+        CURSOR(THIRDROW,0);
+        LCDWRITE("switching...");
+        __delay_ms(milli1);
+        wind=solar=biogas=phcn=0;
+        biogas=1;
+        __delay_ms(milli1);
+        wind=0;solar=0;phcn=0;
+        intermittent=0;
+    }
+}
+void PHCN(){
+    if(phcn==1);
+    else{
+        intermittent=1;
+        CURSOR(THIRDROW,0);
+        LCDWRITE("switching...");
+        __delay_ms(milli1);
+        wind=solar=biogas=phcn=0;
+        phcn=1;
+        __delay_ms(milli1);
+        wind=0;solar=0;biogas=0;
+        intermittent=0;
+    }
+}
+
+
 void __interrupt() ISR(void){
+    CLRWDT();
     RD5=1;
     __delay_ms(100);
     if(TMR0IF==1){
@@ -80,29 +144,28 @@ void main(void){
     TRISD=0xC0;
     PORTD=0x00;
     TMR0=255;
-    TMR0IE=1;
+    TMR0IE=0;
     OPTION_REG=0xA8;
     TRISC0=1;
     T1CON=0x06;
     TMR1=65535;
-    TMR1IE=1;
+    TMR1IE=0;
     SSPIE=0;
-    PEIE=1;
-    GIE=1;
+    PEIE=0;
+    GIE=0;
     TMR1ON=1;
-    wind_pindir=1;
-    solar_pindir=1;
-    biogas_pindir=1;
-    phcn_pindir=1;
     I2C_Initialize(100000);
     Set_Time_Date();
+    TMR0IE=1;
+    TMR1IE=1;
     config();
     CLRDISP();
-    TRISD4=0;TRISD5=0;
-    RD4=0;RD5=0;
     CLRDISP();
     CURSOR(FIRSTROW,3);
     LCDWRITE("PHASE SELECTOR");
+    wind=solar=biogas=phcn=0;
+    PEIE=1;
+    GIE=1;
     
     while(1){
         CURSOR(SECONDROW,5);
@@ -146,40 +209,29 @@ void main(void){
         }
         CLRWDT();
         __delay_ms(10);
+        combo=phcn;
+        combo|=(biogas<<1);
+        combo|=(solar<<2);
+        combo|=(wind<<3);
         if(nextState==morning){
-            if(solar_val<thresh){
-                wind=0;solar=1;biogas=0;phcn=0;
-            }else if(wind_val<thresh){
-                wind=1;solar=0;biogas=0;phcn=0;
-            }else if(phcn_val<thresh){
-                wind=0;solar=0;biogas=0;phcn=1;
-            }else{
-                wind=0;solar=0;biogas=1;phcn=0;
-            }
+            if(solar_val<thresh)SOLAR();
+            else if(wind_val<thresh)WIND();
+            else if(phcn_val<thresh)PHCN();
+            else BIOGAS();
             nextState=initialState;
         }
         if(nextState==afternoon){
-            if(solar_val<thresh){
-                wind=0;solar=1;biogas=0;phcn=0;
-            }else if(wind_val<thresh){
-                wind=1;solar=0;biogas=0;phcn=0;
-            }else if(phcn_val<thresh){
-                wind=0;solar=0;biogas=0;phcn=1;
-            }else{
-                wind=0;solar=0;biogas=1;phcn=0;
-            }
+            if(solar_val<thresh)SOLAR();
+            else if(wind_val<thresh)WIND();
+            else if(phcn_val<thresh)PHCN();
+            else BIOGAS();
             nextState=initialState;
         }
         if(nextState==night){
-            if(biogas_val<thresh){
-                wind=0;solar=0;biogas=1;phcn=0;
-            }else if(wind_val<thresh){
-                wind=1;solar=0;biogas=0;phcn=0;
-            }else if(phcn_val<thresh){
-                wind=0;solar=0;biogas=0;phcn=1;
-            }else{
-                wind=0;solar=1;biogas=0;phcn=0;
-            }
+            if(biogas_val<thresh)BIOGAS();
+            else if(wind_val<thresh)WIND();
+            else if(phcn_val<thresh)PHCN();
+            else SOLAR();
             nextState=initialState;
         }
         Update_Current_Date_Time();
@@ -187,16 +239,16 @@ void main(void){
         int out=(wind&1)|((solar&1)<<1)|((biogas&1)<<2)|((phcn&1)<<3);
         switch(out){
             case 0:
-                LCDWRITE("NULL  ");
+                LCDWRITE("NULL         ");
                 break;
             case 1:
-                LCDWRITE("wind  ");
+                LCDWRITE("wind         ");
                 break;
             case 2:
-                LCDWRITE("solar ");
+                LCDWRITE("solar        ");
                 break;
             case 4:
-                LCDWRITE("biogas");
+                LCDWRITE("biogas       ");
                 break;
             case 8:
                 LCDWRITE("phcn  ");
@@ -214,6 +266,7 @@ void main(void){
 //        LCDCHAR(' ');
 //        LCDNUM(phcn_val);
 //        LCDCHAR(' ');
+        
     }
     return;
 }
